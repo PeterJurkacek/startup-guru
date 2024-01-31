@@ -112,8 +112,7 @@ X-Rays interpretation<sup>[1]</sup>
 
 ---
 # <span class="aid">Bridging</span> the Gap
-
-<span class="aid">AI:Dental</span> Education platform & AI
+## <span class="aid">AI:Dental</span> Education platform & AI
 ![bg right 95%](img/edu_app.png)
 
 ---
@@ -121,17 +120,17 @@ X-Rays interpretation<sup>[1]</sup>
 <div class="columns">
 <div>
 
-# <span class="aid">AI:Dental</span> Education platform & AI
+# <span class="aid">Bridging</span> the Gap
+## AI:Dental Education<br> platform & AI
 
 </div>
 <div>
 
 <div>
-<span class="aid">:A</span>
-Convert X-Rays to educational content
-</div>
+<span class="aid">:A</span> Convert X-Rays to educational content
 
 <span class="aid">:B</span> Real-time supervised learning
+
 <span class="aid">:C</span> Search for relevant X-Rays
 
 
