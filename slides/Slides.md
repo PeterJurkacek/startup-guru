@@ -70,7 +70,7 @@ https://www.researchgate.net/publication/
 (1996 Room for improvement? The accuracy of dental practitioners who diagnose bony pathoses with radiographs)[https://pubmed.ncbi.nlm.nih.gov/8665324/]
 -->
 ---
-# Bridging <u>the Gap</u>
+# Bridging <span class="aid">the Gap</span>
 ## How AI Connects Dental Clinics with Students
 ![bg right 50%](img/image.png)
 <!-- ---
@@ -202,7 +202,7 @@ Relevant X-Ray<sup>[4]</sup>
 
 [4]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10283104/
 ---
-# Better dental care <span class="aid">:D</span>
+# Better dental care <span class="aid">: )</span>
 ![bg right 50%](img/image-1.png)
 - Performance evaluation
 - Employee onboarding
