@@ -43,7 +43,7 @@ Peter Jurkáček
 CTO at AI:Dental
 
 peter.jurkacek@aidental.ai
-![drop-shadow 40%](img/linkedin_02.JPG)
+![drop-shadow w:300](img/qr_1.png)
 
 <!-- 
 # Problem statement
@@ -178,6 +178,8 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10283104/
 
 ---
 # Advantages for Dental Clinics
+![bg right 50%](img/image-1.png)
+
 - Performance evaluation
 - Employee onboarding
 - Saved time and money
@@ -192,3 +194,10 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10283104/
 - Collaboration with Universities Worldwide
 - Case Studies
 - CE Mark
+
+---
+# Try us
+
+![drop-shadow w:300](img/qr_aidedu.png)
+![bg right 50%](img/qr_aidedu.png)
+---
