@@ -111,11 +111,21 @@ Radiographs interpretation<sup>[1]</sup>
 ![bg right 50%](img/image-1.png)
 
 ---
-# The Bridge - AI:Dental for Education
+<div class="columns">
+<div>
 
-### A) Convert X-rays to educational content
-### B) Real-time supervised learning
-### C) Search for relevant radiographs
+# Bridging
+
+</div>
+<div>
+
+# AI:Dental <br> for Education
+A) Convert X-rays to educational content
+B) Real-time supervised learning
+C) Search for relevant radiographs
+
+</div>
+</div>
 
 ---
 ## A) Convert X-rays to educational content
