@@ -35,10 +35,9 @@ Quad HD 3840 x 2160	39.999	22.50
 AI:Dental
 
 ---
-<!-- _backgroundColor: '#A478FF' -->
 <!-- _color: '#000' -->
 # Brief Intro
-![bg grayscale opacity:.6 left](img/cto_profile_02.jpeg)
+![bg right](img/57e2696d-f37a-4111-8f3d-72bada4c77c5.JPG)
 
 Peter Jurkáček
 CTO at AI:Dental
@@ -180,21 +179,17 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10283104/
 ---
 # Advantages for Dental Clinics
 - Performance evaluation
-- Onboarding zamestnancov
-- Ušetrený čas a peniaze
-- save 5 minutes per visit with assisted diagnostics
+- Employee onboarding
+- Saved time and money
+- Save 5 minutes per visit with assisted diagnostics
 - Patient treatment outcomes
 - Better dental care
 
 ---
 # Future Developments / Next steps
 ![bg right 50%](img/image-1.png)
-### Spoluprace s univerzitami po celom svete
-### Case studies
-- Meduni & LFUK & Bangalore
-- Subjectivity of a dentists
-- AI reader study
-### CE mark
-- Spadame pod MDR preto potrebujeme CE mark
-- clinical investigation
+- AI integration
+- Collaboration with Universities Worldwide
+- Case Studies
+- CE Mark
 ---
