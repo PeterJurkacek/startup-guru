@@ -214,7 +214,6 @@ Relevant X-Ray<sup>[4]</sup>
 - Dental clinics
 - Hospital
 - Case Studies
-- CE Mark
 
 </div>
 <div>
