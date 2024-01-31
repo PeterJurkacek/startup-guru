@@ -5,23 +5,38 @@
 
 @font-face {
   font-family: "AID mono";
-  src: url('fonts/aid/DMMono-AID-Text.otf');
-  src: url('fonts/adi/DMMono-AID-Text.woff2') format('woff2'),
-       url('fonts/aid/DMMono-AID-Text.woff') format('woff'),
+  src: 
+    url('../../startup-guru/slides/fonts/aid/DMMono-AID-Text.otf'),
+    url('../../startup-guru/slides/fonts/aid/fonts/adi/DMMono-AID-Text.woff2') format('woff2'),
+    url('../../startup-guru/slides/fonts/aid/fonts/aid/DMMono-AID-Text.woff') format('woff');
+  src: 
+    url('fonts/aid/DMMono-AID-Text.otf'),
+    url('fonts/aid/DMMono-AID-Text.woff2') format('woff2'),
+    url('fonts/aid/DMMono-AID-Text.woff') format('woff');
 }
 
 @font-face {
   font-family: "AID headline";
-  src: url('fonts/aid/DMSans-AID-Headline-Regular.otf');
-  src: url('fonts/aid/DMSans-AID-Headline-Regular.woff2') format('woff2'),
-       url('fonts/aid/DMSans-AID-Headline-Regular.woff') format('woff'),
+  src: 
+    url('../../startup-guru/slides/fonts/aid/fonts/aid/DMSans-AID-Headline-Regular.otf'),
+    url('../../startup-guru/slides/fonts/aid/fonts/aid/DMSans-AID-Headline-Regular.woff2') format('woff2'),
+    url('../../startup-guru/slides/fonts/aid/fonts/aid/DMSans-AID-Headline-Regular.woff') format('woff');
+  src:
+    url('fonts/aid/DMSans-AID-Headline-Regular.otf'),
+    url('fonts/aid/DMSans-AID-Headline-Regular.woff2') format('woff2'),
+    url('fonts/aid/DMSans-AID-Headline-Regular.woff') format('woff');
 }
 
 @font-face {
   font-family: "AID regular";
-  src: url('fonts/aid/DMSans-AID-Text-Regular.otf');
-  src: url('fonts/aid/DMSans-AID-Text-Regular.woff2') format('woff2'),
-       url('fonts/aid/DMSans-AID-Text-Regular.woff') format('woff'),
+  src: 
+    url('../../startup-guru/slides/fonts/aid/fonts/aid/DMSans-AID-Text-Regular.otf'),
+    url('../../startup-guru/slides/fonts/aid/fonts/aid/DMSans-AID-Text-Regular.woff2') format('woff2'),
+    url('../../startup-guru/slides/fonts/aid/fonts/aid/DMSans-AID-Text-Regular.woff') format('woff');
+  src: 
+    url('fonts/aid/DMSans-AID-Text-Regular.otf'),
+    url('fonts/aid/DMSans-AID-Text-Regular.woff2') format('woff2'),
+    url('fonts/aid/DMSans-AID-Text-Regular.woff') format('woff');
 }
 
 section {
