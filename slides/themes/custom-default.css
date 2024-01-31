@@ -6,9 +6,9 @@
 @font-face {
   font-family: "AID mono";
   src: 
-    url('./slides/fonts/aid/DMMono-AID-Text.otf'),
-    url('./slides/fonts/aid/fonts/adi/DMMono-AID-Text.woff2') format('woff2'),
-    url('./slides/fonts/aid/fonts/aid/DMMono-AID-Text.woff') format('woff');
+    url('../fonts/aid/DMMono-AID-Text.otf'),
+    url('../fonts/aid/fonts/adi/DMMono-AID-Text.woff2') format('woff2'),
+    url('../fonts/aid/fonts/aid/DMMono-AID-Text.woff') format('woff');
   src: 
     url('fonts/aid/DMMono-AID-Text.otf'),
     url('fonts/aid/DMMono-AID-Text.woff2') format('woff2'),
@@ -18,9 +18,9 @@
 @font-face {
   font-family: "AID headline";
   src: 
-    url('./slides/fonts/aid/fonts/aid/DMSans-AID-Headline-Regular.otf'),
-    url('./slides/fonts/aid/fonts/aid/DMSans-AID-Headline-Regular.woff2') format('woff2'),
-    url('./slides/fonts/aid/fonts/aid/DMSans-AID-Headline-Regular.woff') format('woff');
+    url('../fonts/aid/DMSans-AID-Headline-Regular.otf'),
+    url('../fonts/aid/fonts/aid/DMSans-AID-Headline-Regular.woff2') format('woff2'),
+    url('../fonts/aid/fonts/aid/DMSans-AID-Headline-Regular.woff') format('woff');
   src:
     url('fonts/aid/DMSans-AID-Headline-Regular.otf'),
     url('fonts/aid/DMSans-AID-Headline-Regular.woff2') format('woff2'),
@@ -30,9 +30,9 @@
 @font-face {
   font-family: "AID regular";
   src: 
-    url('./slides/fonts/aid/fonts/aid/DMSans-AID-Text-Regular.otf'),
-    url('./slides/fonts/aid/fonts/aid/DMSans-AID-Text-Regular.woff2') format('woff2'),
-    url('./slides/fonts/aid/fonts/aid/DMSans-AID-Text-Regular.woff') format('woff');
+    url('../fonts/aid/DMSans-AID-Text-Regular.otf'),
+    url('../fonts/aid/fonts/aid/DMSans-AID-Text-Regular.woff2') format('woff2'),
+    url('../fonts/aid/fonts/aid/DMSans-AID-Text-Regular.woff') format('woff');
   src: 
     url('fonts/aid/DMSans-AID-Text-Regular.otf'),
     url('fonts/aid/DMSans-AID-Text-Regular.woff2') format('woff2'),
