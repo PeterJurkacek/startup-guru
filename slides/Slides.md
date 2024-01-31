@@ -83,12 +83,12 @@ Shaping the future of the dentistry through creating the conditions for everyone
 <div>
 <h1>The Gap</h1>
 
-Dental students' accuracy ranges from **48% - 65%** in radiograph interpretation
+Dental students' accuracy ranges from **48% - 65%** in X-Ray interpretation
 
 </div>
 <div>
 
-Radiographs interpretation<sup>[1]</sup>
+X-Rays interpretation<sup>[1]</sup>
 ![](img/qexample.png)
 
 </div>
@@ -99,7 +99,7 @@ Radiographs interpretation<sup>[1]</sup>
 <!-- _footer: "2. 2022 Dental Students’ Knowledge, Confidence, Ability, and Self-Reported Difficulties in Periodontal Education: A Mixed Method Pilot Study" -->
 # Why the Gap?<sup>[2]</sup>
 ![bg vertical left:30% 60%](img/image-2.png)
-- Limited or no access to relevant radiographs
+- Limited or no access to relevant X-Rays
 - Challenges in obtaining real-time supervision feedback
 ![bg 60%](img/image-3.png)
 
@@ -120,15 +120,15 @@ Radiographs interpretation<sup>[1]</sup>
 <div>
 
 # AI:Dental <br> for Education
-A) Convert X-rays to educational content
+A) Convert X-Rays to educational content
 B) Real-time supervised learning
-C) Search for relevant radiographs
+C) Search for relevant X-Rays
 
 </div>
 </div>
 
 ---
-## A) Convert X-rays to educational content
+## A) Convert X-Rays to educational content
 #
 
 <div class="columns">
@@ -165,7 +165,7 @@ Solution explanation<sup>[3]</sup>
 </div>
 </div>
 
-[3]: https://www.researchgate.net/publication/366946851_An_Explainable_Deep_Learning_Model_to_Prediction_Dental_Caries_Using_Panoramic_Radiograph_Images
+[3]: https://www.researchgate.net/publication/366946851_An_Explainable_Deep_Learning_Model_to_Prediction_Dental_Caries_Using_Panoramic_X-Ray_Images
 
 ---
 <!-- _footer: "4. Dental CLAIRES: Contrastive LAnguage Image REtrieval Search for Dental Research (2023)" -->
@@ -175,7 +175,7 @@ https://www.sciencedirect.com/science/article/pii/S2772442523001491
 https://www.mdpi.com/2075-5309/13/2/275
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10283104/
 -->
-## C) Search for relevant radiographs<sup>[4]</sup>
+## C) Search for relevant X-Rays<sup>[4]</sup>
 
 ![w:1000px](img/image_retrieval.png.png)
 <!-- ![bg left 100%](edu-app/catalog.png) -->
