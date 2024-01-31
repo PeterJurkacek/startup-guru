@@ -81,9 +81,9 @@ Shaping the future of the dentistry through creating the conditions for everyone
 <!-- _footer: "1. 2022 Evaluation of radiographic interpretation skills of undergraduate dental students studying in a dental college of Punjab, India – A comparative study" -->
 <div class="columns">
 <div>
-<h1>The Gap</h1>
+<h1><span class="aid">The Gap</span></h1>
 
-Dental students' accuracy in X-Ray interpretation ranges from **48% - 65%**
+Dental students' accuracy in X-Ray interpretation ranges from <span class="aid">48% - 65%</span>
 
 </div>
 <div>
