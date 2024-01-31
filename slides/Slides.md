@@ -36,15 +36,20 @@ AI:Dental
 
 ---
 <!-- _color: '#000' -->
+<!-- _footer: "" -->
 # Brief Intro
 ![bg opacity right](img/57e2696d-f37a-4111-8f3d-72bada4c77c5.JPG)
 
 Peter Jurkáček
 CTO at AI:Dental
 
-peter.jurkacek@aidental.ai
+
+<div class="aid" style="text-align:center;vertical-align:middle;padding-top:30px;">
+
 ![width:356](img/qr_1.png)
 
+peter.jurkacek@aidental.ai
+</div>
 <!-- 
 # Problem statement
 - Studenti idu na kliniku nepripraveni
@@ -97,7 +102,7 @@ X-Rays interpretation<sup>[1]</sup>
 [1]: https://www.researchgate.net/publication/367683626_Evaluation_of_radiographic_interpretation_skills_of_undergraduate_dental_students_studying_in_a_dental_college_of_Punjab_India_-_A_comparative_study
 ---
 <!-- _footer: "2. 2022 Dental Students’ Knowledge, Confidence, Ability, and Self-Reported Difficulties in Periodontal Education: A Mixed Method Pilot Study" -->
-# Why is the Gap there?<sup>[2]</sup>
+# <span class="aid">Why</span> is the Gap there?<sup>[2]</sup>
 ![bg vertical left:30% 60%](img/image-2.png)
 - Limited or no access to relevant X-Rays
 - Challenges in obtaining real-time supervision feedback
@@ -111,9 +116,21 @@ X-Rays interpretation<sup>[1]</sup>
 ![bg right 50%](img/image-1.png)
 
 ---
+<div class="columns">
+<div>
+
 # <span class="aid">Bridging</span> the Gap
-## <span class="aid">AI:Dental</span> Education platform & AI
-![bg right 95%](img/edu_app.png)
+## AI:Dental Education<br> platform & <span class="aid">AI</span>
+
+</div>
+<div>
+<div class="aid">
+
+Education platform & AI
+![](img/edu_app.png)
+
+</div>
+</div>
 
 ---
 
@@ -121,12 +138,12 @@ X-Rays interpretation<sup>[1]</sup>
 <div>
 
 # <span class="aid">Bridging</span> the Gap
-## AI:Dental Education<br> platform & AI
+## AI:Dental Education<br> platform & <span class="aid">AI</span>
 
 </div>
 <div>
 
-<div>
+<div class="aid">
 <span class="aid">:A</span> Convert X-Rays to educational content
 
 <span class="aid">:B</span> Real-time supervised learning
@@ -147,7 +164,7 @@ Digital Medical Record
 ![w:512](img/321b949b-b01d-49b0-97a8-75af270f5e98.jpg)
     <!-- ![w:256](EMR_semafor.png) -->
 </div>
-<div>
+<div class="aid">
 
 Questions & Answers
 ![w:512](img/edu_quiz.png)
@@ -165,7 +182,7 @@ Questions & Answers
 
 ![w:512](img/edu_quiz.png)
 </div>
-<div>
+<div class="aid">
 
 Solution explanation<sup>[3]</sup>
 ![w:512](img/grad-cam.png)
@@ -191,7 +208,7 @@ Catalog of cases
 
 ![w:512](img/catalog.png)
 </div>
-<div>
+<div class="aid">
 
 Relevant X-Ray<sup>[4]</sup>
 ![w:512](img/case.png)
@@ -219,9 +236,9 @@ Relevant X-Ray<sup>[4]</sup>
 - Case Studies
 
 </div>
-<div>
+<div class="aid" style="text-align:center;vertical-align:middle;padding:10px;">
 
-## AI:Dental
+### AI:Dental
 ![width:356](img/qr_aid.png)
 
 </div>
