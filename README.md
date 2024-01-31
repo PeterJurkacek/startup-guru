@@ -56,6 +56,7 @@ This repository is licensed under the [MIT License]. Reuse or extend the code as
 
 ## Resources
 
+
 - [Use this template](https://github.com/codebytes/marp-slides-template/generate)
 
 - GitHub Pages: [https://docs.github.com/en/pages](https://docs.github.com/en/pages)
