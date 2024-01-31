@@ -3,13 +3,35 @@
 
 @import 'default';
 
+@font-face {
+  font-family: "AID mono";
+  src: url('fonts/aid/DMMono-AID-Text.otf');
+  src: url('fonts/adi/DMMono-AID-Text.woff2') format('woff2'),
+       url('fonts/aid/DMMono-AID-Text.woff') format('woff'),
+}
+
+@font-face {
+  font-family: "AID headline";
+  src: url('fonts/aid/DMSans-AID-Headline-Regular.otf');
+  src: url('fonts/aid/DMSans-AID-Headline-Regular.woff2') format('woff2'),
+       url('fonts/aid/DMSans-AID-Headline-Regular.woff') format('woff'),
+}
+
+@font-face {
+  font-family: "AID regular";
+  src: url('fonts/aid/DMSans-AID-Text-Regular.otf');
+  src: url('fonts/aid/DMSans-AID-Text-Regular.woff2') format('woff2'),
+       url('fonts/aid/DMSans-AID-Text-Regular.woff') format('woff'),
+}
+
 section {
-  font-family: 'DMSans-AID-Headline', 'DMSans-AID-Text';
+  font-family: 'AID regular';
   background: #ABF7CE;
   color: #000000;
 }
 
 h1 {
+  font-family: 'AID headline';
   color:#000000;
 }
 
