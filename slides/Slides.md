@@ -30,7 +30,7 @@ Quad HD 3840 x 2160	39.999	22.50
 <!-- _paginate: skip -->
 <!-- _footer: "" -->
 # Bridging the Gap
-## How AI Connects Dental Clinics with Students
+## How <span class="aid">AI</span> Connects Dental Clinics with Students
 ![bg right 50%](img/image.png)
 AI:Dental
 
@@ -83,7 +83,7 @@ Shaping the future of the dentistry through creating the conditions for everyone
 <div>
 <h1>The Gap</h1>
 
-Dental students' accuracy ranges from **48% - 65%** in X-Ray interpretation
+Dental students' accuracy in X-Ray interpretation ranges from **48% - 65%**
 
 </div>
 <div>
@@ -97,7 +97,7 @@ X-Rays interpretation<sup>[1]</sup>
 [1]: https://www.researchgate.net/publication/367683626_Evaluation_of_radiographic_interpretation_skills_of_undergraduate_dental_students_studying_in_a_dental_college_of_Punjab_India_-_A_comparative_study
 ---
 <!-- _footer: "2. 2022 Dental Students’ Knowledge, Confidence, Ability, and Self-Reported Difficulties in Periodontal Education: A Mixed Method Pilot Study" -->
-# Why the Gap?<sup>[2]</sup>
+# Why is the Gap there?<sup>[2]</sup>
 ![bg vertical left:30% 60%](img/image-2.png)
 - Limited or no access to relevant X-Rays
 - Challenges in obtaining real-time supervision feedback
@@ -106,14 +106,14 @@ X-Rays interpretation<sup>[1]</sup>
 [2]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9026102/
 
 ---
-# <u>Bridging</u> the Gap
-## How AI Connects Dental Clinics with Students
+# <span class="aid">Bridging</span> the Gap
+## How <span class="aid">AI</span> Connects Dental Clinics with Students
 ![bg right 50%](img/image-1.png)
 
 ---
-# Bridging the Gap
+# <span class="aid">Bridging</span> the Gap
 
-AI:Dental Education platform & AI
+<span class="aid">AI:Dental</span> Education platform & AI
 ![bg right 95%](img/edu_app.png)
 
 ---
@@ -121,21 +121,25 @@ AI:Dental Education platform & AI
 <div class="columns">
 <div>
 
-# AI:Dental Education platform & AI
+# <span class="aid">AI:Dental</span> Education platform & AI
 
 </div>
 <div>
 
-:A Convert X-Rays to educational content
-:B Real-time supervised learning
-:C Search for relevant X-Rays
+<div>
+<span class="aid">:A</span>
+Convert X-Rays to educational content
+</div>
+
+<span class="aid">:B</span> Real-time supervised learning
+<span class="aid">:C</span> Search for relevant X-Rays
 
 
 </div>
 </div>
 
 ---
-## :A Convert X-Rays to educational content
+## <span class="aid">:A</span> Convert X-Rays to educational content
 
 <div class="columns">
 <div>
@@ -154,7 +158,7 @@ Questions & Answers
 
 ---
 <!-- _footer: "3. An Explainable Deep Learning Model to Prediction Dental Caries Using Panoramic Radiograph Images (2023)" -->
-## :B Real-time supervised learning
+## <span class="aid">:B</span> Real-time supervised learning
 
 <div class="columns">
 <div>
@@ -180,7 +184,7 @@ https://www.sciencedirect.com/science/article/pii/S2772442523001491
 https://www.mdpi.com/2075-5309/13/2/275
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10283104/
 -->
-## :C Search for relevant X-Rays
+## <span class="aid">:C</span> Search for relevant X-Rays
 
 <div class="columns">
 <div>
@@ -198,7 +202,7 @@ Relevant X-Ray<sup>[4]</sup>
 
 [4]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10283104/
 ---
-# Better dental care :D
+# Better dental care <span class="aid">:D</span>
 ![bg right 50%](img/image-1.png)
 - Performance evaluation
 - Employee onboarding
@@ -208,7 +212,7 @@ Relevant X-Ray<sup>[4]</sup>
 --- 
 <div class="columns">
 <div>
-<h1>Let's collaborate :D</h1>
+<h1>Let's collaborate <span class="aid">:D</span></h1>
 
 - Universities
 - Dental clinics
