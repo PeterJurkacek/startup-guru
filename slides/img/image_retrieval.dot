@@ -1,0 +1,68 @@
+digraph ImageRetrieval {
+    bgcolor="#ABF7CE"
+    graph [fontsize=30 labelloc="t" splines=true overlap=false rankdir = "LR"];
+    node [fontsize=30 fontname="DMSans-AID-Headline" fontcolor="#FFFFFF" style=filled]
+    edge [fontsize=30 fontname="DMSans-AID-Text" penwidth=10]
+
+    Model [fontcolor=white fontsize=32 color="#335C55"
+        label=<
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD><IMG SRC="image_retrieval/images.png" SCALE="true"/></TD>
+            </TR>
+            <TR>
+                <TD ALIGN="CENTER">
+                    Catalog of cases
+                </TD>
+            </TR>
+            <TR>
+                <TD><IMG SRC="image-2.png" SCALE="TRUE"/></TD>
+            </TR>
+            <TR>
+                <TD ALIGN="CENTER">
+                    AI:D
+                </TD>
+            </TR>
+        </TABLE>
+        >, shape=none];
+
+    InputImage [imagescale=true fontcolor=black fontsize=32 color="#DEFF13" width=4
+        label=<
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD><IMG SRC="image_retrieval/input.png" SCALE="true"/></TD>
+            </TR>
+            <TR>
+                <TD ALIGN="CENTER">
+                    Radiograph Query
+                </TD>
+            </TR>
+        </TABLE>
+        >, shape=none];
+
+    // InputQuery [fontcolor=black fontsize=32 color="#DEFF13"
+    //     label="A 72-year-old White female with 
+    //     Periodontal Stage Three 
+    //     in the Upper Jaw region
+    //     (Text Query)" shape="box"];
+
+    
+
+    OutputImage [fontcolor=white fontsize=32 color="#A478FF" width=4
+        label=<
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD><IMG SRC="image_retrieval/output.png" SCALE="true"/></TD>
+            </TR>
+            <TR>
+                <TD ALIGN="CENTER">
+                    Relevant Radiograph
+                </TD>
+            </TR>
+        </TABLE>
+        >, shape=none];
+
+    // InputQuery -> Model [label=""];
+    InputImage -> Model [label=""];
+    Model -> OutputImage [label=""];
+}
