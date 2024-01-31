@@ -37,13 +37,13 @@ AI:Dental
 ---
 <!-- _color: '#000' -->
 # Brief Intro
-![bg right](img/57e2696d-f37a-4111-8f3d-72bada4c77c5.JPG)
+![bg opacity right](img/57e2696d-f37a-4111-8f3d-72bada4c77c5.JPG)
 
 Peter Jurkáček
 CTO at AI:Dental
 
 peter.jurkacek@aidental.ai
-![drop-shadow w:300](img/qr_1.png)
+![width:356](img/qr_1.png)
 
 <!-- 
 # Problem statement
@@ -72,35 +72,34 @@ https://www.researchgate.net/publication/
 ---
 # Bridging <u>the Gap</u>
 ## How AI Connects Dental Clinics with Students
-![bg right 50%](img/image-1.png)
+![bg right 50%](img/image.png)
 <!-- ---
 To democratize dental health through AI by enhancing precision, affordability, and accessibility in education and patient care. 
 Shaping the future of the dentistry through creating the conditions for everyone to access the affordable and personalised healthcare.  -->
 
 ---
 <!-- _footer: "1. 2022 Evaluation of radiographic interpretation skills of undergraduate dental students studying in a dental college of Punjab, India – A comparative study" -->
-# The Gap
-Dental students' accuracy ranges from **48% - 65%** in radiograph interpretation<sup>[1]</sup>
+<div class="columns">
+<div>
+<h1>The Gap</h1>
 
-![bg left](img/qexample.png)
+Dental students' accuracy ranges from **48% - 65%** in radiograph interpretation
 
-<!-- Which is problematic becuase Dental  radiographs  are  essential in  making  an accurate diagnosis, performing dental procedures, in evaluating procedural success and in documentation of dental and oral health -->
+</div>
+<div>
+
+Radiographs interpretation<sup>[1]</sup>
+![](img/qexample.png)
+
+</div>
+</div>
 
 [1]: https://www.researchgate.net/publication/367683626_Evaluation_of_radiographic_interpretation_skills_of_undergraduate_dental_students_studying_in_a_dental_college_of_Punjab_India_-_A_comparative_study
-
-<!-- 
-![bg transparent 100% 20%](image-7.png)
-![bg 65%](tfe_answers/pdentits-answers-E.png) 
--->
-<!-- *Expert 1*, *Expert 2* -->
-
-<!-- interpreting radiographs (i.e., orthopantomograms, OPTs) is an error-prone process, even in experts -->
-<!-- low-prevalence anomalies earlier and high-prevalence anomalies -->
 ---
 <!-- _footer: "2. 2022 Dental Students’ Knowledge, Confidence, Ability, and Self-Reported Difficulties in Periodontal Education: A Mixed Method Pilot Study" -->
 # Why the Gap?<sup>[2]</sup>
 ![bg vertical left:30% 60%](img/image-2.png)
-- Limited or no access to relevant radiographs (X-rays)
+- Limited or no access to relevant radiographs
 - Instructor inconsistency
 ![bg 60%](img/image-3.png)
 
@@ -177,7 +176,7 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10283104/
 [4]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10283104/
 
 ---
-# Advantages for Dental Clinics
+# Better dental care
 ![bg right 50%](img/image-1.png)
 
 - Performance evaluation
@@ -185,19 +184,23 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10283104/
 - Saved time and money
 - Save 5 minutes per visit with assisted diagnostics
 - Patient treatment outcomes
-- Better dental care
 
----
-# Future Developments / Next steps
-![bg right 50%](img/image-1.png)
-- AI integration
-- Collaboration with Universities Worldwide
+--- 
+<div class="columns">
+<div>
+<h1>Let's collaborate</h1>
+
+- Universities
+- Dental clinics
+- Hospital
 - Case Studies
 - CE Mark
 
----
-# Try us
+</div>
+<div>
 
-![drop-shadow w:300](img/qr_aidedu.png)
-![bg right 50%](img/qr_aidedu.png)
----
+## AI:Dental
+![width:356](img/qr_aid.png)
+
+</div>
+</div>
