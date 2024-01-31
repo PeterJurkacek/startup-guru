@@ -111,25 +111,31 @@ X-Rays interpretation<sup>[1]</sup>
 ![bg right 50%](img/image-1.png)
 
 ---
+# Bridging the Gap
+
+AI:Dental Education platform & AI
+![bg right 95%](img/edu_app.png)
+
+---
+
 <div class="columns">
 <div>
 
-# Bridging
+# AI:Dental Education platform & AI
 
 </div>
 <div>
 
-# AI:Dental <br> for Education
-A) Convert X-Rays to educational content
-B) Real-time supervised learning
-C) Search for relevant X-Rays
+:A Convert X-Rays to educational content
+:B Real-time supervised learning
+:C Search for relevant X-Rays
+
 
 </div>
 </div>
 
 ---
-## A) Convert X-Rays to educational content
-#
+## :A Convert X-Rays to educational content
 
 <div class="columns">
 <div>
@@ -148,8 +154,7 @@ Questions & Answers
 
 ---
 <!-- _footer: "3. An Explainable Deep Learning Model to Prediction Dental Caries Using Panoramic Radiograph Images (2023)" -->
-## B) Real-time supervised learning
-#
+## :B Real-time supervised learning
 
 <div class="columns">
 <div>
@@ -175,15 +180,25 @@ https://www.sciencedirect.com/science/article/pii/S2772442523001491
 https://www.mdpi.com/2075-5309/13/2/275
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10283104/
 -->
-## C) Search for relevant X-Rays<sup>[4]</sup>
+## :C Search for relevant X-Rays
 
-![w:1000px](img/image_retrieval.png.png)
-<!-- ![bg left 100%](edu-app/catalog.png) -->
+<div class="columns">
+<div>
+Catalog of cases
+
+![w:512](img/catalog.png)
+</div>
+<div>
+
+Relevant X-Ray<sup>[4]</sup>
+![w:512](img/case.png)
+
+</div>
+</div>
 
 [4]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10283104/
-
 ---
-# Better dental care
+# Better dental care :D
 ![bg right 50%](img/image-1.png)
 - Performance evaluation
 - Employee onboarding
@@ -193,7 +208,7 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10283104/
 --- 
 <div class="columns">
 <div>
-<h1>Let's collaborate</h1>
+<h1>Let's collaborate :D</h1>
 
 - Universities
 - Dental clinics
