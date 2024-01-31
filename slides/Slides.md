@@ -83,7 +83,7 @@ Shaping the future of the dentistry through creating the conditions for everyone
 # The Gap
 Dental students' accuracy ranges from **48% - 65%** in radiograph interpretation<sup>[1]</sup>
 
-![bg left](img/tfe_answers/pdentits-answers-H.png)
+![bg left](img/qexample.png)
 
 <!-- Which is problematic becuase Dental  radiographs  are  essential in  making  an accurate diagnosis, performing dental procedures, in evaluating procedural success and in documentation of dental and oral health -->
 
