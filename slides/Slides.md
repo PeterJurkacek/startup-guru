@@ -100,7 +100,7 @@ Radiographs interpretation<sup>[1]</sup>
 # Why the Gap?<sup>[2]</sup>
 ![bg vertical left:30% 60%](img/image-2.png)
 - Limited or no access to relevant radiographs
-- Instructor inconsistency
+- Challenges in obtaining real-time supervision feedback
 ![bg 60%](img/image-3.png)
 
 [2]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9026102/
@@ -111,17 +111,14 @@ Radiographs interpretation<sup>[1]</sup>
 ![bg right 50%](img/image-1.png)
 
 ---
+# The Bridge - AI:Dental for Education
 
-## The Bridge - AI:Dental for Education
-
-- A) Auto-transform radiographs into assignments (train, test, evaluate).
-
-- B) Apply supervised learning with visual explanations
-
-- C) Search for relevant radiographs (Google Lens for dentistry).
+### A) Convert X-rays to educational content
+### B) Real-time supervised learning
+### C) Search for relevant radiographs
 
 ---
-## A) Auto-transform radiographs into assignments
+## A) Convert X-rays to educational content
 #
 
 <div class="columns">
@@ -141,7 +138,7 @@ Questions & Answers
 
 ---
 <!-- _footer: "3. An Explainable Deep Learning Model to Prediction Dental Caries Using Panoramic Radiograph Images (2023)" -->
-## B) Apply supervised learning with visual explanations
+## B) Real-time supervised learning
 #
 
 <div class="columns">
@@ -152,7 +149,7 @@ Questions & Answers
 </div>
 <div>
 
-Saliency maps<sup>[3]</sup>
+Solution explanation<sup>[3]</sup>
 ![w:512](img/grad-cam.png)
 
 </div>
