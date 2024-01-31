@@ -30,7 +30,16 @@
 					"./slides/themes/custom.css",
 					"./slides/themes/custom-default.css",
 					"./slides/themes/custom-gaia.css",
-					"./slides/themes/custom-uncover.css"
+					"./slides/themes/custom-uncover.css",
+					"./slides/fonts/aid/DMMono-AID-Text.otf",
+					"./slides/fonts/aid/DMMono-AID-Text.woff",
+					"./slides/fonts/aid/DMMono-AID-Text.woff2",
+					"./slides/fonts/aid/DMSans-AID-Headline-Regular.otf",
+					"./slides/fonts/aid/DMSans-AID-Headline-Regular.woff",
+					"./slides/fonts/aid/DMSans-AID-Headline-Regular.woff2",
+					"./slides/fonts/aid/DMSans-AID-Text-Regular.otf",
+					"./slides/fonts/aid/DMSans-AID-Text-Regular.woff",
+					"./slides/fonts/aid/DMSans-AID-Text-Regular.woff2"
 				  ]
 			},
 			"extensions": [
