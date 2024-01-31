@@ -220,9 +220,9 @@ Relevant X-Ray<sup>[4]</sup>
 ---
 # Better dental care <span class="aid">: )</span>
 ![bg right 50%](img/image-1.png)
+- AI-assisted diagnostics
 - Performance evaluation
-- Employee onboarding
-- Saved time & money
+- Saved time & money with 
 - Patient treatment outcomes
 
 --- 
@@ -232,7 +232,7 @@ Relevant X-Ray<sup>[4]</sup>
 
 - Universities
 - Dental clinics
-- Hospital
+- Hospitals
 - Case Studies
 
 </div>
