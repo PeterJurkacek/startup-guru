@@ -178,11 +178,9 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10283104/
 ---
 # Better dental care
 ![bg right 50%](img/image-1.png)
-
 - Performance evaluation
 - Employee onboarding
-- Saved time and money
-- Save 5 minutes per visit with assisted diagnostics
+- Saved time & money
 - Patient treatment outcomes
 
 --- 
