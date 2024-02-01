@@ -6,27 +6,6 @@ paginate: true
 footer: 'AI:Dental'
 ---
 
-<!-- Add this anywhere in your Markdown file -->
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@latest/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ startOnLoad: true });
-</script>
-
-<!-- <style>
-  section {
-    background: '#ABF7CE';
-    font-family: 'DMSans-AID-Headline', 'DMSans-AID-Text';
-  }
-</style> -->
-<!--
-HD 1280 x 720	13.333	7.5
-Full HD 1920 x 1080	19.999	11.25
-Quad HD 3840 x 2160	39.999	22.50
-4K 4096 x 2160	42.664	22.50 
--->
-
-<!-- https://docs.decksetapp.com/English.lproj/Formatting/13-auto-scaling.html -->
-
 <!-- _paginate: skip -->
 <!-- _footer: "" -->
 # Bridging the Gap
@@ -38,6 +17,8 @@ AI:Dental
 <!-- _color: '#000' -->
 <!-- _footer: "" -->
 # Brief Intro
+<!-- "Hi everyone, I'm [Your Name], the CTO of [Your AI Company]. Beyond the world of technology, I'm passionate about sports, enjoy a good cup of coffee, and appreciate the art of craft beer. Today, I'm not just here to talk tech; I'm open to connecting on shared interests. Scan the QR code on my Linked for a virtual meetup. Let's dig in"
+-->
 ![bg opacity right](img/57e2696d-f37a-4111-8f3d-72bada4c77c5.JPG)
 
 Peter Jurkáček
@@ -87,6 +68,11 @@ To democratize dental health through AI by enhancing precision, affordability, a
 Shaping the future of the dentistry through creating the conditions for everyone to access the affordable and personalised healthcare.  -->
 
 ---
+<!-- Interpretation of dental X-rays is essential in making an accurate diagnosis, performing dental procedures, in evaluating procedural success and in documentation of dental and oral health 
+- error-prone process, even for experts
+- low-prevalence anomalies. it means that the condition is not commonly observed in the general population
+-->
+
 <!-- _footer: "1. 2022 Evaluation of radiographic interpretation skills of undergraduate dental students studying in a dental college of Punjab, India – A comparative study" -->
 <div class="columns">
 <div class="aid">
@@ -226,24 +212,17 @@ Relevant X-Ray<sup>[4]</sup>
 
 [4]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10283104/
 ---
-<!-- <div class="columns">
-<div> -->
+<!-- To democratize dental health through AI by enhancing precision, affordability, and accessibility in education and patient care. 
+Shaping the future of the dentistry through creating the conditions for everyone to access the affordable and personalised healthcare. -->
 
 # Better dental care <span class="aid">:)</span>
+
 - AI-assisted diagnostics
 - Performance evaluation
 - Saved time & money with 
 - Patient treatment outcomes
 
 ![bg right 50%](img/image-1.png)
-<!-- </div>
-<div>
-<!-- <iframe width="420" height="315"
-  src="https://www.youtube.com/embed/tgbNymZ7vqY">
-</iframe>
-
-</div>
-</div> -->
 
 --- 
 <div class="columns">
