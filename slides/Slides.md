@@ -70,7 +70,7 @@ Shaping the future of the dentistry through creating the conditions for everyone
 ---
 <!-- Interpretation of dental X-rays is essential in making an accurate diagnosis, performing dental procedures, in evaluating procedural success and in documentation of dental and oral health 
 - error-prone process, even for experts
-- low-prevalence anomalies. it means that the condition is not commonly observed in the general population
+- low-prevalence anomalies. it means that the condition is not commonly observed in the general population (Carotid artery calcifications)
 -->
 
 <!-- _footer: "1. 2022 Evaluation of radiographic interpretation skills of undergraduate dental students studying in a dental college of Punjab, India – A comparative study" -->
