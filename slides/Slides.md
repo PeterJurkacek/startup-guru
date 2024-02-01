@@ -244,21 +244,21 @@ Shaping the future of the dentistry through creating the conditions for everyone
 <div class="columns">
 <div>
 
-# <span class="aid">AI:Dental </span> - The Bridge to better education in dental care
+# <span class="aid">AI:Dental </span>
+## The Bridge to better education in dental care
 
-<span class="aid">:A</span> Convert X-Rays to educational content
+<span class="aid">:A</span> Convert X-Rays for education
 
 <span class="aid">:B</span> Real-time supervised learning
 
 <span class="aid">:C</span> Search for relevant X-Rays
-
-<span class="aid">:D</span> AI-assisted diagnostics, save time and money
 
 </div>
 <div class="aid" style="
   text-align:center;
   vertical-align:middle;
   padding-top:30px;
+  padding-bottom:0px;
   width:400px;
 ">
 
@@ -267,4 +267,3 @@ Shaping the future of the dentistry through creating the conditions for everyone
 
 </div>
 </div>
-
