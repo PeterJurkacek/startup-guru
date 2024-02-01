@@ -140,7 +140,7 @@ Education platform & AI
 <div>
 <span class="aid">:A</span> Convert X-Rays to educational content
 
-<span class="aid">:B</span> Real-time supervised learning
+<span class="aid">:B</span> Real-time supervision
 
 <span class="aid">:C</span> Search for relevant X-Rays
 
@@ -168,7 +168,7 @@ Questions & Answers
 
 ---
 <!-- _footer: "3. An Explainable Deep Learning Model to Prediction Dental Caries Using Panoramic Radiograph Images (2023)" -->
-## <span class="aid">:B</span> <span class="aid">Real-time supervised learning</span>
+## <span class="aid">:B</span> <span class="aid">Real-time supervision</span>
 
 <div class="columns">
 <div>
@@ -249,7 +249,7 @@ Shaping the future of the dentistry through creating the conditions for everyone
 
 <span class="aid">:A</span> Convert X-Rays for education
 
-<span class="aid">:B</span> Real-time supervised learning
+<span class="aid">:B</span> Real-time supervision
 
 <span class="aid">:C</span> Search for relevant X-Rays
 
