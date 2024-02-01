@@ -211,18 +211,6 @@ Relevant X-Ray<sup>[4]</sup>
 </div>
 
 [4]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10283104/
----
-<!-- To democratize dental health through AI by enhancing precision, affordability, and accessibility in education and patient care. 
-Shaping the future of the dentistry through creating the conditions for everyone to access the affordable and personalised healthcare. -->
-
-# Better dental care <span class="aid">:)</span>
-
-- AI-assisted diagnostics
-- Performance evaluation
-- Saved time & money with 
-- Patient treatment outcomes
-
-![bg right 50%](img/image-1.png)
 
 --- 
 <div class="columns">
@@ -243,8 +231,40 @@ Shaping the future of the dentistry through creating the conditions for everyone
   width:400px;
 ">
 
-### AI:Dental
+### Contact us
+
 ![width:356](img/qr_aid.png)
 
 </div>
 </div>
+
+---
+<!-- To democratize dental health through AI by enhancing precision, affordability, and accessibility in education and patient care. 
+Shaping the future of the dentistry through creating the conditions for everyone to access the affordable and personalised healthcare. -->
+<div class="columns">
+<div>
+
+# The Bridge to better education <span class="aid">AI:Dental </span>
+
+<span class="aid">:A</span> Convert X-Rays to educational content
+
+<span class="aid">:B</span> Real-time supervised learning
+
+<span class="aid">:C</span> Search for relevant X-Rays
+
+<span class="aid">:D</span> AI-assisted diagnostics, save time and money
+
+</div>
+<div class="aid" style="
+  text-align:center;
+  vertical-align:middle;
+  padding-top:30px;
+  width:400px;
+">
+
+### Contact us
+![width:356](img/qr_aid.png)
+
+</div>
+</div>
+
