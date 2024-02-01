@@ -111,8 +111,9 @@ Dental<span class="aid">students' accuracy</span> in X-Ray interpretation ranges
 <!-- _footer: "2. 2022 Dental Students’ Knowledge, Confidence, Ability, and Self-Reported Difficulties in Periodontal Education: A Mixed Method Pilot Study" -->
 # <span class="aid">Why</span> is the Gap there?<sup>[2]</sup>
 ![bg vertical left:30% 60%](img/image-2.png)
-- Limited or no access to relevant X-Rays
-- Challenges in obtaining real-time supervision feedback
+<span class="aid">Limited</span> or <span class="aid">no access</span> to relevant X-Rays
+
+Challenges in obtaining <span class="aid">real-time supervision</span> feedback
 ![bg 60%](img/image-3.png)
 
 [2]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9026102/
