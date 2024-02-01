@@ -44,11 +44,15 @@ Peter Jurkáček
 CTO at AI:Dental
 
 
-<div class="aid" style="text-align:center;vertical-align:middle;padding-top:30px;">
+<div class="aid" style="
+text-align:center;
+vertical-align:middle;
+padding-top:30px;
+width:412px;
+">
 
 ![width:356](img/qr_1.png)
-
-peter.jurkacek@aidental.ai
+`peter.jurkacek@aidental.ai`
 </div>
 <!-- 
 # Problem statement
@@ -85,16 +89,19 @@ Shaping the future of the dentistry through creating the conditions for everyone
 ---
 <!-- _footer: "1. 2022 Evaluation of radiographic interpretation skills of undergraduate dental students studying in a dental college of Punjab, India – A comparative study" -->
 <div class="columns">
-<div>
-<h1><span class="aid">The Gap</span></h1>
+<div class="aid">
 
-Dental students' accuracy in X-Ray interpretation ranges from <span class="aid">48% - 65%</span>
+X-Rays interpretation<sup>[1]</sup>
+<!-- ![](img/qexample.png) -->
+![](img/pdentits-answers-H.png)
 
 </div>
 <div>
 
-X-Rays interpretation<sup>[1]</sup>
-![](img/qexample.png)
+#
+#
+<h1>The Gap <span class="aid">:/</span></h1>
+Dental<span class="aid">students' accuracy</span> in X-Ray interpretation ranges from <span class="aid">48% - 65%</span>
 
 </div>
 </div>
@@ -143,7 +150,7 @@ Education platform & AI
 </div>
 <div>
 
-<div class="aid">
+<div>
 <span class="aid">:A</span> Convert X-Rays to educational content
 
 <span class="aid">:B</span> Real-time supervised learning
@@ -155,7 +162,7 @@ Education platform & AI
 </div>
 
 ---
-## <span class="aid">:A</span> Convert X-Rays to educational content
+## <span class="aid">:A</span> <span class="aid">Convert X-Rays to educational content</span>
 
 <div class="columns">
 <div>
@@ -174,7 +181,7 @@ Questions & Answers
 
 ---
 <!-- _footer: "3. An Explainable Deep Learning Model to Prediction Dental Caries Using Panoramic Radiograph Images (2023)" -->
-## <span class="aid">:B</span> Real-time supervised learning
+## <span class="aid">:B</span> <span class="aid">Real-time supervised learning</span>
 
 <div class="columns">
 <div>
@@ -200,7 +207,7 @@ https://www.sciencedirect.com/science/article/pii/S2772442523001491
 https://www.mdpi.com/2075-5309/13/2/275
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10283104/
 -->
-## <span class="aid">:C</span> Search for relevant X-Rays
+## <span class="aid">:C</span> <span class="aid">Search for relevant X-Rays</span>
 
 <div class="columns">
 <div>
@@ -218,12 +225,24 @@ Relevant X-Ray<sup>[4]</sup>
 
 [4]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10283104/
 ---
-# Better dental care <span class="aid">: )</span>
-![bg right 50%](img/image-1.png)
+<!-- <div class="columns">
+<div> -->
+
+# Better dental care <span class="aid">:)</span>
 - AI-assisted diagnostics
 - Performance evaluation
 - Saved time & money with 
 - Patient treatment outcomes
+
+![bg right 50%](img/image-1.png)
+<!-- </div>
+<div>
+<!-- <iframe width="420" height="315"
+  src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+
+</div>
+</div> -->
 
 --- 
 <div class="columns">
@@ -234,9 +253,15 @@ Relevant X-Ray<sup>[4]</sup>
 - Dental clinics
 - Hospitals
 - Case Studies
+- AI companies
 
 </div>
-<div class="aid" style="text-align:center;vertical-align:middle;padding:10px;">
+<div class="aid" style="
+  text-align:center;
+  vertical-align:middle;
+  padding-top:30px;
+  width:400px;
+">
 
 ### AI:Dental
 ![width:356](img/qr_aid.png)
