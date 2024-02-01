@@ -244,7 +244,7 @@ Shaping the future of the dentistry through creating the conditions for everyone
 <div class="columns">
 <div>
 
-# The Bridge to better education <span class="aid">AI:Dental </span>
+# <span class="aid">AI:Dental </span> - The Bridge to better education in dental care
 
 <span class="aid">:A</span> Convert X-Rays to educational content
 
