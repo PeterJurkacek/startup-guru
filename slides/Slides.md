@@ -220,7 +220,7 @@ Relevant X-Ray<sup>[4]</sup>
 - Universities
 - Dental clinics
 - Hospitals
-- Case Studies
+- Researchers (Case Studies)
 - AI companies
 
 </div>
