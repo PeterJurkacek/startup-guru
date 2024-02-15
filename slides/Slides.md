@@ -87,7 +87,7 @@ X-Rays interpretation<sup>[1]</sup>
 #
 #
 <h1>The Gap <span class="aid">:/</span></h1>
-Dental<span class="aid">students' accuracy</span> in X-Ray interpretation ranges from <span class="aid">48% - 65%</span>
+Dental <span class="aid">students' accuracy</span> in X-Ray interpretation ranges from <span class="aid">48% - 65%</span>
 
 </div>
 </div>
