@@ -36,6 +36,12 @@ section {
 h1 {
   font-family: 'AID headline';
   color:#000000;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: 'AID regular';
+  font-weight: normal;
 }
 
 .aid {
