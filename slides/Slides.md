@@ -10,8 +10,9 @@ footer: 'AI:Dental'
 <!-- _footer: "" -->
 # Bridging the Gap
 ## How <span class="aid">AI</span> Connects Dental Clinics with Students
-![bg right 50%](img/image.png)
 AI:Dental
+
+![bg right 50%](img/maskot/AID_1.svg)
 
 ---
 <!-- _color: '#000' -->
@@ -62,7 +63,6 @@ https://www.researchgate.net/publication/
 ---
 # Bridging <span class="aid">the Gap</span>
 ## How AI Connects Dental Clinics with Students
-![bg right 50%](img/image.png)
 <!-- ---
 To democratize dental health through AI by enhancing precision, affordability, and accessibility in education and patient care. 
 Shaping the future of the dentistry through creating the conditions for everyone to access the affordable and personalised healthcare.  -->
@@ -96,18 +96,18 @@ Dental <span class="aid">students' accuracy</span> in X-Ray interpretation range
 ---
 <!-- _footer: "2. 2022 Dental Students’ Knowledge, Confidence, Ability, and Self-Reported Difficulties in Periodontal Education: A Mixed Method Pilot Study" -->
 # <span class="aid">Why</span> is the Gap there?<sup>[2]</sup>
-![bg vertical left:30% 60%](img/image-2.png)
+![bg vertical left:30% 60%](img/maskot/AID_5.svg)
 <span class="aid">Limited</span> or <span class="aid">no access</span> to relevant X-Rays
 
 Challenges in obtaining <span class="aid">real-time supervision</span> feedback
-![bg 60%](img/image-3.png)
+![bg 60%](img/maskot/AID_4.svg)
 
 [2]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9026102/
 
 ---
 # <span class="aid">Bridging</span> the Gap
 ## How <span class="aid">AI</span> Connects Dental Clinics with Students
-![bg right 50%](img/image-1.png)
+![bg right 50%](img/maskot/AID_16.svg)
 
 ---
 <div class="columns">

@@ -68,6 +68,7 @@ h2 {
 img[alt~="center"] {
   display: block;
   margin: 0 auto;
+  background: transparent;
 }
 .fa-twitter { color: aqua; }
 .fa-mastodon { color: purple; }
