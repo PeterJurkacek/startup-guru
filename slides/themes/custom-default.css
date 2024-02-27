@@ -33,6 +33,12 @@ section {
   color: #000000;
 }
 
+section.solution {
+  font-family: 'AID headline';
+  color: #ffffff;
+  background-color: #000000;
+}
+
 h1 {
   font-family: 'AID headline';
   color:#000000;
@@ -46,8 +52,8 @@ h2 {
 
 .aid {
   font-family: 'AID headline';
-  color:#ffffff;
-  background-color: #000000;
+  color:#000000;
+  background-color: #C3AAEE;
   margin-right: 2px;
   padding-right: 16px;
   padding-left: 16px;
