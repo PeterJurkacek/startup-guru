@@ -13,7 +13,7 @@ for (name, url) in links:
     qr.make(fit=True)
 
     # Create an image from the QR Code instance
-    img = qr.make_image(fill_color="black", back_color="#9D79F7")
+    img = qr.make_image(fill_color="black", back_color="#FFFFFF")
 
     # Save the image or display it
     img.save("slides/img/" + name)
