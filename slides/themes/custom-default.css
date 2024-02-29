@@ -82,8 +82,17 @@ img[alt~="center"] {
 .fa-window-maximize { color: skyblue; }
 
 svg[id^="mermaid-"] { 
+  min-width: 959px; 
   max-width: 960px; 
-  max-height: 600px; 
+  min-height: 360px; 
+  max-height: 600px;
 }
+
+/*USE: ![w:600 center](img/ai_0.png.png) */
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+
 
 @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css'
