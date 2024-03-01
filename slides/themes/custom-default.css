@@ -1,6 +1,7 @@
 /* custom-default.css */
 /* @theme custom-default */
 
+
 @import 'default';
 
 @font-face {
@@ -27,27 +28,34 @@
     url('./themes/fonts/aid/DMSans-AID-Text-Regular.woff') format('woff');
 }
 
+
 section {
+  --heading-strong-color: #000000;
+
+  align-items: stretch;
+  display: flex;
+  flex-flow: column nowrap;
   font-family: 'AID regular';
   background: #ABF7CE;
-  color: #000000;
 }
 
-section.solution {
-  font-family: 'AID headline';
-  color: #ffffff;
-  background-color: #000000;
-}
-
-h1 {
+section h1 {
   font-family: 'AID headline';
   color:#000000;
   font-weight: normal;
 }
 
-h2 {
+section h2 {
   font-family: 'AID regular';
   font-weight: normal;
+}
+
+section strong {
+  font-family: 'AID headline';
+  background-color: #C3AAEE;
+  font-weight: bold;
+  padding: 8px; /* Adjust padding to give space around the text */
+  border-radius: 0px; /* Optional: Add rounded corners for a softer look */
 }
 
 .aid {
@@ -71,6 +79,7 @@ h2 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
 } 
+/*USE: ![w:600 center](img/ai_0.png.png) */
 img[alt~="center"] {
   display: block;
   margin: 0 auto;
@@ -87,12 +96,5 @@ svg[id^="mermaid-"] {
   min-height: 360px; 
   max-height: 600px;
 }
-
-/*USE: ![w:600 center](img/ai_0.png.png) */
-img[alt~="center"] {
-  display: block;
-  margin: 0 auto;
-}
-
 
 @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css'

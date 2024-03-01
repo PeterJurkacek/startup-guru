@@ -6,56 +6,109 @@ paginate: true
 footer: 'AI:Dental'
 
 ---
-# Unlocking the Future of Dentistry 
-## Exploring AI in X-Ray Interpretation
-- Welcome students to the session.
-- Brief overview of the agenda.
 
+<!-- _paginate: skip -->
+# Demystifying **AI** in Dentistry 
+Deep dive into **Blackbox** for in X-Ray diagnostics
+<!--
+- Welcome students to the session.
+- Brief overview of the agenda. 
+-->
+
+![bg right 60%](img/image-1.png)
 
 ---
 
 <!-- Understanding AI in Diagnostics -->
-# Demystifying AI in Dentistry
-## Artificial Intelligence (AI) is the simulation of human intelligence processes by computer systems."
+# What is the **AI**?
 
+![bg left 60%](img/image-3.png)
+
+*Artificial Intelligence (AI) is the **simulation of human intelligence** processes by computer systems.*
+
+---
+
+# **Human Intelligence** in dentistry?
+## E.g Dental professional
 <div class="mermaid">
 flowchart LR
-  B["<p style='width:40px;height:40px;margin:0px'/><img src='img/image-1.png'/>"]
+  input["An X-Ray image"]
+  model["Dental professional"]
+  output["Opinion"]
 
+  input --> model --> output
+</div>
+
+---
+
+# **Simulation** of **Human Intelligence** in dentistry?
+## E.g Artificial intelligence
+<div class="mermaid">
+flowchart LR
+  input["An X-Ray image"]
+  model["AI"]
+  output["Opinion"]
+
+  input --> model --> output
 </div>
 
 
 ---
+<div class="columns">
 
-# HOHO
+<div>
 
-![w:600 center](img/ai_0.png.png)
-![w:600 center](img/ai_0.png.png)
+## How **You as a student** can become **Dental professional**?
+- Relevant X-ray images
+- Dental professionals' opinions
+
+</div>
 
 ---
 
-# Advantages of AI in Dentistry
+<div class="columns">
+
+<div>
+
+## How You as a student can become Dental professional?
+- Relevant X-ray images
+- Dental professionals' opinions
+
+</div>
+<div>
+
+## How **AI as a student** can become **Dental professional**?
+- Relevant X-ray images
+- Dental professionals' opinions
+
+</div>
+
+---
+
+<!-- - Title: "Training Our AI: From Annotations to Classification" -->
+# **Let's train yourself** and also our AI
+
+[-] You will go trought our excersices in x-ray interpretation
+[-] AI will go trought our excersices
+[-] Compare you vs AI
+
+---
+<!-- # Advantages of AI in Dentistry
 - Improved accuracy and efficiency in diagnosis.
 - Reduction of human error and subjectivity.
 - Enhanced speed in processing and analyzing large datasets.
 - Potential for early detection and prevention of dental issues.
 
----
+--- -->
 
 # Hands-On Training with Our Education Platform
-- Introduction to the education platform for dataset preparation.
-- Demonstration of platform features and functionalities.
-- Instructions for students to prepare annotated datasets.
+- Train on specific pathologies with **Quiz**
+- Train on real patients' cases with **Tagging per patient**
+- Search for relevant cases with **Catalog of cases**
 
----
+![bg right 90%](img/edu_app.png)
 
-<!-- - Title: "Training Our AI: From Annotations to Classification" -->
-# Training Our Own AI
-- Overview of the AI training process.
-- Importance of annotated datasets for AI learning.
-- Explanation of how the AI learns from annotated data.
-
----
+--- 
 
 <!-- Decoding X-Rays: Visual Explanation with Saliency Maps -->
 # Visual Explanation with Saliency Maps
