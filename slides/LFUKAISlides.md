@@ -141,17 +141,7 @@ Note: Each slide should be visually appealing with relevant graphics, images, an
 
 <!-- Needed for mermaid, can be anywhere in file except frontmatter -->
 
-
-# Mermaid
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-  const callback = function () {
-    alert('A callback was triggered');
-  };
-  const config = {
-    startOnLoad: true,
-    flowchart: { useMaxWidth: true, htmlLabels: true, curve: 'cardinal' },
-    securityLevel: 'loose',
-  };
-  mermaid.initialize({config});
+  mermaid.initialize({startOnLoad: true});
 </script>
