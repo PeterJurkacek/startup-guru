@@ -50,6 +50,11 @@ section h2 {
   font-weight: normal;
 }
 
+section h3 {
+  font-family: 'AID regular';
+  font-weight: normal;
+}
+
 section strong {
   font-family: 'AID headline';
   background-color: #C3AAEE;
