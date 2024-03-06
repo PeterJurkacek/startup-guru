@@ -115,16 +115,16 @@ Dental **students' accuracy** in X-Ray interpretation ranges from **48% - 65%**<
 <div class="columns"><div>
 
 # Data scientist's perspective
-* Task: I would like to teach my **~~students~~ AIs** how to classify tooth decay from dental x-ray image
-* Excercise: I have to design excercise for them
-* Evaluation: I have to evaluate their performance
+- Task: I would like to teach my **~~students~~ AIs** how to classify tooth decay from dental x-ray image
+- Excercise: I have to design excercise for them
+- Evaluation: I have to evaluate their performance
 
 </div><div>
 
 # AI's perspective
-* Task: My task is to know how to classify tooth decay from dental x-ray image
-* Excercise: I have to do excercise (e.g. interpret at least 100 x-ray with tooth decay)
-* Evaluation: If scored above 90% I am prepared
+- Task: My task is to know how to classify tooth decay from dental x-ray image
+- Excercise: I have to do excercise (e.g. interpret at least 100 x-ray with tooth decay)
+- Evaluation: If scored above 90% I am prepared
 
 </div></div>
 
