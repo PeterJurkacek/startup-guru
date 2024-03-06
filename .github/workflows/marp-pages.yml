@@ -40,10 +40,10 @@ jobs:
           args: --theme-set slides/themes -o build/edu.html --html -- slides/Slides-edu.md
         env:
           MARP_USER: root:root
-      - name: Marp Build LFUK (README)
+      - name: Marp Build SK Students (README)
         uses: docker://marpteam/marp-cli:latest
         with:
-          args: --theme-set slides/themes -o build/sk/edu.html --html -- slides/Slides-edu-sk.md
+          args: --theme-set slides/themes -o build/edu-sk.html --html -- slides/Slides-edu-sk.md
         env:
           MARP_USER: root:root
       - name: Setup Pages
