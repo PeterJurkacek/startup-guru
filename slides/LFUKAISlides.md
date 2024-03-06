@@ -4,144 +4,169 @@ theme: custom-default
 title: Unlocking the Future of Dentistry
 paginate: true
 footer: 'AI:Dental'
-
 ---
 
 <!-- _paginate: skip -->
 # Demystifying **AI** in Dentistry 
-Deep dive into **Blackbox** for in X-Ray diagnostics
+Deep dive into excercices for in X-Ray diagnostics
 <!--
 - Welcome students to the session.
 - Brief overview of the agenda. 
 -->
 
-![bg right 60%](img/image-1.png)
+![bg right](img/maskot/AID_2.svg)
 
 ---
 
 <!-- Understanding AI in Diagnostics -->
 # What is the **AI**?
 
-![bg left 60%](img/image-3.png)
+![bg left](img/maskot/AID_1.svg)
 
 *Artificial Intelligence (AI) is the **simulation of human intelligence** processes by computer systems.*
 
 ---
 
-# **Human Intelligence** in dentistry?
-## E.g Dental professional
-<div class="mermaid">
-flowchart LR
-  input["An X-Ray image"]
-  model["Dental professional"]
-  output["Opinion"]
+### **Human Intelligence** in dentistry?
+# Dental professional intelligence
+1. Take X-ray
+2. Interpret X-ray
+3. Make decision
 
-  input --> model --> output
-</div>
-
----
-
-# **Simulation** of **Human Intelligence** in dentistry?
-## E.g Artificial intelligence
-<div class="mermaid">
-flowchart LR
-  input["An X-Ray image"]
-  model["AI"]
-  output["Opinion"]
-
-  input --> model --> output
-</div>
+![bg vertical right 50%](img/maskot/AID_5.svg)
+![bg 50%](img/maskot/AID_6.svg)
 
 
 ---
+
+<!-- _footer: "1. 2022 Evaluation of radiographic interpretation skills of undergraduate dental students studying in a dental college of Punjab, India – A comparative study" -->
 <div class="columns">
+<div class="aid">
 
+X-Rays interpretation
+<!-- ![](img/qexample.png) -->
+![](img/pdentits-answers-H.png)
+</div>
 <div>
 
-## How **You as a student** can become **Dental professional**?
-- Relevant X-ray images
-- Dental professionals' opinions
+#
+#
+#
+# Students' intelligence?
+Dental **students' accuracy** in X-Ray interpretation ranges from **48% - 65%**<sup>[1]</sup>
 
+</div>
 </div>
 
 ---
 
-<div class="columns">
+### **Human Intelligence** in dentistry?
+# Dental professional intelligence
+1. Take X-ray
+2. Interpret X-ray
+3. Make decision
 
-<div>
+![bg vertical right 50%](img/maskot/AID_5.svg)
+![bg 50%](img/maskot/AID_6.svg)
 
-## How You as a student can become Dental professional?
-- Relevant X-ray images
-- Dental professionals' opinions
+---
 
-</div>
-<div>
+### **Simulation** of **Human Intelligence** in dentistry?
+# Artificial intelligence
+1. Take X-ray
+2. Interpret X-ray
+3. Make decision
 
-## How **AI as a student** can become **Dental professional**?
-- Relevant X-ray images
-- Dental professionals' opinions
+![bg vertical left 50%](img/maskot/AID_5.svg)
+![bg 50%](img/maskot/AID_6.svg)
 
-</div>
+---
+
+# Creating intelligence?
+- Task
+- Excercise
+- Evaluation
+![bg right](img/maskot/AID_4.svg)
+
+---
+
+## Creating students' intelligence?
+
+<div class="columns"><div>
+
+# Profesor's perspective
+* Task: I would like to teach my **students** how to classify tooth decay from dental x-ray image
+* Excercise: I have to design excercise for them
+* Evaluation: I have to evaluate their performance
+
+</div><div>
+
+# Student's perspective
+* Task: I would like to know how to classify tooth decay from dental x-ray image
+* Excercise: I have to do excercise (e.g. interpret at least 100 x-ray with tooth decay)
+* Evaluation: If scored above 90% I am prepared
+
+</div></div>
+
+---
+
+## Creating artificial intelligence?
+
+<div class="columns"><div>
+
+# Data scientist's perspective
+* Task: I would like to teach my **~~students~~ AIs** how to classify tooth decay from dental x-ray image
+* Excercise: I have to design excercise for them
+* Evaluation: I have to evaluate their performance
+
+</div><div>
+
+# AI's perspective
+* Task: My task is to know how to classify tooth decay from dental x-ray image
+* Excercise: I have to do excercise (e.g. interpret at least 100 x-ray with tooth decay)
+* Evaluation: If scored above 90% I am prepared
+
+</div></div>
 
 ---
 
 <!-- - Title: "Training Our AI: From Annotations to Classification" -->
-# **Let's train yourself** and also our AI
+# Let's create your better intelligence together
 
-[-] You will go trought our excersices in x-ray interpretation
-[-] AI will go trought our excersices
-[-] Compare you vs AI
+1) We will get to know each other
+2) We will go trought our excersices in x-ray interpretation compare yourself with our experts
+3) AI will go trought our excersices
+4) We will see comparision between you and our AI
+
+![bg right](img/maskot/AID_7.svg)
 
 ---
-<!-- # Advantages of AI in Dentistry
-- Improved accuracy and efficiency in diagnosis.
-- Reduction of human error and subjectivity.
-- Enhanced speed in processing and analyzing large datasets.
-- Potential for early detection and prevention of dental issues.
 
---- -->
-
-# Hands-On Training with Our Education Platform
-- Train on specific pathologies with **Quiz**
-- Train on real patients' cases with **Tagging per patient**
-- Search for relevant cases with **Catalog of cases**
+# 1. Get to know each other
+- Questionaire
 
 ![bg right 90%](img/edu_app.png)
 
---- 
+---
 
-<!-- Decoding X-Rays: Visual Explanation with Saliency Maps -->
-# Visual Explanation with Saliency Maps
-- Introduction to saliency maps for image interpretation.
-- Demonstration of saliency maps highlighting important features in X-ray images.
-- Importance of visual explanations for understanding AI decisions.
+# 2. Our excercises
+- Quiz
+- Tagging per patient
+- Catalog of cases
+
+![bg right 70%](img/maskot/AID_14.svg)
 
 ---
 
-# Conclusion and Next Steps
-- Recap of key points covered in the session.
-- Encouragement for students to continue exploring AI in dentistry.
-- Next steps for further learning and engagement with the education platform.
-
----
-<!-- - Title: "Engage, Inquire, Explore" -->
-
-# Q&A
-- Open the floor for questions and discussion.
-- Encourage students to share their thoughts, concerns, and ideas.
+# 3. AI excersices
+- AI training pipeline
+- Evaluation
+![bg right 70%](img/maskot/AID_13.svg)
 
 ---
 
-# 9: Thank You
-- Title: "Thank You for Joining Us"
-- Express gratitude to the students for their participation.
-- Contact information for further inquiries or follow-up.
+# 4. Comparision
+- AI score
+- Your score
 
-Note: Each slide should be visually appealing with relevant graphics, images, and minimal text for effective communication. Interactive elements such as demonstrations and real-time examples can enhance engagement and understanding.
-
-<!-- Needed for mermaid, can be anywhere in file except frontmatter -->
-
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({startOnLoad: true});
-</script>
+![bg right 70%](img/maskot/AID_9.svg)
