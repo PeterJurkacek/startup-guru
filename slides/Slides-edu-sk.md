@@ -7,14 +7,14 @@ footer: 'AI: Dental'
 ---
 
 <!-- _paginate: skip -->
-# Demystifikácia **UI** v Zubnom Lekárstve 
-Hlboký ponor do cvičení pre diagnostiku röntgenových snímok
+# Demystifikácia diagnostiky RTG-snímok pomocou **UI**
+Ponorme sa spolu do cvičení pre diagnostiku röntgenových snímok
 <!--
 - Víta študentov na seminári.
 - Stručný prehľad programu. 
 -->
 
-![bg right](img/mascot/AID_2.svg)
+![bg right:33%](img/mascot/AID_2.svg)
 
 ---
 
@@ -27,15 +27,25 @@ Hlboký ponor do cvičení pre diagnostiku röntgenových snímok
 
 ---
 
-### **Ľudská Inteligencia** v Zubnom Lekárstve?
+### **Ľudská Inteligencia** pri diagnostike RTG?
 # Inteligencia zubného profesionála
 1. Vyhotoviť röntgenový snímok
-2. Interpretovať röntgenový snímok
+2. **Interpretovať röntgenový snímok**
 3. Urobiť rozhodnutie
 
-![bg vertical right 50%](img/mascot/AID_5.svg)
+![bg vertical right:33% 50%](img/mascot/AID_5.svg)
 ![bg 50%](img/mascot/AID_6.svg)
 
+---
+
+### **Simulácia** ľudskej inteligencie pri diagnostike RTG?
+# Umelá Inteligencia
+1. Vyhotoviť röntgenový snímok
+2. **Interpretovať röntgenový snímok**
+3. Urobiť rozhodnutie
+
+![bg vertical left 50%](img/mascot/AID_5.svg)
+![bg 50%](img/mascot/AID_6.svg)
 
 ---
 
@@ -52,51 +62,29 @@ Interpretácia röntgenových snímok
 #
 #
 #
-# Inteligencia študentov?
-Presnosť interpretácie röntgenových snímok zo strany zubných študentov sa pohybuje od **48% - 65%**<sup>[1]</sup>
+# Inteligencia študentov pri diagnostike?
+Presnosť interpretácie röntgenových snímok študentov zubariny sa pohybuje od **48% - 65%**<sup>[1]</sup>
 
 </div>
 </div>
 
 ---
 
-### **Ľudská Inteligencia** v Zubnom Lekárstve?
-# Inteligencia zubného profesionála
-1. Vyhotoviť röntgenový snímok
-2. Interpretovať röntgenový snímok
-3. Urobiť rozhodnutie
-
-![bg vertical right 50%](img/mascot/AID_5.svg)
-![bg 50%](img/mascot/AID_6.svg)
-
----
-
-### **Simulácia** ľudskej inteligencie v Zubnom Lekárstve?
-# Umelá Inteligencia
-1. Vyhotoviť röntgenový snímok
-2. Interpretovať röntgenový snímok
-3. Urobiť rozhodnutie
-
-![bg vertical left 50%](img/mascot/AID_5.svg)
-![bg 50%](img/mascot/AID_6.svg)
-
----
-
-# Vytváranie inteligencie?
+# Ako vieme vytvárať ľudskú inteligenciu?
 - Úloha
 - Cvičenie
 - Hodnotenie
-![bg right](img/mascot/AID_4.svg)
+![bg right:33%](img/mascot/AID_4.svg)
 
 ---
 
-## Vytváranie inteligencie u študentov?
+## Ako vieme vytvárať inteligenciu u študentov pri diagnostike?
 
 <div class="columns"><div>
 
 # Pohľad profesora
 * Úloha: Chcel by som naučiť mojich **študentov**, ako klasifikovať zubný kaz z röntgenového snímku
-* Cvičenie: Musím pre nich navrhnúť cvičenie
+* Cvičenie: Musím pre nich navrhnúť cvičenie (napr. sériu vizuálnych otázok a odpovedí)
 * Hodnotenie: Musím vyhodnotiť ich výkon
 
 </div><div>
@@ -110,14 +98,15 @@ Presnosť interpretácie röntgenových snímok zo strany zubných študentov sa
 
 ---
 
-## Vytváranie umelej inteligencie?
+## Ako vieme vytvárať umelú inteligenciu pri diagnostike?
 
 <div class="columns"><div>
 
-# Pohľad Datového vedca
-- Úloha: Chcel by som naučiť mojich **~~študentov~~ UIs**, ako klasifikovať zubný kaz z röntgenového snímku
-- Cvičenie: Musím pre nich navrhnúť cvičenie
-- Hodnotenie: Musím vyhodnotiť ich výkon
+# Pohľad Programátora UI
+* Úloha: Chcel by som naučiť mojich **~~študentov~~ UI**, ako klasifikovať zubný kaz z röntgenového snímku
+* Cvičenie: Musím pre nich navrhnúť cvičenie (napr. sériu vizuálnych otázok a odpovedí)
+* Hodnotenie: Musím vyhodnotiť ich výkon
+
 
 </div><div>
 
@@ -129,21 +118,21 @@ Presnosť interpretácie röntgenových snímok zo strany zubných študentov sa
 </div></div>
 
 ---
-# Poďme spoločne vytvárať Inteligenciu v interpretácií RTG snímok
+# Poďme spoločne preskúmať na budovanie inteligencie pri diagnostike RTG snímok
 
 1) Budeme sa spoznávať
 2) Prejdeme si naše cvičenia v interpretácii röntgenov, porovnajte sa s našimi expertmi
 3) UI prejde naše cvičenia
 4) Uvidíme porovnanie medzi vami a našou UI
 
-![bg right](img/mascot/AID_7.svg)
+![bg right:33%](img/mascot/AID_7.svg)
 
 ---
 
 # 1. Spoznajme sa
 - Dotazník
 
-![bg right 90%](img/edu_app.png)
+![bg right:50% 90%](img/edu_app.png)
 
 ---
 
@@ -152,14 +141,14 @@ Presnosť interpretácie röntgenových snímok zo strany zubných študentov sa
 - Tagovanie podľa pacienta
 - Katalóg prípadov
 
-![bg right 70%](img/mascot/AID_14.svg)
+![bg right](img/mascot/AID_14.svg)
 
 ---
 
 # 3. Cvičenia UI
 - Trénovací proces UI
 - Hodnotenie
-![bg right 70%](img/mascot/AID_13.svg)
+![bg right](img/mascot/AID_13.svg)
 
 ---
 
@@ -167,4 +156,4 @@ Presnosť interpretácie röntgenových snímok zo strany zubných študentov sa
 - Skóre UI
 - Vaše skóre
 
-![bg right 70%](img/mascot/AID_9.svg)
+![bg right](img/mascot/AID_9.svg)
