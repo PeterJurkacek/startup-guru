@@ -21,7 +21,7 @@ Deep dive into excercices for in X-Ray diagnostics
 <!-- Understanding AI in Diagnostics -->
 # What is the **AI**?
 
-![bg left](img/maskot/AID_1.svg)
+![bg left 70%](img/maskot/AID_1.svg)
 
 *Artificial Intelligence (AI) is the **simulation of human intelligence** processes by computer systems.*
 
@@ -131,7 +131,7 @@ Dental **students' accuracy** in X-Ray interpretation ranges from **48% - 65%**<
 ---
 
 <!-- - Title: "Training Our AI: From Annotations to Classification" -->
-# Let's create your better intelligence together
+# Let's create better intelligence together
 
 1) We will get to know each other
 2) We will go trought our excersices in x-ray interpretation compare yourself with our experts
