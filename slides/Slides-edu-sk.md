@@ -20,8 +20,8 @@ Cvičenia interpretácie RTG snímok
 
 <!-- Porozumenie UI v Diagnostike -->
 # Umelá Inteligencia?
-## Umelá inteligencia (UI) je **simulácia ľudskej inteligencie** procesmi počítačových systémov. 
-[2024, ChatGPT]
+*Umelá inteligencia (UI) je **simulácia ľudskej inteligencie** procesmi počítačových systémov.*
+(2024, ChatGPT)
 
 ![bg left:33% 70%](img/mascot/AID_1.svg)
 
