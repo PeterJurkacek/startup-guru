@@ -84,10 +84,10 @@ Cvičennia pre diagnostiku röntgenových snímok
 
 # Poďme to spoločne zmeniť
 ## Agenda na dnes:
-1) Spoznávanie
-2) Cvičenia, porovnajte sa s našimi expertmi
-3) Cvičenie/Trénovanie UI a vyhodnotenie jej úspešnosti
-5) Feedback
+1. Spoznávanie
+2. Cvičenia, porovnajte sa s našimi expertmi
+3. Cvičenie/Trénovanie UI a vyhodnotenie jej úspešnosti
+4. Feedback
 
 ![bg right:40%](img/mascot/AID_7.svg)
 
