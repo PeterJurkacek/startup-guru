@@ -7,8 +7,8 @@ footer: 'AI: Dental'
 ---
 
 <!-- _paginate: skip -->
-# Demystifikácia diagnostiky RTG-snímok pomocou **UI**
-Ponorme sa spolu do cvičení pre diagnostiku röntgenových snímok
+# Demystifikácia **umelej inteligencie**
+Cvičennia pre diagnostiku röntgenových snímok
 <!--
 - Víta študentov na seminári.
 - Stručný prehľad programu. 
@@ -19,13 +19,15 @@ Ponorme sa spolu do cvičení pre diagnostiku röntgenových snímok
 ---
 
 <!-- Porozumenie UI v Diagnostike -->
-# Čo je **UI**?
+# Umelá Inteligencia?
 
 ![bg left 70%](img/mascot/AID_1.svg)
 
 *Umelá inteligencia (UI) je **simulácia ľudskej inteligencie** procesmi počítačových systémov.*
 
 ---
+conda install -c conda-forge mamba;
+mamba install -c conda-forge dvc-azure;
 
 ### **Ľudská Inteligencia** pri diagnostike RTG?
 # Inteligencia zubného profesionála
@@ -103,9 +105,9 @@ Presnosť interpretácie röntgenových snímok študentov zubariny sa pohybuje 
 <div class="columns"><div>
 
 # Pohľad Programátora UI
-* Úloha: Chcel by som naučiť mojich **~~študentov~~ UI**, ako klasifikovať zubný kaz z röntgenového snímku
-* Cvičenie: Musím pre nich navrhnúť cvičenie (napr. sériu vizuálnych otázok a odpovedí)
-* Hodnotenie: Musím vyhodnotiť ich výkon
+- Úloha: Chcel by som naučiť mojich **~~študentov~~ UI**, ako klasifikovať zubný kaz z röntgenového snímku
+- Cvičenie: Musím pre nich navrhnúť cvičenie (napr. sériu vizuálnych otázok a odpovedí)
+- Hodnotenie: Musím vyhodnotiť ich výkon
 
 
 </div><div>
@@ -120,19 +122,19 @@ Presnosť interpretácie röntgenových snímok študentov zubariny sa pohybuje 
 ---
 # Poďme spoločne preskúmať na budovanie inteligencie pri diagnostike RTG snímok
 
-1) Budeme sa spoznávať
-2) Prejdeme si naše cvičenia v interpretácii röntgenov, porovnajte sa s našimi expertmi
+
+1) [Spoznajme sa](https://aidental.typeform.com/to/MLtakqKO)
+2) Cvičenia, porovnajte sa s našimi expertmi, ocenenia
 3) UI prejde naše cvičenia
 4) Uvidíme porovnanie medzi vami a našou UI
+5) [Feedback](https://aidental.typeform.com/to/VKpVamog)
 
 ![bg right:33%](img/mascot/AID_7.svg)
 
 ---
 
 # 1. Spoznajme sa
-- Dotazník
-
-![bg right:50% 90%](img/edu_app.png)
+![bg right 50%](img/qr_form_intro.png)
 
 ---
 
@@ -140,6 +142,7 @@ Presnosť interpretácie röntgenových snímok študentov zubariny sa pohybuje 
 - Kvíz
 - Tagovanie podľa pacienta
 - Katalóg prípadov
+- Dajte nám feedback
 
 ![bg right](img/mascot/AID_14.svg)
 
@@ -157,3 +160,9 @@ Presnosť interpretácie röntgenových snímok študentov zubariny sa pohybuje 
 - Vaše skóre
 
 ![bg right](img/mascot/AID_9.svg)
+
+---
+
+# 5. Feedback
+
+![bg right 50%](img/qr_form_feedback.png)
