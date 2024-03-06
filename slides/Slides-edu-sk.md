@@ -8,7 +8,7 @@ footer: 'AI: Dental'
 
 <!-- _paginate: skip -->
 # Demystifikácia **umelej inteligencie**
-Cvičennia pre diagnostiku röntgenových snímok
+Cvičenia interpretácie RTG snímok
 <!--
 - Víta študentov na seminári.
 - Stručný prehľad programu. 
