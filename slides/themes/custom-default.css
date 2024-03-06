@@ -53,7 +53,7 @@ section h2 {
 section strong {
   font-family: 'AID headline';
   background-color: #C3AAEE;
-  font-weight: bold;
+  font-weight: normal;
   padding: 8px; /* Adjust padding to give space around the text */
   border-radius: 0px; /* Optional: Add rounded corners for a softer look */
 }
