@@ -8,33 +8,33 @@ footer: 'AI:Dental'
 
 <!-- _paginate: skip -->
 # Demystifying **AI** in Dentistry 
-Deep dive into excercices for in X-Ray diagnostics
+Deep dive into exercises for X-Ray diagnostics
 <!--
 - Welcome students to the session.
 - Brief overview of the agenda. 
 -->
 
-![bg right](img/maskot/AID_2.svg)
+![bg right](img/mascot/AID_2.svg)
 
 ---
 
 <!-- Understanding AI in Diagnostics -->
-# What is the **AI**?
+# What is **AI**?
 
-![bg left 70%](img/maskot/AID_1.svg)
+![bg left 70%](img/mascot/AID_1.svg)
 
 *Artificial Intelligence (AI) is the **simulation of human intelligence** processes by computer systems.*
 
 ---
 
-### **Human Intelligence** in dentistry?
-# Dental professional intelligence
+### **Human Intelligence** in Dentistry?
+# Dental Professional Intelligence
 1. Take X-ray
 2. Interpret X-ray
-3. Make decision
+3. Make decisions
 
-![bg vertical right 50%](img/maskot/AID_5.svg)
-![bg 50%](img/maskot/AID_6.svg)
+![bg vertical right 50%](img/mascot/AID_5.svg)
+![bg 50%](img/mascot/AID_6.svg)
 
 
 ---
@@ -43,7 +43,7 @@ Deep dive into excercices for in X-Ray diagnostics
 <div class="columns">
 <div class="aid">
 
-X-Rays interpretation
+X-Ray Interpretation
 <!-- ![](img/qexample.png) -->
 ![](img/pdentits-answers-H.png)
 </div>
@@ -52,121 +52,121 @@ X-Rays interpretation
 #
 #
 #
-# Students' intelligence?
-Dental **students' accuracy** in X-Ray interpretation ranges from **48% - 65%**<sup>[1]</sup>
+# Students' Intelligence?
+Dental **students' accuracy** in X-Ray interpretation ranges from **48% to 65%**<sup>[1]</sup>
 
 </div>
 </div>
 
 ---
 
-### **Human Intelligence** in dentistry?
-# Dental professional intelligence
+### **Human Intelligence** in Dentistry?
+# Dental Professional Intelligence
 1. Take X-ray
 2. Interpret X-ray
-3. Make decision
+3. Make decisions
 
-![bg vertical right 50%](img/maskot/AID_5.svg)
-![bg 50%](img/maskot/AID_6.svg)
+![bg vertical right 50%](img/mascot/AID_5.svg)
+![bg 50%](img/mascot/AID_6.svg)
 
 ---
 
-### **Simulation** of **Human Intelligence** in dentistry?
-# Artificial intelligence
+### **Simulation** of **Human Intelligence** in Dentistry?
+# Artificial Intelligence
 1. Take X-ray
 2. Interpret X-ray
-3. Make decision
+3. Make decisions
 
-![bg vertical left 50%](img/maskot/AID_5.svg)
-![bg 50%](img/maskot/AID_6.svg)
+![bg vertical left 50%](img/mascot/AID_5.svg)
+![bg 50%](img/mascot/AID_6.svg)
 
 ---
 
-# Creating intelligence?
+# How to create Intelligence?
 - Task
-- Excercise
+- Exercise
 - Evaluation
-![bg right](img/maskot/AID_4.svg)
+![bg right](img/mascot/AID_4.svg)
 
 ---
 
-## Creating students' intelligence?
+## Creating Students' Intelligence
 
 <div class="columns"><div>
 
-# Profesor's perspective
-* Task: I would like to teach my **students** how to classify tooth decay from dental x-ray image
-* Excercise: I have to design excercise for them
+# Professor's Perspective
+* Task: I would like to teach my **students** how to classify tooth decay from dental X-ray images
+* Exercise: I have to design exercises for them
 * Evaluation: I have to evaluate their performance
 
 </div><div>
 
-# Student's perspective
-* Task: I would like to know how to classify tooth decay from dental x-ray image
-* Excercise: I have to do excercise (e.g. interpret at least 100 x-ray with tooth decay)
-* Evaluation: If scored above 90% I am prepared
+# Student's Perspective
+* Task: I would like to know how to classify tooth decay from dental X-ray images
+* Exercise: I have to do exercises (e.g., interpret at least 100 X-rays with tooth decay)
+* Evaluation: If scored above 90%, I am prepared
 
 </div></div>
 
 ---
 
-## Creating artificial intelligence?
+## Creating Artificial Intelligence
 
 <div class="columns"><div>
 
-# Data scientist's perspective
-- Task: I would like to teach my **~~students~~ AIs** how to classify tooth decay from dental x-ray image
-- Excercise: I have to design excercise for them
+# Data Scientist's Perspective
+- Task: I would like to teach my **~~students~~ AIs** how to classify tooth decay from dental X-ray images
+- Exercise: I have to design exercises for them
 - Evaluation: I have to evaluate their performance
 
 </div><div>
 
-# AI's perspective
-- Task: My task is to know how to classify tooth decay from dental x-ray image
-- Excercise: I have to do excercise (e.g. interpret at least 100 x-ray with tooth decay)
-- Evaluation: If scored above 90% I am prepared
+# AI's Perspective
+- Task: My task is to know how to classify tooth decay from dental X-ray images
+- Exercise: I have to do exercises (e.g., interpret at least 100 X-rays with tooth decay)
+- Evaluation: If scored above 90%, I am prepared
 
 </div></div>
 
 ---
 
 <!-- - Title: "Training Our AI: From Annotations to Classification" -->
-# Let's create better intelligence together
+# Let's Create Better Intelligence Together
 
 1) We will get to know each other
-2) We will go trought our excersices in x-ray interpretation compare yourself with our experts
-3) AI will go trought our excersices
-4) We will see comparision between you and our AI
+2) We will go through our exercises in X-ray interpretation, compare yourself with our experts
+3) AI will go through our exercises
+4) We will see a comparison between you and our AI
 
-![bg right](img/maskot/AID_7.svg)
+![bg right](img/mascot/AID_7.svg)
 
 ---
 
-# 1. Get to know each other
-- Questionaire
+# 1. Get to Know Each Other
+- Questionnaire
 
 ![bg right 90%](img/edu_app.png)
 
 ---
 
-# 2. Our excercises
+# 2. Do Our Exercises
 - Quiz
 - Tagging per patient
 - Catalog of cases
 
-![bg right 70%](img/maskot/AID_14.svg)
+![bg right 70%](img/mascot/AID_14.svg)
 
 ---
 
-# 3. AI excersices
+# 3. AI Exercises
 - AI training pipeline
 - Evaluation
-![bg right 70%](img/maskot/AID_13.svg)
+![bg right 70%](img/mascot/AID_13.svg)
 
 ---
 
-# 4. Comparision
+# 4. Comparison
 - AI score
 - Your score
 
-![bg right 70%](img/maskot/AID_9.svg)
+![bg right 70%](img/mascot/AID_9.svg)
