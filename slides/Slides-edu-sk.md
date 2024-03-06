@@ -7,7 +7,7 @@ footer: 'AI: Zubné'
 ---
 
 <!-- _paginate: skip -->
-# Demystifikácia **AI** vo Zubnom Lekárstve 
+# Demystifikácia **AI** v Zubnom Lekárstve 
 Hlboký ponor do cvičení pre diagnostiku röntgenových snímok
 <!--
 - Víta študentov na seminári.
