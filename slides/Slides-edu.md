@@ -60,17 +60,6 @@ Dental **students' accuracy** in X-Ray interpretation ranges from **48% to 65%**
 
 ---
 
-### **Human Intelligence** in Dentistry?
-# Dental Professional Intelligence
-1. Take X-ray
-2. Interpret X-ray
-3. Make decisions
-
-![bg vertical right 50%](img/mascot/AID_5.svg)
-![bg 50%](img/mascot/AID_6.svg)
-
----
-
 ### **Simulation** of **Human Intelligence** in Dentistry?
 # Artificial Intelligence
 1. Take X-ray

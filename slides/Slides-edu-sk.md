@@ -46,7 +46,7 @@ Cvičenia interpretácie RTG snímok
 # Ako vieme vytvoriť umelú inteligenciu?
 - Definovanie cieľa:
     * Naučiť sa interpretovať zubný kaz z RTG snímky
-- Návrh cvičenie:
+- Návrh cvičenia:
     * Pripravíme sériu 100 RTG snímok, pričom budú obsahovať zuby s alebo bez zubného kazu a UI sa bude snažiť posúdiť, či je alebo nie je prítomný kaz
 - Vyhodnotenie úspešnosti
     * Porovnáme odpovede UI so správnymi odpoveďami
@@ -57,7 +57,7 @@ Cvičenia interpretácie RTG snímok
 # Ako vieme vytvoriť Chatbot?
 - Definovanie cieľa:
     * Naučiť sa odpovedať na vstupnú vetu od používateľa
-- Návrh cvičenie:
+- Návrh cvičenia:
     * Pripravíme 1000 viet, pričom niektoré slová vo vetách vynecháme a budeme chcieť aby ich Umelá inteligencia doplnila
 - Vyhodnotenie úspešnosti
     * Vyhodnotíme, či slová, ktoré umelá inteligencia doplnila sa zhodujú s tými, ktoré sme odstránili
@@ -68,7 +68,7 @@ Cvičenia interpretácie RTG snímok
 # Ako vieme vytvoriť ľudskú intelegenciu?
 - Definovanie cieľa:
     * Naučiť študenta interpretovať zubný kaz z RTG snímky
-- Návrh cvičenie:
+- Návrh cvičenia:
     * Pripravíme sériu 100 RTG snímok, pričom budú obsahovať zuby s alebo bez zubného kazu a UI sa bude snažiť posúdiť, či je alebo nie je prítomný kaz
 - Vyhodnotenie úspešnosti
     * Porovnáme odpovede študenta so správnymi odpoveďami a vypočítame jeho úspešnosť
