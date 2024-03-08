@@ -20,6 +20,14 @@ footer: 'AI: Dental'
 ---
 
 # Team
+# 
+# 
+# 
+# 
+# 
+# 
+# 
+# 
 
 ![bg 64%](image-9.png)
 ![bg 60%](image-4.png)
