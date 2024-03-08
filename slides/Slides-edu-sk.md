@@ -44,7 +44,7 @@ Cvičenia interpretácie RTG snímok
 ---
 
 # Ako vieme vytvoriť umelú inteligenciu?
-- Definovanie cieľa:
+- Definovanie komplexnej úlohy:
     * Naučiť sa interpretovať zubný kaz z RTG snímky
 - Návrh cvičenia:
     * Pripravíme sériu 100 RTG snímok, pričom budú obsahovať zuby s alebo bez zubného kazu a UI sa bude snažiť posúdiť, či je alebo nie je prítomný kaz
@@ -55,7 +55,7 @@ Cvičenia interpretácie RTG snímok
 ---
 
 # Ako vieme vytvoriť Chatbot?
-- Definovanie cieľa:
+- Definovanie komplexnej úlohy:
     * Naučiť sa odpovedať na vstupnú vetu od používateľa
 - Návrh cvičenia:
     * Pripravíme 1000 viet, pričom niektoré slová vo vetách vynecháme a budeme chcieť aby ich Umelá inteligencia doplnila
@@ -66,7 +66,7 @@ Cvičenia interpretácie RTG snímok
 ---
 
 # Ako vieme vytvoriť ľudskú intelegenciu?
-- Definovanie cieľa:
+- Definovanie komplexnej úlohy:
     * Naučiť študenta interpretovať zubný kaz z RTG snímky
 - Návrh cvičenia:
     * Pripravíme sériu 100 RTG snímok, pričom budú obsahovať zuby s alebo bez zubného kazu a UI sa bude snažiť posúdiť, či je alebo nie je prítomný kaz
@@ -85,59 +85,74 @@ Cvičenia interpretácie RTG snímok
 # Poďme to spoločne zmeniť
 ## Agenda na dnes:
 1. Spoznávanie
-2. Cvičenia, porovnajte sa s našimi expertmi
-3. Cvičenie/Trénovanie UI a vyhodnotenie jej úspešnosti
-4. Feedback
+2. Úlohy a cvičenia
+3. Vytvorenie umelej inteligencie
+4. Spätná väzba
 
 ![bg right:40%](img/mascot/AID_7.svg)
 
 ---
 
 # 1. Spoznávanie
-![bg right 50%](img/qr_form_intro.png)
+
+<img style="border: 20px solid #C3AAEE;" src="img/qr_form_intro.png" alt="Image" class="bordered-img">
+
+![bg right](img/mascot/AID_14.svg)
+
 
 ---
 
-# 2. Cvičenia
-- 2.A - Kvíz
-- 2.B - Jednoduché tagovanie snímkov
-- 2.C - Komplexné anotovanie snímku, Feedback
+# 2. Úlohy a Cvičenia
+Pokúsime sa naučiť riešiť 3 úlohy cez našu vzdelávaciu aplikáciu
 
-![bg right:40%](img/mascot/AID_14.svg)
+![bg right 90%](img/edu_app.png)
 
 ---
 
-# 2.A - Kvíz
-- Nájdi retinovaný zub
-- Vyhodnotenie
+![bg left:33%](img/mascot/AID_17.svg)
+## Úloha: Naučiť sa **identifikovať retinovaný zub**
+- Cvičenie:
+    - Kvíz edu appke
+- Vyhodnotenie úspešnosti
+    - Dosiahnuté skóre v aplikácií 
 - Q&A
 
 ---
-
-# 2.B - Jednoduché anotovanie snímkov
-- Nájdi zubné restorácie
-- Použi Katalóg prípadov
-- Vyhodnotenie
+![bg right:40%](img/mascot/AID_17.svg)
+## Úloha: Naučiť sa **identifikovať zubné restorácie**
+- Cvičenie:
+    - Tagovanie celých RTG snímok
+    - Pracovanie s Katalógom prípadov
+- Vyhodnotenie: 
+    - Dosiahnuté skóre v aplikácií 
 - Q&A
 
 ---
-# 2.C - Komplexné anotovanie snímku, Feedback
-- Odporuč terapiu
-- Porozprávaj sa o sporných prípadoch - použi Feedback
-- Vyhodnotnotenie
-
+![bg left:40%](img/mascot/AID_17.svg)
+## Úloha: Naučiť sa **odporúčiť liečbu**
+- Cvičenie:
+    - Odporuč liečbu (treatment)
+    - Diskutuj sa o sporných prípadoch (použi Feedback)
+- Vyhodnotenie: 
+    - Dosiahnuté skóre v aplikácií
+- Q&A
 ---
 
-# 3. Cvičenie/Trénovanie UI a Vyhodnotenie jej úspešnosti
-- Skóre UI
-- Vaše skóre
-![bg right:40%](img/mascot/AID_13.svg)
+## Úloha: Naučiť umelú inteligenciu **identifikovať retinovaný zub**
+- Cvičenie:
+    - Prejdi sériu snímok
+    - Trénovací script
+- Vyhodnotenie úspešnosti
+    - Dosiahnuté skóre pri evaluacií
+- Q&A
+![bg right:33% 90%](img/mascot/AID_15.svg)
 <!-- ![bg right](img/mascot/AID_9.svg) -->
 
 ---
 
 # 4. Feedback a Q&A
-![bg right 50%](img/qr_form_feedback.png)
-- Podielanie sa na návhru cvičení
-- Podielanie sa na príprave cvičení
+
+<img style="border: 20px solid #C3AAEE;" src="img/qr_form_feedback.png" alt="Image" class="bordered-img">
+
+![bg right](img/mascot/AID_14.svg)
 
