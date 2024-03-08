@@ -7,8 +7,9 @@ footer: 'AI: Dental'
 ---
 
 <!-- _paginate: skip -->
-# Symbióza ľudí a umelej inteligencie
-## Ovládnutie sveta ešte počká
+# Vytváranie ľudskej a umelej inteligencie
+## V čom je rozdiel v zubarine?
+<!-- ## Ovládnutie sveta ešte počká -->
 <!--
 - Víta študentov na seminári.
 - Stručný prehľad programu. 
