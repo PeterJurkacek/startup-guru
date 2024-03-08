@@ -99,11 +99,32 @@ Cvičenia interpretácie RTG snímok
 ---
 
 # 2. Cvičenia
-- Kvíz
-- Tagovanie podľa pacienta
-- Katalóg prípadov
+- 2.A - Kvíz
+- 2.B - Jednoduché tagovanie snímkov
+- 2.C - Komplexné anotovanie snímku, Feedback
 
 ![bg right:40%](img/mascot/AID_14.svg)
+
+---
+
+# 2.A - Kvíz
+- Nájdi retinovaný zub
+- Vyhodnotenie
+- Q&A
+
+---
+
+# 2.B - Jednoduché anotovanie snímkov
+- Nájdi zubné restorácie
+- Použi Katalóg prípadov
+- Vyhodnotenie
+- Q&A
+
+---
+# 2.C - Komplexné anotovanie snímku, Feedback
+- Odporuč terapiu
+- Porozprávaj sa o sporných prípadoch - použi Feedback
+- Vyhodnotnotenie
 
 ---
 
