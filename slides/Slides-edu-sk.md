@@ -7,8 +7,8 @@ footer: 'AI: Dental'
 ---
 
 <!-- _paginate: skip -->
-# Demystifikácia **umelej inteligencie**
-Cvičenia interpretácie RTG snímok
+# Symbióza ľudí a umelej inteligencie
+## Ovládnutie sveta ešte počká
 <!--
 - Víta študentov na seminári.
 - Stručný prehľad programu. 
@@ -44,38 +44,61 @@ Cvičenia interpretácie RTG snímok
 ---
 
 # Ako vieme vytvoriť umelú inteligenciu?
-- Definovanie komplexnej úlohy:
-    * Naučiť sa interpretovať zubný kaz z RTG snímky
-- Návrh cvičenia:
-    * Pripravíme sériu 100 RTG snímok, pričom budú obsahovať zuby s alebo bez zubného kazu a UI sa bude snažiť posúdiť, či je alebo nie je prítomný kaz
-- Vyhodnotenie úspešnosti
-    * Porovnáme odpovede UI so správnymi odpoveďami
+
+---
+
+## 1. Definovanie komplexnej úlohy
+* Naučiť sa interpretovať zubný kaz z RTG snímky
+## 2. Návrh cvičenia:
+* Pripravíme sériu 100 RTG snímok, pričom budú obsahovať zuby s alebo bez zubného kazu a UI sa bude snažiť posúdiť, či je alebo nie je prítomný kaz
+## 3. Vyhodnotenie úspešnosti
+* Porovnáme odpovede UI so správnymi odpoveďami
 ![bg right:40%](img/mascot/AID_4.svg)
 
 ---
 
 # Ako vieme vytvoriť Chatbot?
-- Definovanie komplexnej úlohy:
-    * Naučiť sa odpovedať na vstupnú vetu od používateľa
-- Návrh cvičenia:
-    * Pripravíme 1000 viet, pričom niektoré slová vo vetách vynecháme a budeme chcieť aby ich Umelá inteligencia doplnila
-- Vyhodnotenie úspešnosti
-    * Vyhodnotíme, či slová, ktoré umelá inteligencia doplnila sa zhodujú s tými, ktoré sme odstránili
+
+---
+
+## 1. Definovanie komplexnej úlohy
+* Naučiť sa odpovedať na vstupnú vetu od používateľa
+## 2. Návrh cvičenia
+* Pripravíme 1000 viet, pričom niektoré slová vo vetách vynecháme a budeme chcieť aby ich Umelá inteligencia doplnila
+## 3.Vyhodnotenie úspešnosti
+* Vyhodnotíme, či slová, ktoré umelá inteligencia doplnila sa zhodujú s tými, ktoré sme odstránili
+![bg right:40%](img/mascot/AID_4.svg)
+
+---
+
+# Ako vieme vytvoriť umelú intelegenciu na ovládnutie sveta?
+
+---
+
+## 1. Definovanie komplexnej úlohy
+* Naučiť umelú inteligenciu ovládať svet
+## 2. Návrh cvičenia
+* ?
+## 3.Vyhodnotenie úspešnosti
+* Svet je ovládnutý umelou inteligenciou
 ![bg right:40%](img/mascot/AID_4.svg)
 
 ---
 
 # Ako vieme vytvoriť ľudskú intelegenciu?
-- Definovanie komplexnej úlohy:
-    * Naučiť študenta interpretovať zubný kaz z RTG snímky
-- Návrh cvičenia:
-    * Pripravíme sériu 100 RTG snímok, pričom budú obsahovať zuby s alebo bez zubného kazu a UI sa bude snažiť posúdiť, či je alebo nie je prítomný kaz
-- Vyhodnotenie úspešnosti
-    * Porovnáme odpovede študenta so správnymi odpoveďami a vypočítame jeho úspešnosť
+
+--- 
+
+## Definovanie komplexnej úlohy:
+* Naučiť študenta interpretovať zubný kaz z RTG snímky
+## Návrh cvičenia:
+* Pripravíme sériu 100 RTG snímok, pričom budú obsahovať zuby s alebo bez zubného kazu a UI sa bude snažiť posúdiť, či je alebo nie je prítomný kaz
+## Vyhodnotenie úspešnosti
+* Porovnáme odpovede študenta so správnymi odpoveďami a vypočítame jeho úspešnosť
 
 ---
 
-<!-- _footer: "1. 2022 Hodnotenie radiografickej interpretačnej zručnosti pregraduálneho študenta stomatológie študujúceho na stomatologickej fakulte v Punjabi, India - Porovnávacia štúdia" -->
+<!-- _footer: "1. 2022 Evaluation of radiographic interpretation skills of undergraduate dental students studying in a dental college of Punjab, India – A comparative study" -->
 
 # Inteligencia študentov pri interpretácií RTG snímok?
 ## **Úspešnosť interpretácie RTG snímok študentov** zubariny sa pohybuje od **48% - 65%**<sup>[1]</sup>
@@ -109,44 +132,70 @@ Pokúsime sa naučiť riešiť 3 úlohy cez našu vzdelávaciu aplikáciu
 
 ---
 
+## Úloha 2.1
+- Naučiť sa **identifikovať retinovaný zub**
+
+## Cvičenie
+- Kvíz v edu appke
+
+## Vyhodnotenie úspešnosti
+- Dosiahnuté skóre v edu appke
+
+Q&A
+
 ![bg left:33%](img/mascot/AID_17.svg)
-## Úloha: Naučiť sa **identifikovať retinovaný zub**
-- Cvičenie:
-    - Kvíz edu appke
-- Vyhodnotenie úspešnosti
-    - Dosiahnuté skóre v aplikácií 
-- Q&A
 
 ---
+## Úloha 2.2
+- Naučiť sa **identifikovať zubné restorácie**
+
+## Cvičenie
+- Tagovanie celých RTG snímok
+- Pracovanie s Katalógom prípadov
+
+## Vyhodnotenie úspešnosti
+- Dosiahnuté skóre v aplikácií 
+
+Q&A
+
 ![bg right:40%](img/mascot/AID_17.svg)
-## Úloha: Naučiť sa **identifikovať zubné restorácie**
-- Cvičenie:
-    - Tagovanie celých RTG snímok
-    - Pracovanie s Katalógom prípadov
-- Vyhodnotenie: 
-    - Dosiahnuté skóre v aplikácií 
-- Q&A
 
 ---
+## Úloha 2.3
+- Naučiť sa **odporúčiť liečbu**
+
+## Cvičenie
+- Odporuč liečbu (treatment)
+- Diskutuj sa o sporných prípadoch (použi Feedback)
+
+## Vyhodnotenie úspešnosti
+- Dosiahnuté skóre v aplikácií
+
+Q&A
+
 ![bg left:40%](img/mascot/AID_17.svg)
-## Úloha: Naučiť sa **odporúčiť liečbu**
-- Cvičenie:
-    - Odporuč liečbu (treatment)
-    - Diskutuj sa o sporných prípadoch (použi Feedback)
-- Vyhodnotenie: 
-    - Dosiahnuté skóre v aplikácií
-- Q&A
+
 ---
 
-## Úloha: Naučiť umelú inteligenciu **identifikovať retinovaný zub**
-- Cvičenie:
-    - Prejdi sériu snímok
-    - Trénovací script
-- Vyhodnotenie úspešnosti
-    - Dosiahnuté skóre pri evaluacií
-- Q&A
+# 3. Ako vieme vytvoriť umelú inteligenciu, ktorá dokáže identifikovať Retinovaný zub?
+
+---
+
+## Úloha
+- Naučiť umelú inteligenciu identifikovať retinovaný zub na snímke
+## Cvičenie
+* Dataset
+    ```bash
+    t0_retained_tooth_classification
+    ├── negative  [57 entries exceeds filelimit, not opening dir]
+    └── positive  [37 entries exceeds filelimit, not opening dir]
+    ```
+* Trénovací skript
+
+## Vyhodnotenie úspešnosti
+- Dosiahnuté skóre pri evaluacií
+
 ![bg right:33% 90%](img/mascot/AID_15.svg)
-<!-- ![bg right](img/mascot/AID_9.svg) -->
 
 ---
 
