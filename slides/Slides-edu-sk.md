@@ -125,12 +125,20 @@ footer: 'AI: Dental'
 
 # Poďme to spoločne zmeniť
 ## Agenda na dnes:
+0. Zapnutie notebookov
 1. Spoznávanie
 2. Úlohy a cvičenia
 3. Vytvorenie umelej inteligencie
 4. Spätná väzba
 
 ![bg right:40%](img/mascot/AID_7.svg)
+
+---
+
+# 0. Zapnutie notebookov
+- Pripojte sa na wifi: eduroam
+
+*NOTE: ak sa vám to nepodarí použite wifi PVPWIFI bez hesla*
 
 ---
 
@@ -144,11 +152,13 @@ footer: 'AI: Dental'
 ---
 
 # 2. Úlohy a Cvičenia
-Pokúsime sa naučiť riešiť 3 úlohy cez našu vzdelávaciu aplikáciu
+- Prihlásenie do appky
+- Pokúsime sa naučiť riešiť 3 úlohy cez našu vzdelávaciu aplikáciu
 
 ![bg right 90%](img/edu_app.png)
 
 ---
+<!-- _footer: "" -->
 
 ## Úloha 2.1
 - Naučiť sa **identifikovať retinovaný zub**
@@ -164,6 +174,8 @@ Q&A
 ![bg left:33%](img/mascot/AID_17.svg)
 
 ---
+<!-- _footer: "" -->
+
 ## Úloha 2.2
 - Naučiť sa **identifikovať zubné restorácie**
 
@@ -179,10 +191,13 @@ Q&A
 ![bg right:40%](img/mascot/AID_17.svg)
 
 ---
+<!-- _footer: "" -->
+
 ## Úloha 2.3
-- Naučiť sa **odporúčiť liečbu**
+- Naučiť sa **komplexne interpretovať RTG a odporúčiť liečbu**
 
 ## Cvičenie
+- Otaguj celý RTG snímok 
 - Odporuč liečbu (treatment)
 - Diskutuj sa o sporných prípadoch (použi Feedback)
 
