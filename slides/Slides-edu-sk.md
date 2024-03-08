@@ -19,6 +19,23 @@ footer: 'AI: Dental'
 
 ---
 
+# Team
+#
+#
+#
+#
+#
+#
+#
+#
+#
+
+![bg 60%](image-4.png)
+![bg 60%](image-6.png)
+![bg 60%](image-7.png)
+
+---
+
 <!-- Porozumenie UI v Diagnostike -->
 # Umelá Inteligencia?
 *Umelá inteligencia (UI) je **simulácia ľudskej inteligencie** procesmi počítačových systémov.*
