@@ -58,20 +58,20 @@ dvc config core.autostage true;
 *NOTE: Check if you have file after run: `$LOCAL_DATASET.dvc`*
 
 ```bash
+# # Make sure that enviroment variable `AZURE_STORAGE_SAS_TOKEN` is set
+
 # Create a directory to store data
 mkdir -p $LOCAL_DATASET_PATH;
-# Import data from a remote repository into the local DVC repository without downloading it
-# Replace placeholders with actual values provided by AID
+
+# Import data from a remote repository into the local DVC repository without downloading it. It will make .dvc file
 dvc import --no-download --remote aidentalprod $GIT_REPO $REMOTE_DATASET_PATH -o $LOCAL_DATASET_PATH --force;
 ```
 
-
-
 ---
-
 # Run to **fetch** dataset
 
 ```bash
+# Make sure that enviroment variable `AZURE_STORAGE_SAS_TOKEN` is set
 dvc update --rev $GIT_COMMIT $LOCAL_DATASET_PATH --no-download;
 ```
 
@@ -79,5 +79,6 @@ dvc update --rev $GIT_COMMIT $LOCAL_DATASET_PATH --no-download;
 # Run to **checkout** dataset
 
 ```bash
+# Make sure that enviroment variable `AZURE_STORAGE_SAS_TOKEN` is set
 dvc update --rev $GIT_COMMIT $LOCAL_DATASET_PATH;
 ```
