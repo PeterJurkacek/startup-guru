@@ -46,6 +46,12 @@ jobs:
           args: --theme-set slides/themes -o build/edu-sk.html --html -- slides/Slides-edu-sk.md
         env:
           MARP_USER: root:root
+      - name: Marp Build Data Guide (README)
+        uses: docker://marpteam/marp-cli:latest
+        with:
+          args: --theme-set slides/themes -o build/edu-data-dev.html --html -- slides/Slides-edu-data-dev.md
+        env:
+          MARP_USER: root:root
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
