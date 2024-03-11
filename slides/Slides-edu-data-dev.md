@@ -1,9 +1,10 @@
 ---
 marp: true
-theme: custom-default
 title: Odomknutie Budúcnosti Zubného Lekárstva
 paginate: true
 footer: 'AI: Dental'
+theme: custom-default
+class: invert
 ---
 
 <!-- _footer: "" -->
@@ -15,7 +16,7 @@ footer: 'AI: Dental'
 ---
 
 ## Setup python enviroment
-```bash
+```bash 
 conda create -n dvc python>=3.12;
 conda activate dvc;
 pip install dvc>=3.47.0 dvc_azure>=3.1.0;

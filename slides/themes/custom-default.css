@@ -31,7 +31,6 @@
 
 section {
   --heading-strong-color: #000000;
-
   align-items: stretch;
   display: flex;
   flex-flow: column nowrap;
@@ -47,11 +46,13 @@ section h1 {
 
 section h2 {
   font-family: 'AID regular';
+  color:#000000;
   font-weight: normal;
 }
 
 section h3 {
   font-family: 'AID regular';
+  color:#000000;
   font-weight: normal;
 }
 
