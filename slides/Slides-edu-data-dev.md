@@ -15,11 +15,82 @@ class: invert
 
 ---
 
+# Content
+### 1. Setup python enviroment
+### 2.a Download dataset into your project **(dvc import)**
+### 2.b Download dataset during colab session **(dvc get)**
+### More info
+
+---
+
 # Setup python enviroment
 ```bash 
 conda create -n dvc python>=3.12;
 conda activate dvc;
 ```
+
+---
+
+# Download dataset into your project **(dvc import)**
+
+--- 
+
+```bash
+#!/bin/bash
+
+pip install "dvc>=3.47.0" "dvc_azure>=3.1.0";
+
+export GIT_REPO="Check your mail";
+export GIT_COMMIT="Check your mail";
+export GIT_DATASET_DVC_OUTPUT="Check your mail";
+export GIT_DVC_REMOTE="Check your mail";
+export AZURE_STORAGE_SAS_TOKEN="Check your mail";
+export LOCAL_DATASET_PATH="Check your mail";
+
+mkdir -p data;
+
+# !!!Make sure you are in the git repository or run 
+# git init;
+dvc init;
+dvc config core.autostage true;
+
+mkdir -p data;
+
+dvc import --remote $GIT_DVC_REMOTE -o data --no-download $GIT_REPO $GIT_DATASET_DVC_OUTPUT;
+
+dvc update --rev $GIT_COMMIT $LOCAL_DATASET_PATH;
+```
+
+---
+
+# Download dataset during colab session **(dvc get)**
+
+---
+
+```bash
+#!/bin/bash
+
+pip install "dvc>=3.47.0" "dvc_azure>=3.1.0";
+
+export GIT_REPO="Check your mail";
+export GIT_COMMIT="Check your mail";
+export GIT_DATASET_DVC_OUTPUT="Check your mail";
+export GIT_DVC_REMOTE="Check your mail";
+export AZURE_STORAGE_SAS_TOKEN="Check your mail";
+export LOCAL_DATASET_PATH="Check your mail";
+
+mkdir -p data;
+
+dvc get --remote $GIT_DVC_REMOTE -o data $GIT_REPO $GIT_DATASET_DVC_OUTPUT;
+```
+
+---
+
+# More info
+
+---
+
+
 # Install DVC for azure storage
 ```bash
 pip install dvc>=3.47.0 dvc_azure>=3.1.0;
@@ -58,7 +129,7 @@ dvc config core.autostage true;
 ```
 
 ---
-# Make .dvc file dependency in **your git project**
+# Import dataset dependency **your git project**
 
 *NOTE: Check if you have file after run: `$LOCAL_DATASET.dvc`*
 
