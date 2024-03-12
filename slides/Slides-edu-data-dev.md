@@ -8,17 +8,20 @@ class: invert
 ---
 
 <!-- _footer: "" -->
-# How you can work with our datasets?
+# How can you work with our datasets?
 ## AI:Dental
 
 ![bg right](img/mascot/AID_4.svg)
 
 ---
 
-## Setup python enviroment
+# Setup python enviroment
 ```bash 
 conda create -n dvc python>=3.12;
 conda activate dvc;
+```
+# Install DVC for azure storage
+```bash
 pip install dvc>=3.47.0 dvc_azure>=3.1.0;
 ```
 
@@ -54,7 +57,7 @@ dvc config core.autostage true;
 ```
 
 ---
-# Make dependency in **your git project**
+# Make .dvc file dependency in **your git project**
 
 *NOTE: Check if you have file after run: `$LOCAL_DATASET.dvc`*
 
@@ -69,15 +72,14 @@ dvc import --no-download --remote aidentalprod $GIT_REPO $REMOTE_DATASET_PATH -o
 ```
 
 ---
-# Run to **fetch** dataset
-
+# Run to see if everything is **up to date**
 ```bash
 # Make sure that enviroment variable `AZURE_STORAGE_SAS_TOKEN` is set
 dvc update --rev $GIT_COMMIT $LOCAL_DATASET_PATH --no-download;
 ```
 
 
-# Run to **checkout** dataset
+# Run to **download** dataset
 
 ```bash
 # Make sure that enviroment variable `AZURE_STORAGE_SAS_TOKEN` is set
