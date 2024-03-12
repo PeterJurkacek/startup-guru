@@ -8,7 +8,7 @@ class: invert
 ---
 
 <!-- _footer: "" -->
-# How can you work with our datasets?
+# The way you can train AI on our datasets
 ## AI:Dental
 
 ![bg right](img/mascot/AID_4.svg)
