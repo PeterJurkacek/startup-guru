@@ -30,11 +30,12 @@ pip install dvc>=3.47.0 dvc_azure>=3.1.0;
 # Set up enviroments variables
 ### *NOTE: Check your email*
 ```bash
-export GIT_ACCESS_TOKEN="Will be provided by AID";
-export GIT_COMMIT="Will be provided by AID";
+export GIT_ACCESS_TOKEN='Will be provided by AID';
+export GIT_COMMIT='Will be provided by AID';
 export GIT_REPO="Will be provided by AID";
-export REMOTE_DATASET_PATH="Will be provided by AID";
-export AZURE_STORAGE_SAS_TOKEN="Will be provided by AID";
+export GIT_DATASET_DVC_OUTPUT="Will be provided by AID";
+export GIT_DVC_REMOTE="Will be provided by AID";
+export AZURE_STORAGE_SAS_TOKEN="Will be provided by AID"
 export LOCAL_DATASET_PATH="data/up_to_you";
 ```
 ---
@@ -68,7 +69,7 @@ dvc config core.autostage true;
 mkdir -p $LOCAL_DATASET_PATH;
 
 # Import data from a remote repository into the local DVC repository without downloading it. It will make .dvc file
-dvc import --no-download --remote aidentalprod $GIT_REPO $REMOTE_DATASET_PATH -o $LOCAL_DATASET_PATH --force;
+dvc import --remote $GIT_DVC_REMOTE -o $LOCAL_DATASET_PATH --no-download $GIT_REPO $GIT_DATASET_DVC_OUTPUT;
 ```
 
 ---
