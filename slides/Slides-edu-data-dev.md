@@ -27,7 +27,7 @@ pip install dvc>=3.47.0 dvc_azure>=3.1.0;
 
 ---
 
-# Set up enviroments variables
+# Set up enviroment variables
 ### *NOTE: Check your email*
 ```bash
 export GIT_ACCESS_TOKEN='Will be provided by AID';
