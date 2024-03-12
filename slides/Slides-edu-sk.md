@@ -29,10 +29,10 @@ footer: 'AI: Dental'
 # 
 # 
 
-![bg 64%](image-9.png)
-![bg 60%](image-4.png)
-![bg 60%](image-6.png)
-![bg 60%](image-7.png)
+![bg 74%](img/image-9.png)
+![bg 70%](img/image-1.png)
+![bg 70%](img/image-6.png)
+![bg 70%](img/image-7.png)
 
 ---
 
