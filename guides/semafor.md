@@ -28,7 +28,7 @@ In this guide, we are describing what we need from you to collect consistent dat
 
 ### Verifying Patient's Personal Information and Informed Consents
 
-In the patient card under **"Personal and Contact Information,"** please fill in all 5 green fields about the patient: **Gender, Ethnicity, Date of Birth, 2xConsent**.
+In the patient card under **"Personal and Contact Information,"** please fill in all 5 green fields about the patient: **Sex, Ethnicity, Brithday, 2xConsent**.
 
 ![sem_00_01_p.png](img/semafor/en/sem_00_01_p.png)
 
