@@ -57,9 +57,9 @@ jobs:
       - name: Install markdown
         run: npm i markdown-to-html-cli -g
       - name: Semafor guide
-        run: markdown-to-html --source guides/semafor.md --output guides/semafor.html
+        run: markdown-to-html --source guides/semafor.md --output build/guides/semafor.html
       - name: Semafor sk guide
-        run: markdown-to-html --source guides/semafor-sk.md --output guides/semafor-sk.html
+        run: markdown-to-html --source guides/semafor-sk.md --output build/guides/semafor-sk.html
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
