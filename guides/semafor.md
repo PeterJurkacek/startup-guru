@@ -69,8 +69,7 @@ Please export images in **PNG** format. Ensure that the file has ".png" in the n
     - *Only images taken during the specific visit to which you're uploading images.*
     - *If no X-rays were taken during the visit, you don't need to upload any images; just fill out the "Dental State" if there are changes and the "Procedures" performed during the visit.*
 - ***Question:** Where can I find the patient's images?*
-    - *Images should be in the software you used to create them, such as NewTom or CliniView.*
-    - *Images should be in the software you used to create them, such as NewTom or CliniView.*
+    - *Images should be in the software you used to create them, such as NewTom or CliniView or something else.*
 
 ### Uploading Patient's X-ray Images to the Semafor
 
