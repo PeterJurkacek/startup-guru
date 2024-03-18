@@ -53,7 +53,7 @@ jobs:
         env:
           MARP_USER: root:root
       - name: Copy guides
-        run: cp -R guides
+        run: cp -R guides build/
       - name: Install markdown
         run: npm i markdown-to-html-cli -g
       - name: Semafor guide
