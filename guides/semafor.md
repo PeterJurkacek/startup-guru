@@ -1,6 +1,6 @@
-# Semaphore - Data Collection for AI
+# Semafor - Data Collection for AI
 
-In this guide, we have described what we need from you to collect consistent data from your clinic with which we collaborate.
+In this guide, we are describing what we need from you to collect consistent data from your clinics.
 
 ## What Do We Need from You?
 
@@ -8,23 +8,23 @@ In this guide, we have described what we need from you to collect consistent dat
 
 1. Creating a patient card in the system if it doesn't exist already.
 2. Signing informed consents with the patient.
-3. Checking two boxes in the **"Patient Card"** semaphore.
+3. Checking two boxes in the **"Patient Card"** semafor.
 
 ### Recording Patient Visit on the Day of Procedure (Doctor/Nurse)
 
 1. Verifying personal information and signing informed consents in the patient card.
 2. Selecting the procedure for which the patient has arrived:
-    1. **New Admission Examination**
+    1. **New New Entry Exam**
     2. **New Dental Hygiene**
-    3. **New Preventive Examination**
+    3. **New Preventive Exam**
     4. **New Treatment**
-3. Marking the dental state on the semaphore.
-4. Marking the performed procedures on the semaphore.
-5. Uploading patient's X-ray images to the semaphore.
+3. Marking the dental state on the semafor.
+4. Marking the performed procedures on the semafor.
+5. Uploading patient's X-ray images to the semafor.
 
 ***Note:** We need you to record the dental state, procedures performed during the visit, and X-ray images created during the visit in the patient's visit record. Please export images on the same day they were created.*
 
-## User Guide for Working with Semaphore
+## User Guide for Working with Semafor
 
 ### Verifying Patient's Personal Information and Informed Consents
 
@@ -32,17 +32,17 @@ In the patient card under **"Personal and Contact Information,"** please fill in
 
 ![sem_00_01_p.png](img/semafor/en/sem_00_01_p.png)
 
-![sem_00_01_n.png](img/semafor/en/sem_00_01_n.png)
-
 *Note: If the patient has not signed informed consents for the development of artificial intelligence and for educational purposes, the patient's data will not be sent to us.*
 
-### Marking the Dental State on the Semaphore
+![sem_00_01_n.png](img/semafor/en/sem_00_01_n.png)
+
+### Marking the Dental State on the Semafor
 
 We need you to record all pathologies (e.g., cavities, etc.) visible in the patient's X-ray.
 
 ![Screenshot 2023-11-07 at 10.23.29.png](img/semafor/en/dental_state.png)
 
-### Marking the Performed Procedures on the Semaphore
+### Marking the Performed Procedures on the Semafor
 
 Ensure that all procedures performed during the patient's visit are listed in the procedures and **have specific tooth numbers assigned**.
 
@@ -65,14 +65,14 @@ Please export images in **PNG** format. Ensure that the file has ".png" in the n
 
 *Note: Please export images in .png format, not .jpg. This is because jpg is a lossy format and we may lose important details in the image.*
 
-- ***Question:** Which images should I **upload to the semaphore?***
+- ***Question:** Which images should I **upload to the semafor?***
     - *Only images taken during the specific visit to which you're uploading images.*
     - *If no X-rays were taken during the visit, you don't need to upload any images; just fill out the "Dental State" if there are changes and the "Procedures" performed during the visit.*
 - ***Question:** Where can I find the patient's images?*
     - *Images should be in the software you used to create them, such as NewTom or CliniView.*
     - *Images should be in the software you used to create them, such as NewTom or CliniView.*
 
-### Uploading Patient's X-ray Images to the Semaphore
+### Uploading Patient's X-ray Images to the Semafor
 
 - Please ensure that you upload images for a specific patient visit. This allows us to match each image to the corresponding visit. If the patient brings their own images, feel free to upload them to the **"Documents"** tab on the patient's card but not for a specific visit.
 
