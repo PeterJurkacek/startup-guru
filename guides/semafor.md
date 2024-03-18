@@ -18,8 +18,8 @@ In this guide, we are describing what we need from you to collect consistent dat
     2. **New Dental Hygiene**
     3. **New Preventive Exam**
     4. **New Treatment**
-3. Marking the dental state on the semafor.
-4. Marking the performed procedures on the semafor.
+3. Annotate the dental state on the semafor.
+4. Annotate the performed procedures on the semafor.
 5. Uploading patient's X-ray images to the semafor.
 
 ***Note:** We need you to record the dental state, procedures performed during the visit, and X-ray images created during the visit in the patient's visit record. Please export images on the same day they were created.*
@@ -36,13 +36,13 @@ In the patient card under **"Personal and Contact Information,"** please fill in
 
 ![sem_00_01_n.png](img/semafor/en/sem_00_01_n.png)
 
-### Marking the Dental State on the Semafor
+### Annotating the Dental State on the Semafor
 
 We need you to record all pathologies (e.g., cavities, etc.) visible in the patient's X-ray.
 
 ![Screenshot 2023-11-07 at 10.23.29.png](img/semafor/en/dental_state.png)
 
-### Marking the Performed Procedures on the Semafor
+### Annotating the Performed Procedures on the Semafor
 
 Ensure that all procedures performed during the patient's visit are listed in the procedures and **have specific tooth numbers assigned**.
 
