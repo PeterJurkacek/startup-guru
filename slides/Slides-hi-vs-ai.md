@@ -4,163 +4,208 @@ theme: default
 paginate: true
 ---
 
+<!-- _paginate: skip -->
 # AI:Dental X-Ray Diagnostics 
 ## Shaping Human and Artificial intelligence hand in hand
 
 ---
 
 ## Introduction
-- Welcome and Introduction
-- About Our Company: Dental X-ray Diagnostics AI and Education Platform
-  - Brief overview of our company's focus on utilizing AI in dental x-ray diagnostics and education for dentistry students.
+- Startup: AI:Dental 
+- Interests: X-ray Diagnostics AI and Education Platform
+- Speaker: Peter Jurkáček, CTO
 - Mission Statement: Enhancing Diagnostic Accuracy and Education in Dentistry Through AI Technology
 
 ---
 
 ## Agenda
-  - Overview of AI applications in dental x-rays
-  - Understanding AI: definitions and concepts
-  - Comparative analysis: Creating AI vs. Creating Human Intelligence
-  - Illustrative examples to elucidate the process
-  - Addressing common concerns and misconceptions
-  - The role of regulations in AI development
-  - Q&A session for in-depth discussions
+- Understanding AI (definitions and concepts)
+- Utilizing AI in AI:Dental
+- Creating AI and HI with examples
+- The role of regulations in AI development
+- Will we be overruled by AI?
+- Q&A session for in-depth discussions
 
 ---
 
-## Utilizing AI in Dental X-Rays
-<!-- AI Applications in Dental X-Ray Diagnostics -->
-- Detecting Suspicious Regions
-- Classifying Pathologies
-- Visualizing Saliency Maps
-- Recommending Treatment Options
-- Image Retrieval
-- Introducing Chatbot Support for Students
+# What is AI?
+## *Simulation of Human Intelligence by Machines*
+
+--- 
+
+<!-- 
+Differentiating Human Intelligence and Artificial Intelligence 
+-->
+# Oversimplify the complexity
+## Human Intelligence
+* Human with ability to solve different complex tasks
+
+## Artificial Intelligence
+* Algorithm with ability to solve different complex tasks
 
 ---
 
-## Utilizing AI in Dental X-Rays
-# Detecting Suspicious Regions
-
-- Utilizing machine learning algorithms to identify potential areas of concern in dental x-rays.
+## Complex task
+*Complex task refers to a problem or objective that demands sophisticated computational methods, such as machine learning, natural language processing, computer vision, or other AI techniques*
 
 ---
 
-## Utilizing AI in Dental X-Rays
-# Classifying Pathologies
+# AI:Dental's Complex Tasks
+## Computer vision *(Images)*
+- T01: Detect Suspicious Regions in dental x-rays
+- T02: Classify dental conditions and abnormalities for specific region
+- T03: Visual explanation to aid dentist in interpretation
+- T04: Provide suggestions for appropriate treatment for specific region
 
-- Categorizing dental conditions and abnormalities detected in x-rays for accurate diagnosis.
+## Natural language processing *(Text)*
+- T05: Interactive learning with real-time guidance
 
----
-
-## Utilizing AI in Dental X-Rays
-# Recommending Treatment Options
-
-- Providing suggestions for appropriate treatments based on AI analysis of x-ray images.
-
----
-
-## Utilizing AI in Dental X-Rays
-# Visualizing Saliency Maps
-
-- Highlighting important features in x-ray images to aid in interpretation by dentists.
+## Multimodal *(Images + Text)*
+- T06: Search for relevant X-ray images
 
 ---
 
-# Utilizing AI in Dental X-Rays
-## Image Retrieval
+### Computer vision task
+# T01: Detect Suspicious Regions in dental x-rays
+- **Input:** X-ray image
+- **Methods:** DINO (Object detector)
+- **Output:** Region of interest represented by x, y, width, height coordinates
 
-- Accessing relevant x-ray images from a database for comparison and reference.
+<!-- _footer: "[(2022) DINO: DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection](https://arxiv.org/abs/2203.03605)" -->
+---
+
+### Computer vision
+# T02: Classify dental conditions and abnormalities for specific region
+
+- **Input:** Region of interest + X-ray image
+- **Methods:** EfficientNet (Image classifier)
+- **Output:** Severe tooth decay
+
+<!-- _footer: "[(2019) EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks](https://arxiv.org/abs/1905.11946)" -->
 
 ---
 
-# Introducing Chatbot Support for Students
-## Utilizing AI in Dental X-Rays
+### Computer vision
+# Provide suggestions for appropriate treatment
 
-- Implementing AI-powered chatbots to assist dentistry students with queries and learning.
+- **Input:** Region of interest + X-ray image
+- **Methods:** EfficientNet (Image classifier)
+- **Output:** Root canal treatment
 
----
-
-# Understanding AI
-- Definition of AI: Simulation of Human Intelligence by Machines
-  - Elaboration on the concept of AI and its significance in various domains, including healthcare.
-- Differentiating Human Intelligence and Artificial Intelligence
-  - Human Intelligence: The innate ability of humans to solve diverse tasks through cognitive processes.
-  - Artificial Intelligence: Algorithms designed to mimic human intelligence and perform tasks autonomously.
+<!-- _footer: "[(2019) EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks](https://arxiv.org/abs/1905.11946)" -->
 
 ---
 
-## Understanding AI
-# Creating AI vs. Creating Human Intelligence
-- Exploring the Process of Creating AI and Human Intelligence
-  - Task Definition: Identifying the objectives and goals of the AI system or human learning process.
-  - Exercise Creation: Developing training datasets or educational materials to facilitate learning and skill acquisition.
-  - Performance Evaluation: Assessing the effectiveness and proficiency of AI systems or human learners in task completion.
+### Computer vision
+# T03: Visual explanation to aid dentist in interpretation.
+
+- **Input:** Region of interest
+- **Method:** GALORE, Grad-CAM, Grad-CAM++
+- **Output:** Saliency map
 
 ---
 
-## Creating AI and HI
-# Example 1 - Training AI to Interpret X-Rays
-- Detailed Walkthrough of Training AI for X-Ray Interpretation
-  - Task Definition: Identifying abnormalities and pathologies in dental x-rays to assist in diagnosis.
-  - Exercise Creation: Curating large datasets of annotated x-ray images for training machine learning models.
-  - Performance Evaluation: Validating the accuracy and reliability of AI algorithms through rigorous testing and validation processes.
+## Multimodal
+# T06: Search for relevant X-ray images
+
+- **Input:** Text or X-ray image prompt
+- **Methods:** 
+  - Image encoder (ResNet-50)
+  - Text encoder (DistilBERT)
+  - Projection function (FCN)
+- **Output:** The most similiar X-ray image
+
+<!-- _footer: "[(2023) Dental CLAIRES: Contrastive LAnguage Image REtrieval Search for Dental Research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10283104/)"-->
 
 ---
 
-## Creating AI and HI
-# Example 2 - Training Dentists to Interpret X-Rays
+## Natural language processing
+# Real-time guidance
 
-- Comprehensive Overview of Dentist Training in X-Ray Interpretation
-  - Task Definition: Educating dentists on recognizing and interpreting dental pathologies and abnormalities in x-ray images.
-  - Exercise Creation: Designing dental education programs with structured curriculum and case studies for practical learning.
-  - Performance Evaluation: Conducting clinical assessments and proficiency tests to evaluate dentists' diagnostic skills and competencies.
-
----
-
-## Creating AI and HI
-# Example 3 - Training a Chatbot
-- In-Depth Explanation of Chatbot Development for Dentistry Students
-  - Task Definition: Creating an AI-powered chatbot to provide instant assistance and guidance to dentistry students.
-  - Exercise Creation: Training the chatbot on dental terminology, FAQs, and common student queries.
-  - Performance Evaluation: Monitoring user interactions, feedback, and the chatbot's accuracy in responding to queries.
+- **Input:** Question, Student's answer, Correct answer
+- **Method:** 
+  - Cusomized chatbot (e.g. Chatgpt)
+    - Response Generation and Control with low temperature
+    - Knowledge Management with external knowledge bases
+    - Conversation Flow Management with chain of thought prompting
+    - Robustness and Reliability with building defensive APIs and user interfaces
+- **Output:** Clarification of correct answer
 
 ---
 
-## Creating AI and HI
-# AI Regulations and Trustworthiness
-- Introduction to AI Regulations
-  - Overview of current regulations and guidelines governing the use of AI in healthcare, including dentistry.
+# But how can create those AIs?
+
+---
+
+# Process of creating an AI
+- Task Definition:
+  * Identifying the objectives and goals of the AI system learning process
+- Exercise (Training) creation: 
+  * Prepare dataset
+  * Development of training procedure/activity/script
+- Performance Evaluation
+  * Performance metrics definition
+  * Development testing procedure/activity/script
+
+---
+
+## Process of creating AI
+- Task Definition: 
+  * T02 Classify dental conditions and abnormalities for specific region
+- Exercise Creation
+  * Prepare dataset: 1000 train samples (x-rays + expert opinions)
+  * Training procedure: Batchsize, Epochs (repetitions), Loss function, Early stopping
+- Performance Evaluation
+  * Performance metrics definition: Precision, Recall, F1score
+  * Testing procedure: Compare AI on 100 test samples (x-rays + expert opinions)
+
+---
+
+# What about creating Human Intelligence?
+
+---
+
+# Process of creating Human Intelligence
+- Task Definition: 
+  * T02 Classify dental conditions and abnormalities for specific region
+- Exercise Creation
+  * Prepare dataset: 1000 train samples (x-rays + expert opinions)
+  * Training procedure: https://edu.aidental.ai (tagging per patient, quiz)
+- Performance Evaluation
+  * Performance metrics definition: Precision, Recall, F1score
+  * Testing procedure: Compare their answers on 100 test samples (x-rays + expert opinions)
+
+---
+
+# Can AI Conquer the World?
+
+---
+
+# Process of creating AI
+- Task Definition: 
+  * T2024 Conquer the world
+- Exercise Creation
+  * Dataset: ?
+  * Training procedure: ?
+- Performance Evaluation
+  * Performance metrics: ?
+  * Testing procedure: ?
+
+---
+
+## AI Regulations
+- Current regulations
 - Ensuring Trustworthiness in AI Systems
-  - Discussing the importance of transparency, accountability, and fairness in AI algorithms used for medical purposes.
-  - Highlighting the need for ethical considerations and adherence to privacy regulations in handling patient data.
-  - Addressing concerns about bias and discrimination in AI models and strategies for mitigating these risks.
-
----
-
-## Creating AI and HI
-# Example 4 - Can AI Conquer the World?
-
-- Thought-Provoking Discussion on the Potential of AI
-  - Addressing Concerns and Misconceptions About AI Supremacy
-  - Emphasizing the Role of AI as a Tool for Human Enhancement and Problem Solving
-  - Encouraging Responsible and Ethical AI Implementation in Various Fields, Including Dentistry
-
----
-
-## Conclusion
-- Summarizing Key Points Covered in the Presentation
-- Reinforcing the Importance of AI in Dental X-Ray Diagnostics and Education
-- Highlighting the Significance of AI Regulations and Trustworthiness in Healthcare
+- Ethical considerations
+- Adherence to privacy regulations in handling patient data.
+- Bias and discrimination
+- Transparency, accountability, and fairness in AI algorithms
 
 ---
 
 ## Q&A
-- Allotting Time for Audience Questions and Discussions
-- Engaging with Participants to Address Queries and Further Clarify Concepts
-
----
-
-## Slide 12: Closing Remarks
-- Expressing Gratitude to the Audience for Their Participation and Attention
-- Encouraging Continued Learning and Collaboration in the Field of AI and Dentistry
+- AI - simulation of human intelligence
+- Complex tasks in dentistry
+- Process of creating AI and HI with examples
+- Will we be overruled by AI?
+- The role of regulations in AI development
