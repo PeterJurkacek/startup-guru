@@ -133,7 +133,7 @@ Differentiating Human Intelligence and Artificial Intelligence
 
 ---
 
-# But how can create those AIs?
+# But how can we create those AIs?
 
 ---
 
