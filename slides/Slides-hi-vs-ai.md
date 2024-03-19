@@ -112,7 +112,7 @@ Differentiating Human Intelligence and Artificial Intelligence
 - **Methods:** 
   - Image encoder (ResNet-50)
   - Text encoder (DistilBERT)
-  - Projection function (FCN)
+  - Projection function
 - **Output:** The most similiar X-ray image
 
 <!-- _footer: "[(2023) Dental CLAIRES: Contrastive LAnguage Image REtrieval Search for Dental Research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10283104/)"-->
@@ -154,7 +154,19 @@ Differentiating Human Intelligence and Artificial Intelligence
   * T02 Classify dental conditions and abnormalities for specific region
 - Exercise Creation
   * Prepare dataset: 1000 train samples (x-rays + expert opinions)
-  * Training procedure: Batchsize, Epochs (repetitions), Loss function, Early stopping
+  * Training procedure: Supervised learning
+- Performance Evaluation
+  * Performance metrics definition: Precision, Recall, F1score
+  * Testing procedure: Compare AI on 100 test samples (x-rays + expert opinions)
+
+---
+
+## Process of creating AI
+- Task Definition: 
+  * T06 Search for relevant X-rays
+- Exercise Creation
+  * Prepare dataset: 1000 train samples (x-rays + expert opinions)
+  * Training procedure: Contrastive Learning
 - Performance Evaluation
   * Performance metrics definition: Precision, Recall, F1score
   * Testing procedure: Compare AI on 100 test samples (x-rays + expert opinions)
@@ -171,6 +183,7 @@ Differentiating Human Intelligence and Artificial Intelligence
 - Exercise Creation
   * Prepare dataset: 1000 train samples (x-rays + expert opinions)
   * Training procedure: https://edu.aidental.ai (tagging per patient, quiz)
+    - Supervised learning
 - Performance Evaluation
   * Performance metrics definition: Precision, Recall, F1score
   * Testing procedure: Compare their answers on 100 test samples (x-rays + expert opinions)
