@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: default
+theme: custom-default
 paginate: true
 ---
 
