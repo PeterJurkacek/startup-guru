@@ -1,5 +1,8 @@
 /* custom-default.css */
-/* @theme custom-default */
+
+/** 
+* @theme custom-default 
+*/
 
 
 @import 'default';
@@ -31,11 +34,18 @@
 
 section {
   --heading-strong-color: #000000;
+  --color-accent-fg:#141414;
+  --color-accent-emphasis: #141414;
   align-items: stretch;
   display: flex;
   flex-flow: column nowrap;
   font-family: 'AID regular';
   background: #ABF7CE;
+}
+
+footer {
+  --color-accent-fg:#141414;
+  --color-accent-emphasis: #141414;
 }
 
 section h1 {
@@ -83,6 +93,10 @@ section em {
   padding-top: 8px;
 }
 
+.aid-img {
+  border: 20px solid #000000;
+}
+
 .columns {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -98,7 +112,9 @@ img[alt~="center"] {
   display: block;
   margin: 0 auto;
   background: transparent;
+  border: 20px solid #000000;
 }
+
 .fa-twitter { color: aqua; }
 .fa-mastodon { color: purple; }
 .fa-linkedin { color: blue; }
