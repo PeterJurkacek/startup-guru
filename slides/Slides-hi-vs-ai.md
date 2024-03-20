@@ -275,3 +275,5 @@ based sessions for diabetes](https://sci-hub.se/10.1109/WAINA.2018.00170)" -->
 - Process of creating AI and HI with examples
 - Will we be overruled by AI?
 - The role of regulations in AI development
+
+<!-- jou -->
