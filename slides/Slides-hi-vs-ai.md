@@ -6,9 +6,9 @@ paginate: true
 
 <!-- _paginate: skip -->
 # AI:Dental
-## Shaping future of Artificial and Human Intelligence hand in hand in dentistry
+## Shaping the future of Artificial and Human Intelligence hand in hand in dentistry
 
-![bg right](img/mascot/AID_5.svg)
+![bg right:40%](img/mascot/AID_5.svg)
 
 ---
 
@@ -17,14 +17,14 @@ Developing AI and Education Platform for dentistry to enhance Diagnostic Accurac
 
 ### Speaker: Peter Jurkáček, CTO
 
+![bg right:35% 80% invert](img/qr_aid.png)
+
 <!-- Greetings, I'm PJ, a CTO. I have Master's degree in Computer Science and Artificial Intelligence from the Slovak University of Technology in Bratislava. 
 I have five years of experience working as a full-stack developer and a full-stack data scientist. Now, I lead technology strategy and innovation as CTO. -->
 
-![bg right:35% 80% invert](img/qr_aid.png)
-
 ---
 
-# Agenda
+## Agenda
 - What is Artificial Inteligence (AI)?
 - Utilizing AI in AI:Dental
 - Process of creating intelligence in dentistry
@@ -42,14 +42,14 @@ I have five years of experience working as a full-stack developer and a full-sta
 
 --- 
 
-# Human intelligence processes in dentistry?
+## Human intelligence processes in dentistry?
 **Dental professional**, experienced in dental x-rays examination (pathologies classificiation)
 
 ![bg right:37%](img/321b949b-b01d-49b0-97a8-75af270f5e98.jpg)
 
 ---
 
-# Simulation of Human Intelligence processes?
+## Simulation of Human Intelligence processes?
 ~~Dental professional~~**Artificial intelligence**, experienced in dental x-rays examination (pathologies classificiation)
 
 ![bg right:37%](img/321b949b-b01d-49b0-97a8-75af270f5e98.jpg)
@@ -59,35 +59,26 @@ I have five years of experience working as a full-stack developer and a full-sta
 <!-- 
 Differentiating Human Intelligence and Artificial Intelligence 
 -->
-# Human intelligence
+## Human intelligence
 * A **Human** with ability to learn from experiences **to solve different tasks**
 
-# Artificial intelligence
+## Artificial intelligence
 * An **Algorithm** with ability to learn from experiences
 **to solve different tasks** without being explicitly programmed
 
 ---
 
-# AI:Dental's Tasks
-<div class=columns><div>
+## AI:Dental's Tasks
+### Computer vision
+- Object detection, Image classification, Saliency maps
 
-## Computer vision tasks
-- T01: Detect Suspicious Regions in dental x-rays
-- T02: Classify dental conditions and abnormalities for specific region
-- T03: Visual explanation to aid dentist in interpretation
-- T04: Provide suggestions for appropriate treatment
+### Natural language processing
+- Customized chatbot
 
-</div><div>
-
-## Natural language processing tasks
-- T05: Interactive learning with real-time guidance
-
-## Multimodal tasks
-- T06: Search for relevant X-ray images
-</div></div>
+### Multimodal
+- Image retrieval
 
 ---
-
 
 ### Computer vision task
 # T01: Detect Suspicious Regions in dental x-rays
@@ -102,8 +93,8 @@ Differentiating Human Intelligence and Artificial Intelligence
 
 ---
 
-### Computer vision task
-# T02: Classify dental conditions and abnormalities for specific region
+<!-- _header: Computer vision task -->
+## T02: Classify dental conditions and abnormalities for specific region
 
 - Input: Region of interest + X-ray image
 - Methods: EfficientNet (Image classifier)
@@ -116,7 +107,7 @@ Differentiating Human Intelligence and Artificial Intelligence
 
 ---
 
-### Computer vision task
+<!-- _header: Computer vision task -->
 # T03: Visual explanation to aid dentist in interpretation.
 
 - Input: Region of interest
@@ -129,8 +120,8 @@ Differentiating Human Intelligence and Artificial Intelligence
 
 ---
 
-### Computer vision task
-# T04: Provide suggestions for appropriate treatment
+<!-- _header: Computer vision task -->
+## T04: Provide suggestions for appropriate treatment
 
 - Input: Region of interest + X-ray image
 - Methods: EfficientNet (Image classifier)
@@ -143,8 +134,8 @@ Differentiating Human Intelligence and Artificial Intelligence
 
 ---
 
-### Natural language processing task
-# Real-time guidance
+<!-- _header: Natural language processing task -->
+## T05: Real-time guidance & support
 ### User question
 <div style="background: white">
 I was examining x-ray and I though that I see tooth decay but my professor said that it's a burnout effect. Can you explain me the difference?
@@ -159,8 +150,8 @@ I was examining x-ray and I though that I see tooth decay but my professor said 
 | Confirmation         | Requires clinical examination for confirmation         | Typically identified through X-ray examination               |
 ---
 
-### Natural language processing task
-# Real-time guidance
+<!-- _header: Natural language processing task -->
+## T05: Real-time guidance & support
 
 - Input: Question, Student's answer, Correct answer
 - Methods:
@@ -177,8 +168,9 @@ based sessions for diabetes](https://sci-hub.se/10.1109/WAINA.2018.00170)" -->
 
 ---
 
-## Multimodal task
-# T06: Search for relevant X-ray images
+<!-- _header: Multimodal task -->
+
+## T06: Search for relevant X-ray images
 
 - Input: Text or X-ray image prompt
 - Methods: 
@@ -195,7 +187,7 @@ based sessions for diabetes](https://sci-hub.se/10.1109/WAINA.2018.00170)" -->
 
 ---
 
-# Process of creating an AI
+## Process of creating an AI
 - Task Definition:
   * Identifying the objectives and goals of the AI system learning process
 - Learning process: 
@@ -238,7 +230,7 @@ based sessions for diabetes](https://sci-hub.se/10.1109/WAINA.2018.00170)" -->
 
 ---
 
-# Process of creating Human Intelligence
+## Process of creating Human Intelligence
 - Task Definition: 
   * T02 Classify dental conditions and abnormalities for specific region
 - Learning process:
@@ -255,7 +247,7 @@ based sessions for diabetes](https://sci-hub.se/10.1109/WAINA.2018.00170)" -->
 
 ---
 
-# Process of creating AI
+## Process of creating AI
 - Task Definition: 
   * T2024 Conquer the world
 - Learning process:
