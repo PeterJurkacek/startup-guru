@@ -46,13 +46,11 @@ We need you to record all pathologies (e.g., cavities, etc.) visible in the pati
 
 Ensure that all procedures performed during the patient's visit are listed in the procedures and **have specific tooth numbers assigned**.
 
-### Incorrect
-The procedures are missing Location where the procedure was performed.*
+**Incorrect:** The procedures are missing Location where the procedure was performed.*
 
 ![sem_02_01_p.png](img/semafor/en/sem_02_01_p.png)
 
-### Correct
-Check that the location and diagnosis are filled in for the patient's procedure.*
+**Correct:** Check that the location and diagnosis are filled in for the patient's procedure.*
 ![sem_02_01_p.png](img/semafor/en/sem_02_01_p%201.png)
 
 ### Exporting **Patient's X-ray Images**
@@ -75,15 +73,12 @@ Please export images in **PNG** format. Ensure that the file has ".png" in the n
 
 - Please ensure that you upload images for a specific patient visit. This allows us to match each image to the corresponding visit. If the patient brings their own images, feel free to upload them to the **"Documents"** tab on the patient's card but not for a specific visit.
 
-### Incorrect Procedure
 
-- Please ensure that you upload images for a specific patient visit, not through the patient's profile. If you upload an image through the patient's profile, we won't be able to match it to a specific visit, and we won't count such an image for the reward.
+**Incorrect:** Please ensure that you upload images for a specific patient visit, not through the patient's profile. If you upload an image through the patient's profile, we won't be able to match it to a specific visit, and we won't count such an image for the reward.
 
 ![sem_01_n.png](img/semafor/en/sem_01_n.png)
 
-### Correct Procedure
-
-- Click on the patient's visit → e.g., "Monday 6.11.2023 at 14:52"
+**Correct:** Click on the patient's visit → e.g., "Monday 6.11.2023 at 14:52"
 
 ![sem_01_p.png](img/semafor/en/sem_01_p.png)
 
