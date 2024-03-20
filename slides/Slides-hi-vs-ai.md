@@ -43,14 +43,14 @@ I have five years of experience working as a full-stack developer and a full-sta
 --- 
 
 # Human intelligence processes in dentistry?
-**Dental professional**, examining dental x-rays
+**Dental professional**, experienced in dental x-rays examination (pathologies classificiation)
 
 ![bg right:37%](img/321b949b-b01d-49b0-97a8-75af270f5e98.jpg)
 
 ---
 
 # Simulation of Human Intelligence processes?
-~~Dental professional~~**Artificial intelligence**, who is able to detect suspicious regions in dental x-rays and classify pathologies
+~~Dental professional~~**Artificial intelligence**, experienced in dental x-rays examination (pathologies classificiation)
 
 ![bg right:37%](img/321b949b-b01d-49b0-97a8-75af270f5e98.jpg)
 
@@ -59,77 +59,125 @@ I have five years of experience working as a full-stack developer and a full-sta
 <!-- 
 Differentiating Human Intelligence and Artificial Intelligence 
 -->
-# Human intelligence processes
-* **Human** with ability to solve different complex tasks
+# Human intelligence
+* A **Human** with ability to learn from experiences **to solve different tasks**
 
-# Simulation of Human intelligence processes
-* **Algorithms** with ability to solve different complex tasks
-
----
-
-# Complex task
-Complex task refers to a problem or objective that demands sophisticated computational methods, such as machine learning, natural language processing, computer vision, or other AI techniques
-
-![bg right](img/BW-example.png)
+# Artificial intelligence
+* An **Algorithm** with ability to learn from experiences
+**to solve different tasks** without being explicitly programmed
 
 ---
 
-# AI:Dental's Complex Tasks
-## Computer vision *(Images)*
+# AI:Dental's Tasks
+<div class=columns><div>
+
+## Computer vision tasks
 - T01: Detect Suspicious Regions in dental x-rays
 - T02: Classify dental conditions and abnormalities for specific region
 - T03: Visual explanation to aid dentist in interpretation
-- T04: Provide suggestions for appropriate treatment for specific region
+- T04: Provide suggestions for appropriate treatment
 
-## Natural language processing *(Text)*
+</div><div>
+
+## Natural language processing tasks
 - T05: Interactive learning with real-time guidance
 
-## Multimodal *(Images + Text)*
+## Multimodal tasks
 - T06: Search for relevant X-ray images
+</div></div>
 
 ---
+
 
 ### Computer vision task
 # T01: Detect Suspicious Regions in dental x-rays
 - Input: X-ray image
-- Methods: DINO (Object detector)
+- Methods: Transformer DINO (Object detector)
 - Output: Region of interest represented by x, y, width, height coordinates
 
+
+![bg right:33%](img/tasks/T01.png)
+
 <!-- _footer: "[(2022) DINO: DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection](https://arxiv.org/abs/2203.03605)" -->
+
 ---
 
-### Computer vision
+### Computer vision task
 # T02: Classify dental conditions and abnormalities for specific region
 
 - Input: Region of interest + X-ray image
 - Methods: EfficientNet (Image classifier)
 - Output: Severe tooth decay
 
+![bg vertical right:33%](img/tasks/T02_2.png)
+![bg right:33%](img/tasks/T02_1.png)
+
 <!-- _footer: "[(2019) EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks](https://arxiv.org/abs/1905.11946)" -->
 
 ---
 
-### Computer vision
-# Provide suggestions for appropriate treatment
+### Computer vision task
+# T03: Visual explanation to aid dentist in interpretation.
+
+- Input: Region of interest
+- Methods: GALORE, Grad-CAM, Grad-CAM++
+- Output: Saliency map
+
+![bg right:33%](img/tasks/T03.png)
+
+<!-- _footer: "[(2023) An Explainable Deep Learning Model to Prediction Dental Caries Using Panoramic Radiograph Images](https://www.researchgate.net/publication/366946851_An_Explainable_Deep_Learning_Model_to_Prediction_Dental_Caries_Using_Panoramic_Radiograph_Images)" -->
+
+---
+
+### Computer vision task
+# T04: Provide suggestions for appropriate treatment
 
 - Input: Region of interest + X-ray image
 - Methods: EfficientNet (Image classifier)
 - Output: Root canal treatment
 
+![bg vertical right:37% 100%](img/tasks/T04_1.png)
+![bg](img/tasks/T04_2.png)
+
 <!-- _footer: "[(2019) EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks](https://arxiv.org/abs/1905.11946)" -->
 
 ---
 
-### Computer vision
-# T03: Visual explanation to aid dentist in interpretation.
+### Natural language processing task
+# Real-time guidance
+### User question
+<div style="background: white">
+I was examining x-ray and I though that I see tooth decay but my professor said that it's a burnout effect. Can you explain me the difference?
+</div>
 
-- Input: Region of interest
-- **Method:** GALORE, Grad-CAM, Grad-CAM++
-- Output: Saliency map
+### Chatbot answer
+| Aspect                | Tooth Decay                                            | Burnout Effect                                              |
+|-----------------------|--------------------------------------------------------|-------------------------------------------------------------|
+| Shape/Size           | Irregularly shaped, varying sizes                      | More uniform and symmetrical, often affecting multiple teeth |
+| Structural Changes    | May include cavities, holes, thinning of enamel        | Lacks associated structural changes                          |
+| Clinical Symptoms     | Often associated with tooth sensitivity, pain           | Typically no clinical symptoms or signs of decay             |
+| Confirmation         | Requires clinical examination for confirmation         | Typically identified through X-ray examination               |
+---
+
+### Natural language processing task
+# Real-time guidance
+
+- Input: Question, Student's answer, Correct answer
+- Methods:
+  - Cusomized chatbot (e.g. Chatgpt)
+    - Response Generation and Control with low temperature
+    - Knowledge Management with external knowledge bases
+    - Conversation Flow Management with chain of thought prompting
+    - Robustness and Reliability with building defensive APIs and user interfaces
+- Output: Clarification of correct answer
+
+<!-- _footer: "[(2018) Extending a conventional chatbot knowledge base to
+external knowledge source and introducing user
+based sessions for diabetes](https://sci-hub.se/10.1109/WAINA.2018.00170)" -->
 
 ---
 
-## Multimodal
+## Multimodal task
 # T06: Search for relevant X-ray images
 
 - Input: Text or X-ray image prompt
@@ -143,20 +191,6 @@ Complex task refers to a problem or objective that demands sophisticated computa
 
 ---
 
-## Natural language processing
-# Real-time guidance
-
-- Input: Question, Student's answer, Correct answer
-- **Method:** 
-  - Cusomized chatbot (e.g. Chatgpt)
-    - Response Generation and Control with low temperature
-    - Knowledge Management with external knowledge bases
-    - Conversation Flow Management with chain of thought prompting
-    - Robustness and Reliability with building defensive APIs and user interfaces
-- Output: Clarification of correct answer
-
----
-
 # But how can we create those AIs?
 
 ---
@@ -164,10 +198,11 @@ Complex task refers to a problem or objective that demands sophisticated computa
 # Process of creating an AI
 - Task Definition:
   * Identifying the objectives and goals of the AI system learning process
-- Exercise (Training) creation: 
+- Learning process: 
+  * Supervised / Self-supervised / Unsupervised / Reinforcement
   * Prepare dataset
   * Development of training procedure/activity/script
-- Performance Evaluation
+- Performance evaluation:
   * Performance metrics definition
   * Development testing procedure/activity/script
 
@@ -176,10 +211,11 @@ Complex task refers to a problem or objective that demands sophisticated computa
 ## Process of creating AI
 - Task Definition: 
   * T02 Classify dental conditions and abnormalities for specific region
-- Exercise Creation
+- Learning process:
+  * Supervised
   * Prepare dataset: 1000 train samples (x-rays + expert opinions)
   * Training procedure: Supervised learning
-- Performance Evaluation
+- Performance evaluation:
   * Performance metrics definition: Precision, Recall, F1score
   * Testing procedure: Compare AI on 100 test samples (x-rays + expert opinions)
 
@@ -188,10 +224,11 @@ Complex task refers to a problem or objective that demands sophisticated computa
 ## Process of creating AI
 - Task Definition: 
   * T06 Search for relevant X-rays
-- Exercise Creation
+- Learning process:
+  * Contrastive learning
   * Prepare dataset: 1000 train samples (x-rays + expert opinions)
   * Training procedure: Contrastive Learning
-- Performance Evaluation
+- Performance evaluation:
   * Performance metrics definition: Precision, Recall, F1score
   * Testing procedure: Compare AI on 100 test samples (x-rays + expert opinions)
 
@@ -204,11 +241,11 @@ Complex task refers to a problem or objective that demands sophisticated computa
 # Process of creating Human Intelligence
 - Task Definition: 
   * T02 Classify dental conditions and abnormalities for specific region
-- Exercise Creation
+- Learning process:
   * Prepare dataset: 1000 train samples (x-rays + expert opinions)
   * Training procedure: https://edu.aidental.ai (tagging per patient, quiz)
     - Supervised learning
-- Performance Evaluation
+- Performance evaluation:
   * Performance metrics definition: Precision, Recall, F1score
   * Testing procedure: Compare their answers on 100 test samples (x-rays + expert opinions)
 
@@ -221,10 +258,10 @@ Complex task refers to a problem or objective that demands sophisticated computa
 # Process of creating AI
 - Task Definition: 
   * T2024 Conquer the world
-- Exercise Creation
+- Learning process:
   * Dataset: ?
   * Training procedure: ?
-- Performance Evaluation
+- Performance evaluation:
   * Performance metrics: ?
   * Testing procedure: ?
 
