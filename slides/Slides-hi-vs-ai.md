@@ -80,8 +80,8 @@ Differentiating Human Intelligence and Artificial Intelligence
 
 ---
 
-### Computer vision task
-# T01: Detect Suspicious Regions in dental x-rays
+<!-- _header: Computer vision task -->
+## T01: Detect Suspicious Regions in dental x-rays
 - Input: X-ray image
 - Methods: Transformer DINO (Object detector)
 - Output: Region of interest represented by x, y, width, height coordinates
@@ -127,7 +127,7 @@ Differentiating Human Intelligence and Artificial Intelligence
 - Methods: EfficientNet (Image classifier)
 - Output: Root canal treatment
 
-![bg vertical right:37% 100%](img/tasks/T04_1.png)
+![bg vertical right:33% 100%](img/tasks/T04_1.png)
 ![bg](img/tasks/T04_2.png)
 
 <!-- _footer: "[(2019) EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks](https://arxiv.org/abs/1905.11946)" -->
