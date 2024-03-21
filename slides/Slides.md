@@ -9,7 +9,7 @@ footer: 'AI:Dental'
 <!-- _paginate: skip -->
 <!-- _footer: "" -->
 # Bridging the Gap
-## How <span class="aid">AI</span> Connects Dental Clinics with Students
+## How **AI** Connects Dental Clinics with Students
 AI:Dental
 
 ![bg right 50%](img/image.png)
@@ -33,7 +33,8 @@ padding-top:30px;
 width:412px;
 ">
 
-![width:356](img/qr_1.png)
+<img class=aid-img src='img/qr_1.png'>
+
 `peter.jurkacek@aidental.ai`
 </div>
 <!-- 
@@ -61,7 +62,7 @@ https://www.researchgate.net/publication/
 (1996 Room for improvement? The accuracy of dental practitioners who diagnose bony pathoses with radiographs)[https://pubmed.ncbi.nlm.nih.gov/8665324/]
 -->
 ---
-# Bridging <span class="aid">the Gap</span>
+# Bridging **the Gap**
 ## How AI Connects Dental Clinics with Students
 ![bg right 50%](img/image.png)
 <!-- ---
@@ -87,8 +88,8 @@ X-Rays interpretation<sup>[1]</sup>
 
 #
 #
-<h1>The Gap <span class="aid">:/</span></h1>
-Dental <span class="aid">students' accuracy</span> in X-Ray interpretation ranges from <span class="aid">48% - 65%</span>
+# The Gap **:/**
+Dental **students' accuracy** in X-Ray interpretation ranges from **48% - 65%**
 
 </div>
 </div>
@@ -96,26 +97,26 @@ Dental <span class="aid">students' accuracy</span> in X-Ray interpretation range
 [1]: https://www.researchgate.net/publication/367683626_Evaluation_of_radiographic_interpretation_skills_of_undergraduate_dental_students_studying_in_a_dental_college_of_Punjab_India_-_A_comparative_study
 ---
 <!-- _footer: "2. 2022 Dental Students’ Knowledge, Confidence, Ability, and Self-Reported Difficulties in Periodontal Education: A Mixed Method Pilot Study" -->
-# <span class="aid">Why</span> is the Gap there?<sup>[2]</sup>
-![bg vertical left:30% 60%](img/maskot/AID_5.svg)
-<span class="aid">Limited</span> or <span class="aid">no access</span> to relevant X-Rays
+# **Why** is the Gap there?<sup>[2]</sup>
+![bg vertical left:30% 60%](img/mascot/AID_6.svg)
+**Limited** or **no access** to relevant X-Rays
 
-Challenges in obtaining <span class="aid">real-time supervision</span> feedback
-![bg 60%](img/maskot/AID_4.svg)
+Challenges in obtaining **real-time supervision** feedback
+![bg 60%](img/mascot/AID_4.svg)
 
 [2]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9026102/
 
 <!-- --- -->
-<!-- # <span class="aid">Bridging</span> the Gap
-## How <span class="aid">AI</span> Connects Dental Clinics with Students
-![bg right 70%](img/maskot/AID_16.svg) -->
+<!-- # **Bridging** the Gap
+## How **AI** Connects Dental Clinics with Students
+![bg right 70%](img/mascot/AID_16.svg) -->
 
 ---
 <div class="columns">
 <div>
 
-# <span class="aid">Bridging</span> the Gap
-## AI:Dental Education<br> platform & <span class="aid">AI</span>
+# **Bridging** the Gap
+## AI:Dental Education<br> platform & **AI**
 
 </div>
 <div>
@@ -132,25 +133,26 @@ Education platform & AI
 <div class="columns">
 <div>
 
-# <span class="aid">Bridging</span> the Gap
-## AI:Dental Education<br> platform & <span class="aid">AI</span>
+# **Bridging** the Gap
+## AI:Dental Education<br> platform & **AI**
 
 </div>
 <div>
 
 <div>
-<span class="aid">:A</span> Convert X-Rays to educational content
 
-<span class="aid">:B</span> Real-time supervision
+**:A** Convert X-Rays to educational content
 
-<span class="aid">:C</span> Search for relevant X-Rays
+**:B** Real-time supervision
+
+**:C** Search for relevant X-Rays
 
 
 </div>
 </div>
 
 ---
-## <span class="aid">:A</span> <span class="aid">Convert X-Rays to educational content</span>
+## **:A** **Convert X-Rays to educational content**
 
 <div class="columns">
 <div>
@@ -169,7 +171,7 @@ Questions & Answers
 
 ---
 <!-- _footer: "3. An Explainable Deep Learning Model to Prediction Dental Caries Using Panoramic Radiograph Images (2023)" -->
-## <span class="aid">:B</span> <span class="aid">Real-time supervision</span>
+## **:B** **Real-time supervision**
 
 <div class="columns">
 <div>
@@ -195,7 +197,7 @@ https://www.sciencedirect.com/science/article/pii/S2772442523001491
 https://www.mdpi.com/2075-5309/13/2/275
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10283104/
 -->
-## <span class="aid">:C</span> <span class="aid">Search for relevant X-Rays</span>
+## **:C** **Search for relevant X-Rays**
 
 <div class="columns">
 <div>
@@ -216,7 +218,8 @@ Relevant X-Ray<sup>[4]</sup>
 --- 
 <div class="columns">
 <div>
-<h1>Let's collaborate <span class="aid">:D</span></h1>
+
+# Let's collaborate **:D**
 
 - Universities
 - Dental clinics
@@ -234,7 +237,7 @@ Relevant X-Ray<sup>[4]</sup>
 
 ### Contact us
 
-![width:356](img/qr_aid.png)
+<img class=aid-img src='img/qr_aid.png'>
 
 </div>
 </div>
@@ -245,16 +248,17 @@ Shaping the future of the dentistry through creating the conditions for everyone
 <div class="columns">
 <div>
 
-# <span class="aid">AI:Dental </span>
+# **AI:Dental**
 ## The Bridge to better education in dental care
 
-<span class="aid">:A</span> Convert X-Rays for education
+**:A** Convert X-Rays for education
 
-<span class="aid">:B</span> Real-time supervision
+**:B** Real-time supervision
 
-<span class="aid">:C</span> Search for relevant X-Rays
+**:C** Search for relevant X-Rays
 
 </div>
+
 <div class="aid" style="
   text-align:center;
   vertical-align:middle;
@@ -264,7 +268,8 @@ Shaping the future of the dentistry through creating the conditions for everyone
 ">
 
 ### Contact us
-![width:356](img/qr_aid.png)
+
+<img class=aid-img src='img/qr_aid.png'>
 
 </div>
 </div>
