@@ -26,36 +26,42 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Copy images
+      - name: Copy index
         run: mkdir build && cp -R slides/img build/img && cp -R slides/themes build/themes
+      - name: Marp Index
+        uses: docker://marpteam/marp-cli:latest
+        with:
+          args: --theme-set slides/themes -o build/index.html --html -- slides/index.md
+        env:
+          MARP_USER: root:root
       - name: Marp Build AI in Edu (README)
         uses: docker://marpteam/marp-cli:latest
         with:
-          args: --theme-set slides/themes -o build/index.html --html -- slides/Slides.md
+          args: --theme-set slides/themes -o build/slides/bridging-the-gap.html --html -- slides/Slides.md
         env:
           MARP_USER: root:root
       - name: Marp Build Students (README)
         uses: docker://marpteam/marp-cli:latest
         with:
-          args: --theme-set slides/themes -o build/edu.html --html -- slides/Slides-edu.md
+          args: --theme-set slides/themes -o build/slides/edu.html --html -- slides/Slides-edu.md
         env:
           MARP_USER: root:root
       - name: Marp Build SK Students (README)
         uses: docker://marpteam/marp-cli:latest
         with:
-          args: --theme-set slides/themes -o build/edu-sk.html --html -- slides/Slides-edu-sk.md
+          args: --theme-set slides/themes -o build/slides/edu-sk.html --html -- slides/Slides-edu-sk.md
         env:
           MARP_USER: root:root
       - name: Marp Build DVC Guide (README)
         uses: docker://marpteam/marp-cli:latest
         with:
-          args: --theme-set slides/themes -o build/edu-data-dev.html --html -- slides/Slides-edu-data-dev.md
+          args: --theme-set slides/themes -o build/slides/edu-data-dev.html --html -- slides/Slides-edu-data-dev.md
         env:
           MARP_USER: root:root
       - name: Marp Build HI and AI (README)
         uses: docker://marpteam/marp-cli:latest
         with:
-          args: --theme-set slides/themes -o build/hi-vs-ai.html --html -- slides/Slides-hi-vs-ai.md
+          args: --theme-set slides/themes -o build/slides/hi-vs-ai.html --html -- slides/Slides-hi-vs-ai.md
         env:
           MARP_USER: root:root
       - name: Copy guides
@@ -63,9 +69,9 @@ jobs:
       - name: Install markdown
         run: npm i markdown-to-html-cli -g
       - name: Semafor guide
-        run: markdown-to-html --source guides/semafor.md --output build/guides/semafor.html
+        run: markdown-to-html --output build/guides/semafor.html --source guides/semafor.md
       - name: Semafor sk guide
-        run: markdown-to-html --source guides/semafor-sk.md --output build/guides/semafor-sk.html
+        run: markdown-to-html --output build/guides/semafor-sk.html --source guides/semafor-sk.md
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
