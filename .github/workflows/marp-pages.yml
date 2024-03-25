@@ -26,8 +26,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Copy index
-        run: mkdir build && cp -R slides/img build/slides/img && cp -R slides/themes build/slides/themes
+      - name: Copy Files
+        run: mkdir -p build/slides && cp -R slides/img build/slides/ && cp -R slides/themes build/slides/
       - name: Marp Index
         uses: docker://marpteam/marp-cli:latest
         with:
