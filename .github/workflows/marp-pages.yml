@@ -27,7 +27,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Copy index
-        run: mkdir build && cp -R slides/img build/img && cp -R slides/themes build/themes
+        run: mkdir build && cp -R slides/img build/slides/img && cp -R slides/themes build/slides/themes
       - name: Marp Index
         uses: docker://marpteam/marp-cli:latest
         with:
