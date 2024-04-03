@@ -94,22 +94,19 @@ Focus on high-quality data, not just complex models.
 - Data encryption and access controls
 
 
-<!-- Image: (Left side) Consider adding an image of a checkmark or shield to represent safety and security.
+<!-- Image: (Left side) Consider adding an image of a checkmark or shield to represent safety and security.-->
 
 ---
 
-
-## Privacy and Data Governance
+## Privacy and Data Governance 
 
 <!-- Privacy and Data Governance: This principle emphasizes the importance of protecting personal data and ensuring its responsible use in AI development and deployment. -->
 
+- Ethical Data Collection: We use data with explicit consent or from public datasets collected legally and ethically.
+- Transparency & Consent: We provide clear explanations (friendly materials & privacy policy) about how patient data is used. We respect patient choices through robust consent management.
+- Patient Control & Reporting: Patients can contact their clinic for privacy concerns. Clinics report these concerns to us and thanks to pseudoanonymization we can remove data without knowing the identity of a patient
 
-- We are using data that was collected with explicit consent or from a public dataset, which states that all data was collected in a legal and ethical manner.
-- We have prepared friendly and easily understandable materials to explain to patients how their data will be used. Additionally, this information is available in our privacy policy terms and conditions.
-- In this case, we have consent management in place. If a patient does not give explicit consent, we do not obtain their data and do not use it in any further steps.
-- In case of possible misuse of personal and sensitive data or sharing of concerns about their privacy patients have to contact their clinic first, and the clinic has to report this to us.
-
-![bg right:20% 70%](img/mascot/AID_7.svg)
+<!-- ![bg right:20% 70%](img/mascot/AID_7.svg) -->
 
 <!-- - Protect patient privacy and ensure data legitimacy.
 
