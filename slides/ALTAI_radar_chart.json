@@ -1,59 +1,56 @@
 {
     "$schema": "https://vega.github.io/schema/vega/v5.json",
     "description": "ALTAI assessment radar chart for X-ray analysis AI",
-    "width": 400,
-    "height": 400,
+    "width": 500,
+    "height": 500,
     "padding": 135,
     "autosize": {"type": "none", "resize":true, "contains": "content"},
     "signals": [
         {"name": "radius", "update": "width / 2"}
-    ],
-  
+    ],  
     "data": [
       {
         "name": "table",
         "values": [
-          {"key": "Human Agency & Oversight", "value": 75, "category": 0},
-          {"key": "Technical Robustness & Safety", "value": 80, "category": 0},
-          {"key": "Privacy & Data Governance", "value": 90, "category": 0},
-          {"key": "Transparency", "value": 60, "category": 0},
-          {"key": "Fairness & Non-discrimination", "value": 85, "category": 0},
-          {"key": "Societal & Environmental Well-being", "value": 70, "category": 0},
-          {"key": "Accountability", "value": 70, "category": 0}
+          {"principle": "Human agency and oversight", "score": 3.25, "ais": 0},
+          {"principle": "Technical robustness and safety", "score": 2.3333333333333335, "ais": 0},
+          {"principle": "Privacy and Data governance", "score": 4, "ais": 0},
+          {"principle": "Transparency", "score": 4, "ais": 0},
+          {"principle": "Diversity, non-discrimination and fariness", "score": 2.3333333333333335, "ais": 0},
+          {"principle": "Societal and environmental well-being", "score": 4, "ais": 0},
+          {"principle": "Accountability", "score": 3.5, "ais": 0}
         ]
       },
       {
-        "name": "keys",
+        "name": "principles",
         "source": "table",
         "transform": [
           {
             "type": "aggregate",
-            "groupby": ["key"]
+            "groupby": ["principle"]
           }
         ]
       }
-    ],  
+    ],
+  
     "scales": [
       {
         "name": "angular",
         "type": "point",
         "range": {"signal": "[-PI, PI]"},
-        "padding": 0.5,
-        "domain": {"data": "table", "field": "key"}
+        "domain": {"data": "table", "field": "principle"}
       },
       {
         "name": "radial",
         "type": "linear",
         "range": {"signal": "[0, radius]"},
-        "zero": true,
-        "nice": false,
-        "domain": {"data": "table", "field": "value"},
-        "domainMin": 0
+        "domain": [0, 5], 
+        "nice": false
       },
       {
         "name": "color",
         "type": "ordinal",
-        "domain": {"data": "table", "field": "category"},
+        "domain": {"data": "table", "field": "ais"},
         "range": {"scheme": "viridis"}
       }
     ],
@@ -63,50 +60,40 @@
         "y": {"signal": "radius"}
       }
     },
-    "legends": [
-        {
-          "fill": "color",
-          "orient": "none",
-          "title": "Body style",
-          "encode": {
-            "legend": {"update": {"x": {"value": 250}, "y": {"value": -200}}}
-          }
-        }
-    ],
+  
     "marks": [
       {
         "type": "group",
         "name": "categories",
         "zindex": 1,
         "from": {
-          "facet": {"data": "table", "name": "facet", "groupby": ["category"]}
+          "facet": {"data": "table", "name": "facet", "groupby": ["ais"]}
         },
         "marks": [
           {
             "type": "line",
-            "name": "category-line",
+            "name": "principle-line",
             "from": {"data": "facet"},
             "encode": {
               "enter": {
                 "interpolate": {"value": "linear-closed"},
-                "x": {"signal": "scale('radial', datum.value) * cos(scale('angular', datum.key))"},
-                "y": {"signal": "scale('radial', datum.value) * sin(scale('angular', datum.key))"},
-                "stroke": {"scale": "color", "field": "category"},
-                "strokeWidth": {"value": 1},
-                "fill": {"scale": "color", "field": "category"},
-                "fillOpacity": {"value": 0.1}
+                "x": {"signal": "scale('radial', datum.score) * cos(scale('angular', datum.principle))"},
+                "y": {"signal": "scale('radial', datum.score) * sin(scale('angular', datum.principle))"},
+                "stroke": {"value": "steelblue"},
+                "strokeWidth": {"value": 2},
+                "fill": {"value": "lightsteelblue"}
               }
             }
           },
-          {
-            "type": "text",
-            "name": "value-text",
-            "from": {"data": "category-line"},
+        {
+        "type": "text",
+        "name": "score-text",
+        "from": {"data": "principle-line"},
             "encode": {
               "enter": {
                 "x": {"signal": "datum.x"},
                 "y": {"signal": "datum.y"},
-                "text": {"signal": "datum.datum.value"},
+                "text": {"signal": "datum.datum.score"},
                 "align": {"value": "right"},
                 "baseline": {"value": "middle"},
                 "fill": {"value": "black"}
@@ -114,18 +101,18 @@
             }
           }
         ]
-      },
+    },
       {
         "type": "rule",
         "name": "radial-grid",
-        "from": {"data": "keys"},
+        "from": {"data": "principles"},
         "zindex": 0,
         "encode": {
           "enter": {
             "x": {"value": 0},
             "y": {"value": 0},
-            "x2": {"signal": "radius * cos(scale('angular', datum.key))"},
-            "y2": {"signal": "radius * sin(scale('angular', datum.key))"},
+            "x2": {"signal": "radius * cos(scale('angular', datum.principle))"},
+            "y2": {"signal": "radius * sin(scale('angular', datum.principle))"},
             "stroke": {"value": "lightgray"},
             "strokeWidth": {"value": 1}
           }
@@ -133,17 +120,17 @@
       },
       {
         "type": "text",
-        "name": "key-label",
-        "from": {"data": "keys"},
+        "name": "principle-label",
+        "from": {"data": "principles"},
         "zindex": 1,
         "encode": {
           "enter": {
-            "x": {"signal": "(radius + 5) * cos(scale('angular', datum.key))"},
-            "y": {"signal": "(radius + 5) * sin(scale('angular', datum.key))"},
-            "text": {"field": "key"},
+            "x": {"signal": "(radius + 5) * cos(scale('angular', datum.principle))"},
+            "y": {"signal": "(radius + 5) * sin(scale('angular', datum.principle))"},
+            "text": {"field": "principle"},
             "align": [
               {
-                "test": "abs(scale('angular', datum.key)) > PI / 2",
+                "test": "abs(scale('angular', datum.principle)) > PI / 2",
                 "value": "right"
               },
               {
@@ -152,16 +139,15 @@
             ],
             "baseline": [
               {
-                "test": "scale('angular', datum.key) > 0", "value": "top"
+                "test": "scale('angular', datum.principle) > 0", "value": "top"
               },
               {
-                "test": "scale('angular', datum.key) == 0", "value": "middle"
+                "test": "scale('angular', datum.principle) == 0", "value": "middle"
               },
               {
                 "value": "bottom"
               }
             ],
-            "fill": {"value": "/Users/pj/aid/prezis/startup-guru/slides/themes/fonts/aid/DMSans-AID-Text-Regular.otf"},
             "fontWeight": {"value": "bold"}
           }
         }
@@ -179,7 +165,37 @@
             "strokeWidth": {"value": 1}
           }
         }
-      }
+      },
+    {
+      "type": "group",
+      "encode": {
+        "enter": {
+          "x": {"signal": "width / 2"},
+          "y": {"signal": "height / 2"}
+        }
+      },
+      "marks": [
+        {
+          "type": "symbol",
+          "from": {"data": "values"},
+          "encode": {
+            "enter": {
+              "shape": {"value": "hexagon"},
+              "fill": {"value": "none"},
+              "stroke": {"value": "gray"},
+              "strokeWidth": {"value": 1},
+              "size": {"value": 0}
+            },
+            "update": {
+              "x": {"value": 0},
+              "y": {"value": 0},
+              "angle": {"scale": "angular", "field": "category"},
+              "radius": {"scale": "radial", "field": "value"}
+            }
+          }
+        }
+      ]
+    }
     ]
   }
   
