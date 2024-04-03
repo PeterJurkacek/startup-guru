@@ -1,0 +1,161 @@
+{
+    "$schema": "https://vega.github.io/schema/vega/v5.json",
+    "description": "ALTAI assessment radar chart for X-ray analysis AI",
+    "width": 400,
+    "height": 400,
+    "padding": 40,
+    "autosize": {"type": "none", "contains": "padding"},
+  
+    "signals": [
+      {"name": "radius", "update": "width / 2"}
+    ],
+  
+    "data": [
+      {
+        "name": "table",
+        "values": [
+          {"key": "Human Agency & Oversight", "value": 75, "category": "ALTAI"},
+          {"key": "Technical Robustness & Safety", "value": 80, "category": "ALTAI"},
+          {"key": "Privacy & Data Governance", "value": 90, "category": "ALTAI"},
+          {"key": "Transparency", "value": 60, "category": "ALTAI"},
+          {"key": "Fairness & Non-discrimination", "value": 85, "category": "ALTAI"},
+          {"key": "Societal & Environmental Well-being", "value": 70, "category": "ALTAI"}
+        ]
+      },
+      {
+        "name": "keys",
+        "source": "table",
+        "transform": [
+          {
+            "type": "aggregate",
+            "groupby": ["key"]
+          }
+        ]
+      }
+    ],
+  
+    "scales": [
+      {
+        "name": "angular",
+        "type": "point",
+        "range": {"signal": "[-PI, PI]"},
+        "padding": 0.5,
+        "domain": {"data": "table", "field": "key"}
+      },
+      {
+        "name": "radial",
+        "type": "linear",
+        "range": {"signal": "[0, radius]"},
+        "zero": true,
+        "nice": false,
+        "domain": {"data": "table", "field": "value"},
+        "domainMin": 0
+      },
+      {
+        "name": "color",
+        "type": "ordinal",
+        "domain": {"data": "table", "field": "category"},
+        "range": {"scheme": "viridis"}
+      }
+    ],
+  
+    "encode": {
+      "enter": {
+        "x": {"signal": "radius"},
+        "y": {"signal": "radius"}
+      }
+    },
+  
+    "marks": [
+      {
+        "type": "group",
+        "name": "categories",
+        "zindex": 1,
+        "from": {
+          "facet": {"data": "table", "name": "facet", "groupby": ["category"]}
+        },
+        "marks": [
+          {
+            "type": "line",
+            "name": "category-line",
+            "from": {"data": "facet"},
+            "encode": {
+              "enter": {
+                "interpolate": {"value": "linear-closed"},
+                "x": {"signal": "scale('radial', datum.value) * cos(scale('angular', datum.key))"},
+                "y": {"signal": "scale('radial', datum.value) * sin(scale('angular', datum.key))"},
+                "stroke": {"scale": "color", "field": "category"},
+                "strokeWidth": {"value": 1},
+                "fill": {"scale": "color", "field": "category"},
+                "fillOpacity": {"value": 0.1}
+              }
+            }
+          },
+          {
+            "type": "text",
+            "name": "value-text",
+            "from": {"data": "category-line"},
+            "encode": {
+              "enter": {
+                "x": {"signal": "datum.x"},
+                "y": {"signal": "datum.y"},
+                "text": {"signal": "datum.datum.value + '%"},
+                "align": {"value": "center"},
+                "baseline": {"value": "middle"},
+                "fill": {"value": "black"}
+              }
+            }
+          },
+          {
+            "type": "text",
+            "name": "key-label",
+            "from": {"data": "keys"},
+            "zindex": 1,
+            "encode": {
+              "enter": {
+                "x": {"signal": "(radius + 10) * cos(scale('angular', datum.key))"},
+                "y": {"signal": "(radius + 10) * sin(scale('angular', datum.key))"},
+                "text": {"field": "key"},
+                "align": [
+                  {
+                    "test": "abs(scale('angular', datum.key)) > PI / 2",
+                    "value": "right"
+                  },
+                  {
+                    "value": "left"
+                  }
+                ],
+                "baseline": [
+                  {
+                    "test": "scale('angular', datum.key) > 0", "value": "top"
+                  },
+                  {
+                    "test": "scale('angular', datum.key) == 0", "value": "middle"
+                  },
+                  {
+                    "value": "bottom"
+                  }
+                ],
+                "fill": {"value": "black"},
+                "fontWeight": {"value": "bold"}
+              }
+            }
+            },
+            {
+            "type": "line",
+            "name": "outer-line",
+            "from": {"data": "radial-grid"},
+            "encode": {
+              "enter": {
+                "interpolate": {"value": "linear-closed"},
+                "x": {"field": "x2"},
+                "y": {"field": "y2"},
+                "stroke": {"value": "lightgray"},
+                "strokeWidth": {"value": 1}
+              }
+            }
+            }
+        ]
+      }
+    ]
+}
