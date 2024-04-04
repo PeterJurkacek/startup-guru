@@ -2,9 +2,10 @@
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "width": 500,
   "height": 500,
-  "autosize": "pad",
+  "padding": 20,
+  "autosize": "none",
   "title": {
-    "text": "AI:Dental ALTAI results",
+    "text": "Main challanges",
     "anchor": "middle",
     "fontSize": 12,
     "dy": -8,
