@@ -23,38 +23,28 @@
       "name": "table",
       "values": [
         {
-          "key": "Accountability",
-          "value": 3.5,
-          "category": 0
-        },
-        {
-          "key": "Human agency and oversight",
-          "value": 3.25,
-          "category": 0
-        },
-        {
-          "key": "Technical robustness and safety",
-          "value": 2.3333333333333335,
-          "category": 0
-        },
-        {
-          "key": "Privacy and Data governance",
+          "key": "Subjecitvity",
           "value": 4,
           "category": 0
         },
         {
-          "key": "Transparency",
+          "key": "Medical data acquisition",
+          "value": 5,
+          "category": 0
+        },
+        {
+          "key": "Overreliance",
           "value": 4,
           "category": 0
         },
         {
-          "key": "Diversity, non-discrimination and fariness",
-          "value": 2.3333333333333335,
+          "key": "Risk mitigation",
+          "value": 3,
           "category": 0
         },
         {
-          "key": "Societal and environmental well-being",
-          "value": 4,
+          "key": "AI Explainability",
+          "value": 3,
           "category": 0
         }
       ]
