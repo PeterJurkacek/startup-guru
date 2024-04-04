@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Chart.js Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" type="text/css" href="file:///Users/pj/aid/prezis/startup-guru/slides/themes/custom-default.css">
+</head>
+<body>
+    <canvas id="marksChart" width="1020" height="680" lable="Self assessment scores of the requirements" role="figure" style="display: block; height: 340px; width: 510px;" class="chartjs-render-monitor">
+        <ul>
+            <li>Human agency and oversight : 3.25 </li>
+            <li>Technical robustness and safety : 2.3333333333333335 </li>
+            <li>Privacy and Data governance : 4 </li>
+            <li>Transparency : 4 </li>
+            <li>Diversity, non-discrimination and fariness : 2.3333333333333335 </li>
+            <li>Societal and environmental well-being : 4 </li>
+            <li>Accountability : 3.5 </li>
+        </ul>
+    </canvas>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2"></script>
+    <script>
+        var marksCanvas = document.getElementById("marksChart");
+
+        var marksData = {
+            labels: ["Human agency and oversight", "Technical robustness and safety", "Privacy and Data governance", "Transparency", "Diversity, non-discrimination and fariness", "Societal and environmental well-being", "Accountability"],
+            datasets: [{
+                label: "AI:Dental AI",
+                borderColor: "#000000",
+                borderWidth: 2,
+                data: [3.25,2.3333333333333335,4,4,2.3333333333333335,4,3.5]
+            }]
+        };
+
+        // Set default font size for all charts
+        //Chart.defaults.font.size = 8; // Change this to your desired font size
+
+        // Set default font family for all charts
+        Chart.defaults.font.family = 'AID headline';
+        Chart.defaults.backgroundColor = '#9BD0F5';
+        //Chart.defaults.borderColor = '#36A2EB';
+    
+
+        var radarChart = new Chart(marksCanvas, {
+            type: 'radar',
+            data: marksData,
+            options: {
+                scale: {
+                    ticks: {
+                        beginAtZero: true,
+                        max : 5
+                    },
+                },
+                tooltips: {enabled: false},
+                hover: {mode: null},
+            }
+        });
+    </script>
+</body>
+</html>
