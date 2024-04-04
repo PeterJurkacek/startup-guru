@@ -15,6 +15,7 @@ footer: 'AI: Dental'
 - Data
 - Algorithms
 - Infrastructure
+- Stakeholders
 
 ![bg right](img/mascot/AID_5.svg)
 
@@ -71,9 +72,6 @@ ALTAI seven principles
 
 - GDPR, Pseudonymisation, Data minimisation (Privacy)
 - Data with explicit consent (Data Governance)
-
-- Datasets collected legally and ethically (e.g. consent management)
-- Consent withdrawal
 
 ---
 
