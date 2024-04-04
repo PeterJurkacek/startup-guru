@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "width": 500,
   "height": 500,
-  "autosize": "none",
+  "autosize": "pad",
   "title": {
     "text": "AI:Dental ALTAI results",
     "anchor": "middle",
@@ -226,34 +226,26 @@
     {
       "type": "text",
       "name": "key-label",
-      "from": {
-        "data": "keys"
-      },
+      "from": {"data": "keys"},
       "zindex": 1,
       "encode": {
         "enter": {
           "x": {
-            "signal": "(radius + 11) * cos(scale('angular', datum.key))"
+            "signal": "(radius + 5) * cos(scale('angular', datum.key))"
           },
-          "y": [
+          "y": {
+            "signal": "(radius + 5) * sin(scale('angular', datum.key))"
+          },
+          "text": {"field": "key"},
+          "align": [
             {
-              "test": "sin(scale('angular', datum.key)) > 0",
-              "signal": "5 + (radius + 11) * sin(scale('angular', datum.key))"
+              "test": "abs(scale('angular', datum.key)) > PI / 2",
+              "value": "right"
             },
             {
-              "test": "sin(scale('angular', datum.key)) < 0",
-              "signal": "-5 + (radius + 11) * sin(scale('angular', datum.key))"
-            },
-            {
-              "signal": "(radius + 11) * sin(scale('angular', datum.key))"
+              "value": "left"
             }
           ],
-          "text": {
-            "field": "key"
-          },
-          "align": {
-            "value": "center"
-          },
           "baseline": [
             {
               "test": "scale('angular', datum.key) > 0",
@@ -267,12 +259,7 @@
               "value": "bottom"
             }
           ],
-          "fill": {
-            "value": "black"
-          },
-          "fontSize": {
-            "value": 8
-          }
+          "fill": {"value": "black"}
         }
       }
     },
