@@ -31,6 +31,18 @@
     url('./themes/fonts/aid/DMSans-AID-Text-Regular.woff') format('woff');
 }
 
+:root {
+  --primary:#ABF7CE;
+  --primary-dark:#335C55;
+  --secondary-dark:#A478FF;
+  --sedondary:#C7A6F3;
+}
+
+
+/* Apply the custom font family to the canvas */
+canvas {
+  font-family: 'AID headline';
+}
 
 section {
   --heading-strong-color: #000000;
