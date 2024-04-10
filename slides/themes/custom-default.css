@@ -105,6 +105,13 @@ section em {
   padding-top: 8px;
 }
 
+section blockquote {
+  font-family: 'AID regular';
+  color: #ffffff;
+  background-color: #000000;
+  padding: 8px;
+}
+
 .aid-img {
   border: 20px solid #000000;
 }

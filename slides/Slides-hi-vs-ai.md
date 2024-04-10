@@ -63,7 +63,7 @@ Differentiating Human Intelligence and Artificial Intelligence
 * A **Human** with ability to learn from experiences **to solve different tasks**
 
 ## Artificial intelligence
-* An **Algorithm** with ability to learn from experiences
+> * An **Algorithm** with ability to learn from experiences
 **to solve different tasks** without being explicitly programmed
 
 ---
@@ -83,8 +83,8 @@ Differentiating Human Intelligence and Artificial Intelligence
 <!-- _header: Computer vision task -->
 ## T01: Detect Suspicious Regions in dental x-rays
 - Input: X-ray image
-- Methods: Transformer DINO (Object detector)
-- Output: Region of interest represented by x, y, width, height coordinates
+- > Algorithm: Transformer DINO (Object detector)
+- Output: **Region of interest** represented by x, y, width, height coordinates
 
 
 ![bg right:33%](img/tasks/T01.png)
@@ -97,7 +97,7 @@ Differentiating Human Intelligence and Artificial Intelligence
 ## T02: Classify dental conditions and abnormalities for specific region
 
 - Input: Region of interest + X-ray image
-- Methods: EfficientNet (Image classifier)
+- > Algorithm: EfficientNet (Image classifier)
 - Output: Severe tooth decay
 
 ![bg vertical right:33%](img/tasks/T02_2.png)
@@ -111,7 +111,7 @@ Differentiating Human Intelligence and Artificial Intelligence
 ## T03: Visual explanation to aid dentist in interpretation.
 
 - Input: Region of interest
-- Methods: GALORE, Grad-CAM, Grad-CAM++
+- > Algorithm: GALORE, Grad-CAM, Grad-CAM++
 - Output: Saliency map
 
 ![bg right:33%](img/tasks/T03.png)
@@ -124,8 +124,8 @@ Differentiating Human Intelligence and Artificial Intelligence
 ## T04: Provide suggestions for appropriate treatment
 
 - Input: Region of interest + X-ray image
-- Methods: EfficientNet (Image classifier)
-- Output: Root canal treatment
+- > Algorithm: EfficientNet (Image classifier)
+- Output: Filling
 
 ![bg vertical right:33% 100%](img/tasks/T04_1.png)
 ![bg](img/tasks/T04_2.png)
@@ -135,32 +135,44 @@ Differentiating Human Intelligence and Artificial Intelligence
 ---
 
 <!-- _header: Natural language processing task -->
-## T05: Real-time guidance & support
-### User question
-<div style="background: white">
-I was examining x-ray and I though that I see tooth decay but my professor said that it's a burnout effect. Can you explain me the difference?
-</div>
+## T05: Chatbot
+- Input: User question
+  *While examining the X-ray, I thought I saw **tooth decay**, but my professor explained that it's actually a **burnout effect**. Could you please explain the **difference** to me?*
+- > Algorithm: 
+  > - LLM Gemini
+- Output: answer
+  ***Tooth decay**, also called caries, shows up as a dark, ... the X-ray, typically **near the chewing surface** or **between teeth**. **Burnout**, is caused by the X-ray passing ... it appears as a **dark area at the tooth's neck** but with a **defined border** and doesn't represent decay.*
 
-### Chatbot answer
-| Aspect                | Tooth Decay                                            | Burnout Effect                                              |
-|-----------------------|--------------------------------------------------------|-------------------------------------------------------------|
-| Shape/Size           | Irregularly shaped, varying sizes                      | More uniform and symmetrical, often affecting multiple teeth |
-| Structural Changes    | May include cavities, holes, thinning of enamel        | Lacks associated structural changes                          |
-| Clinical Symptoms     | Often associated with tooth sensitivity, pain           | Typically no clinical symptoms or signs of decay             |
-| Confirmation         | Requires clinical examination for confirmation         | Typically identified through X-ray examination               |
+<!-- _footer: "[(2018) Extending a conventional chatbot knowledge base to
+external knowledge source and introducing user
+based sessions for diabetes](https://sci-hub.se/10.1109/WAINA.2018.00170)" -->
+
 ---
 
-<!-- _header: Natural language processing task -->
+## T06: Visual Question Answering
+- Input:
+  - X-Ray: Region of interest
+  - User question: Why is this burnout effect and not tooth decay?
+- > Algorithm:
+  > - The VQA model analyzes the image
+  > - It understands questions
+  > - It combines the image analysis with the question to determine the answer.
+- Output: 
+Answer: Because...
+  - When the sun shines, we'll shine togetheeer
+
+<!--
+_header: Natural language processing task
 ## T05: Real-time guidance & support
 
 - Input: Question, Student's answer, Correct answer
-- Methods:
-  - Cusomized chatbot (e.g. Chatgpt)
-    - Response Generation and Control with low temperature
-    - Knowledge Management with external knowledge bases
-    - Conversation Flow Management with chain of thought prompting
-    - Robustness and Reliability with building defensive APIs and user interfaces
-- Output: Clarification of correct answer
+- > Algorithm:
+  > - Cusomized chatbot (e.g. Chatgpt)
+  > - Response Generation and Control with low temperature
+  > - Knowledge Management with external knowledge bases
+  > - Conversation Flow Management with chain of thought prompting
+  > - Robustness and Reliability with building defensive APIs and user interfaces
+- Output: Clarification of correct answer -->
 
 <!-- _footer: "[(2018) Extending a conventional chatbot knowledge base to
 external knowledge source and introducing user
@@ -173,10 +185,10 @@ based sessions for diabetes](https://sci-hub.se/10.1109/WAINA.2018.00170)" -->
 ## T06: Search for relevant X-ray images
 
 - Input: Text or X-ray image prompt
-- Methods: 
-  - Image encoder (ResNet-50)
-  - Text encoder (DistilBERT)
-  - Projection function
+- > Algorithm: 
+  > - Image encoder (e.g. ResNet-50)
+  > - Text encoder (e.g. DistilBERT)
+  > - Projection function
 - Output: The most similiar X-ray image
 
 <!-- _footer: "[(2023) Dental CLAIRES: Contrastive LAnguage Image REtrieval Search for Dental Research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10283104/)"-->
@@ -204,7 +216,6 @@ based sessions for diabetes](https://sci-hub.se/10.1109/WAINA.2018.00170)" -->
 - Task Definition: 
   * T02 Classify dental conditions and abnormalities for specific region
 - Learning process:
-  * Supervised
   * Prepare dataset: 1000 train samples (x-rays + expert opinions)
   * Training procedure: Supervised learning
 - Performance evaluation:
