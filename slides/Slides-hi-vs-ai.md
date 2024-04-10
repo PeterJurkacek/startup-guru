@@ -108,7 +108,7 @@ Differentiating Human Intelligence and Artificial Intelligence
 ---
 
 <!-- _header: Computer vision task -->
-# T03: Visual explanation to aid dentist in interpretation.
+## T03: Visual explanation to aid dentist in interpretation.
 
 - Input: Region of interest
 - Methods: GALORE, Grad-CAM, Grad-CAM++
