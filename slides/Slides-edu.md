@@ -3,159 +3,228 @@ marp: true
 theme: custom-default
 title: Unlocking the Future of Dentistry
 paginate: true
-footer: 'AI:Dental'
+footer: 'AI: Dental'
 ---
 
 <!-- _paginate: skip -->
-# Demystifying **AI** in Dentistry 
-Deep dive into exercises for X-Ray diagnostics
+# Creating Human and Artificial Intelligence
+## What's the Difference in Dentistry?
+<!-- ## Mastery of the World Will Have to Wait -->
 <!--
-- Welcome students to the session.
-- Brief overview of the agenda. 
+- Welcoming students to the seminar.
+- Brief overview of the program.
 -->
 
-![bg right](img/mascot/AID_2.svg)
+![bg right:33%](img/mascot/AID_2.svg)
 
 ---
 
-<!-- Understanding AI in Diagnostics -->
-# What is **AI**?
 
-![bg left 70%](img/mascot/AID_1.svg)
-
-*Artificial Intelligence (AI) is the **simulation of human intelligence** processes by computer systems.*
+<!-- ![bg 74%](img/image-9.png) -->
+![bg 50%](img/image-1.png)
+![bg 50%](img/image-6.png)
+<!-- ![bg 70%](img/image-7.png) -->
 
 ---
 
-### **Human Intelligence** in Dentistry?
-# Dental Professional Intelligence
-1. Take X-ray
-2. Interpret X-ray
-3. Make decisions
+<!-- Understanding UI in Diagnostics -->
+# Artificial Intelligence?
+*Artificial intelligence (AI) is the **simulation of human intelligence** processes by computer systems.*
+(2024, ChatGPT)
 
-![bg vertical right 50%](img/mascot/AID_5.svg)
+![bg left:33% 70%](img/mascot/AID_1.svg)
+
+---
+
+# Human Intelligence?
+## **Dentist** who can interpret an X-ray image
+
+<!-- ![bg vertical right:50% 50%](img/mascot/AID_5.svg)
+![bg 50%](img/mascot/AID_6.svg) -->
+
+---
+
+# Simulation of Human Intelligence?
+## **Artificial Intelligence** capable of interpreting an X-ray image
+
+![bg vertical right:50% 50%](img/mascot/AID_5.svg)
 ![bg 50%](img/mascot/AID_6.svg)
 
+---
+
+# How Do We Create Artificial Intelligence?
+
+---
+
+## 1. Defining a Complex Task
+* Learn to interpret tooth decay from X-ray images
+## 2. Exercise Design:
+* Prepare a series of 100 X-ray images, some containing teeth with or without decay, and the AI will attempt to assess whether decay is present or not
+## 3. Evaluating Success
+* Compare AI responses with correct answers
+![bg right:40%](img/mascot/AID_4.svg)
+
+---
+
+# How Do We Create a Chatbot?
+
+---
+
+## 1. Defining a Complex Task
+* Learn to respond to user input sentences
+## 2. Exercise Design
+* Prepare 1000 sentences, omitting some words, and require the Artificial Intelligence to complete them
+## 3. Evaluating Success
+* Evaluate whether the words filled in by the AI match those we removed
+![bg right:40%](img/mascot/AID_4.svg)
+
+---
+
+# How Do We Create Artificial Intelligence to Rule the World?
+
+---
+
+## 1. Defining a Complex Task
+* Teach artificial intelligence to rule the world
+## 2. Exercise Design
+* ?
+## 3. Evaluating Success
+* The world is ruled by artificial intelligence
+![bg right:40%](img/mascot/AID_4.svg)
+
+---
+
+# How Do We Create Human Intelligence?
+
+--- 
+
+## Defining a Complex Task:
+* Teach a student to interpret tooth decay from X-ray images
+## Exercise Design:
+* Prepare a series of 100 X-ray images, some containing teeth with or without decay, and the student will attempt to assess whether decay is present or not
+## Evaluating Success:
+* Compare the student's responses with the correct answers and calculate their accuracy
 
 ---
 
 <!-- _footer: "1. 2022 Evaluation of radiographic interpretation skills of undergraduate dental students studying in a dental college of Punjab, India – A comparative study" -->
-<div class="columns">
-<div class="aid">
 
-X-Ray Interpretation
-<!-- ![](img/qexample.png) -->
-![](img/pdentits-answers-H.png)
-</div>
-<div>
-
-#
-#
-#
-# Students' Intelligence?
-Dental **students' accuracy** in X-Ray interpretation ranges from **48% to 65%**<sup>[1]</sup>
-
-</div>
-</div>
+# Students' Intelligence in Interpreting X-ray Images?
+## **Success rate of interpreting X-ray images by dental students** ranges from **48% - 65%**<sup>[1]</sup>
 
 ---
 
-### **Simulation** of **Human Intelligence** in Dentistry?
-# Artificial Intelligence
-1. Take X-ray
-2. Interpret X-ray
-3. Make decisions
+# Let's Change That Together
+## Agenda for Today:
+0. Turning on Notebooks
+1. Introduction
+2. Tasks and Exercises
+3. Creating Artificial Intelligence
+4. Feedback
 
-![bg vertical left 50%](img/mascot/AID_5.svg)
-![bg 50%](img/mascot/AID_6.svg)
-
----
-
-# How to create Intelligence?
-- Task
-- Exercise
-- Evaluation
-![bg right](img/mascot/AID_4.svg)
+![bg right:40%](img/mascot/AID_7.svg)
 
 ---
 
-## Creating Students' Intelligence
+# 0. Turning on Notebooks
+- Connect to wifi: eduroam
 
-<div class="columns"><div>
-
-# Professor's Perspective
-* Task: I would like to teach my **students** how to classify tooth decay from dental X-ray images
-* Exercise: I have to design exercises for them
-* Evaluation: I have to evaluate their performance
-
-</div><div>
-
-# Student's Perspective
-* Task: I would like to know how to classify tooth decay from dental X-ray images
-* Exercise: I have to do exercises (e.g., interpret at least 100 X-rays with tooth decay)
-* Evaluation: If scored above 90%, I am prepared
-
-</div></div>
+*NOTE: If unsuccessful, use wifi PVPWIFI without a password*
 
 ---
 
-## Creating Artificial Intelligence
+# 1. Introduction
 
-<div class="columns"><div>
+<img style="border: 20px solid #C3AAEE;" src="img/qr_form_intro.png" alt="Image" class="bordered-img">
 
-# Data Scientist's Perspective
-- Task: I would like to teach my **~~students~~ AIs** how to classify tooth decay from dental X-ray images
-- Exercise: I have to design exercises for them
-- Evaluation: I have to evaluate their performance
+![bg right](img/mascot/AID_14.svg)
 
-</div><div>
-
-# AI's Perspective
-- Task: My task is to know how to classify tooth decay from dental X-ray images
-- Exercise: I have to do exercises (e.g., interpret at least 100 X-rays with tooth decay)
-- Evaluation: If scored above 90%, I am prepared
-
-</div></div>
 
 ---
 
-<!-- - Title: "Training Our AI: From Annotations to Classification" -->
-# Let's Create Better Intelligence Together
-
-1) We will get to know each other
-2) We will go through our exercises in X-ray interpretation, compare yourself with our experts
-3) AI will go through our exercises
-4) We will see a comparison between you and our AI
-
-![bg right](img/mascot/AID_7.svg)
-
----
-
-# 1. Get to Know Each Other
-- Questionnaire
+# 2. Tasks and Exercises
+- Logging into the app
+- Trying to solve 3 tasks through our educational application
 
 ![bg right 90%](img/edu_app.png)
 
 ---
+<!-- _footer: "" -->
 
-# 2. Do Our Exercises
-- Quiz
-- Tagging per patient
-- Catalog of cases
+## Task 2.1
+- Learning to **identify a retained tooth**
 
-![bg right 70%](img/mascot/AID_14.svg)
+## Exercise
+- Quiz in the educational app
+
+## Evaluating Success
+- Score achieved in the educational app
+
+Q&A
+
+![bg left:33%](img/mascot/AID_17.svg)
+
+---
+<!-- _footer: "" -->
+
+## Task 2.2
+- Learning to **identify dental restorations**
+
+## Exercise
+- Tagging entire X-ray images
+- Working with Case Catalog
+
+## Evaluating Success
+- Score achieved in the applications 
+
+Q&A
+
+![bg right:40%](img/mascot/AID_17.svg)
+
+---
+<!-- _footer: "" -->
+
+## Task 2.3
+- Learning to **comprehensively interpret X-rays and recommend treatment**
+
+## Exercise
+- Tag entire X-ray images
+- Recommend treatment
+- Discuss controversial cases (use Feedback)
+
+## Evaluating Success
+- Score achieved in the applications
+
+Q&A
+
+![bg left:40%](img/mascot/AID_17.svg)
 
 ---
 
-# 3. AI Exercises
-- AI training pipeline
-- Evaluation
-![bg right 70%](img/mascot/AID_13.svg)
+# 3. How Do We Create Artificial Intelligence Capable of Identifying a Retained Tooth?
 
 ---
 
-# 4. Comparison
-- AI score
-- Your score
+## Task
+- Teach artificial intelligence to identify a retained tooth in an image
+## Exercise
+* Dataset
+    ```bash
+    t0_retained_tooth_classification
+    ├── negative  [57 entries exceeds filelimit, not opening dir]
+    └── positive  [37 entries exceeds filelimit, not opening dir]
+    ```
+* Training script
 
-![bg right 70%](img/mascot/AID_9.svg)
+## Evaluating Success
+- Score achieved in evaluations
+
+![bg right:33% 90%](img/mascot/AID_15.svg)
+
+---
+
+# 4. Feedback and Q&A
+
+<img style="border: 20px solid #C3AAEE;" src="img/qr_form_feedback.png" alt="Image" class="bordered-img">
+
+![bg right](img/mascot/AID_14.svg)
