@@ -19,20 +19,11 @@ footer: 'AI: Dental'
 
 ---
 
-# Team
-# 
-# 
-# 
-# 
-# 
-# 
-# 
-# 
 
-![bg 74%](img/image-9.png)
-![bg 70%](img/image-1.png)
-![bg 70%](img/image-6.png)
-![bg 70%](img/image-7.png)
+<!-- ![bg 74%](img/image-9.png) -->
+![bg 50%](img/image-1.png)
+![bg 50%](img/image-6.png)
+<!-- ![bg 70%](img/image-7.png) -->
 
 ---
 
@@ -144,7 +135,7 @@ footer: 'AI: Dental'
 
 # 1. Spoznávanie
 
-<img style="border: 20px solid #C3AAEE;" src="img/qr_form_intro.png" alt="Image" class="bordered-img">
+<img style="border: 20px solid #C3AAEE;" src="img/sk/qr_form_intro.png" alt="Image" class="bordered-img">
 
 ![bg right](img/mascot/AID_14.svg)
 
@@ -234,7 +225,7 @@ Q&A
 
 # 4. Feedback a Q&A
 
-<img style="border: 20px solid #C3AAEE;" src="img/qr_form_feedback.png" alt="Image" class="bordered-img">
+<img style="border: 20px solid #C3AAEE;" src="img/sk/qr_form_feedback.png" alt="Image" class="bordered-img">
 
 ![bg right](img/mascot/AID_14.svg)
 

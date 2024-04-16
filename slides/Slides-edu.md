@@ -135,6 +135,8 @@ footer: 'AI: Dental'
 
 # 1. Introduction
 
+<!-- 1.insights https://aidental.typeform.com/to/tj0bf15M -->
+
 <img style="border: 20px solid #C3AAEE;" src="img/qr_form_intro.png" alt="Image" class="bordered-img">
 
 ![bg right](img/mascot/AID_14.svg)
@@ -224,6 +226,8 @@ Q&A
 ---
 
 # 4. Feedback and Q&A
+
+<!-- 2. feedback https://aidental.typeform.com/to/H1VOWNrR -->
 
 <img style="border: 20px solid #C3AAEE;" src="img/qr_form_feedback.png" alt="Image" class="bordered-img">
 
