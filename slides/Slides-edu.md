@@ -55,13 +55,13 @@ footer: 'AI: Dental'
 
 ---
 
-## 1. Defining a Complex Task
-* Learn to interpret tooth decay from X-ray images
-## 2. Exercise Design:
-* Prepare a series of 100 X-ray images, some containing teeth with or without decay, and the AI will attempt to assess whether decay is present or not
-## 3. Evaluating Success
-* Compare AI responses with correct answers
-![bg right:40%](img/mascot/AID_4.svg)
+## 1. Define the Task
+Define the AI's task: interpreting tooth decay from X-ray images.
+## 2. Design Exercises - **Datascience**
+Prepare a dataset of 100 X-ray images, some with decay and some without, for AI training.
+## 3. Evaluate Success
+Compare AI responses to correct answers to assess accuracy.
+![bg right:20% 100%](img/mascot/AID_4.svg)
 
 ---
 
@@ -69,11 +69,11 @@ footer: 'AI: Dental'
 
 ---
 
-## 1. Defining a Complex Task
+## 1. Define the Task
 * Learn to respond to user input sentences
-## 2. Exercise Design
+## 2. Design Exercises
 * Prepare 1000 sentences, omitting some words, and require the Artificial Intelligence to complete them
-## 3. Evaluating Success
+## 3. Evaluate Success
 * Evaluate whether the words filled in by the AI match those we removed
 ![bg right:40%](img/mascot/AID_4.svg)
 
@@ -83,11 +83,11 @@ footer: 'AI: Dental'
 
 ---
 
-## 1. Defining a Complex Task
+## 1. Define the Task
 * Teach artificial intelligence to rule the world
-## 2. Exercise Design
+## 2. Design Exercises
 * ?
-## 3. Evaluating Success
+## 3. Evaluate Success
 * The world is ruled by artificial intelligence
 ![bg right:40%](img/mascot/AID_4.svg)
 
