@@ -67,7 +67,7 @@ Compare AI responses to correct answers to assess accuracy.
 
 ---
 
-## How Can Human Create a AI like a ChatGPT?
+## How Can Humans Create a AI like a ChatGPT?
 ### Through **Data Science**
 
 ---
@@ -139,7 +139,7 @@ Compare Students' responses to correct answers to assess accuracy.
 # 0. Notebooks Setup
 ### Connect to wifi: eduroam
 
-*NOTE: If unsuccessful, use wifi PVPWIFI without a password*
+*NOTE: If unsuccessful, use wifi `PVPWIFI` a `passai123`*
 
 ---
 
