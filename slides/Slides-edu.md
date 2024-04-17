@@ -43,66 +43,77 @@ footer: 'AI: Dental'
 ---
 
 ## Simulation of Human Intelligence?
-### **Artificial Intelligence** capable of interpreting an X-ray image
+### An **AI** capable of interpreting an X-ray image
 
 ![bg vertical right:20% 100%](img/mascot/AID_5.svg)
 ![bg 100%](img/mascot/AID_6.svg)
 
 ---
 
-## How Can Humans Create Artificial Intelligence?
+## How Can Humans Create the AI capable of interpreting an X-ray image?
 ### Through **Data Science**
 
 ---
 
 ## 1. Define the Task
 Define the AI's task: interpreting tooth decay from X-ray images.
-## 2. Design Exercises - **Datascience**
-Prepare a dataset of 100 X-ray images, some with decay and some without, for AI training.
+## 2. Design Exercises
+Create **X-ray images dataset** with and without decay for AI training.
+*Input: "X-ray image"*
+*Output: "Tooth decay is present"*
 ## 3. Evaluate Success
 Compare AI responses to correct answers to assess accuracy.
 ![bg right:20% 100%](img/mascot/AID_4.svg)
 
 ---
 
-# How Do We Create a Chatbot?
+## How Can Human Create a AI like a ChatGPT?
+### Through **Data Science**
 
 ---
 
 ## 1. Define the Task
-* Learn to respond to user input sentences
+Define the chatbot's task: engaging in conversation and providing meaningful responses.
 ## 2. Design Exercises
-* Prepare 1000 sentences, omitting some words, and require the Artificial Intelligence to complete them
-## 3. Evaluate Success
-* Evaluate whether the words filled in by the AI match those we removed
-![bg right:40%](img/mascot/AID_4.svg)
+Generate a diverse **dataset** of conversational examples for AI training
+*Prompt: "How was your day?"*
+*Response: "Good, yours?"*
+## 3 Evaluate Success
+Assess AI model performance for effective conversation.
+![bg right:20% 100%](img/mascot/AID_4.svg)
 
 ---
 
-# How Do We Create Artificial Intelligence to Rule the World?
+## How Can Humans Create AI to Rule the World?
+### Disclaimer: **Don't do that**
 
 ---
 
 ## 1. Define the Task
-* Teach artificial intelligence to rule the world
+Clearly outline the AI's task: to achieve total control over the world
 ## 2. Design Exercises
-* ?
+Develop a series of strategic challenges for the AI to overcome in its pursuit of domination.
 ## 3. Evaluate Success
-* The world is ruled by artificial intelligence
-![bg right:40%](img/mascot/AID_4.svg)
+Evaluate the AI's success in executing domination plans and maintaining control.
+![bg right:20% 100%](img/mascot/AID_4.svg)
 
 ---
 
-# How Do We Create Human Intelligence?
+## How Can We Create Students' Intelligence?
+### Through **Education platforms**
+
+![bg right:50% 90%](img/edu_app.png)
 
 --- 
 
-## Defining a Complex Task:
-* Teach a student to interpret tooth decay from X-ray images
-## Exercise Design:
-* Prepare a series of 100 X-ray images, some containing teeth with or without decay, and the student will attempt to assess whether decay is present or not
-## Evaluating Success:
-* Compare the student's responses with the correct answers and calculate their accuracy
+## 1. Define the Task
+Define the **Students'** task: interpreting tooth decay from X-ray images.
+## 2. Design Exercises
+Create **X-ray images dataset** with and without decay for Students' training.
+*Input: "X-ray image"*
+*Output: "Tooth decay is present"*
+## 3. Evaluate Success
+Compare Students' responses to correct answers to assess accuracy.
 
 ---
 
@@ -115,18 +126,18 @@ Compare AI responses to correct answers to assess accuracy.
 
 # Let's Change That Together
 ## Agenda for Today:
-0. Turning on Notebooks
-1. Introduction
-2. Tasks and Exercises
-3. Creating Artificial Intelligence
-4. Feedback
+- Notebooks Setup
+- Introduction
+- Tasks and Exercises
+- Creating Artificial Intelligence
+- Feedback
 
 ![bg right:40%](img/mascot/AID_7.svg)
 
 ---
 
-# 0. Turning on Notebooks
-- Connect to wifi: eduroam
+# 0. Notebooks Setup
+### Connect to wifi: eduroam
 
 *NOTE: If unsuccessful, use wifi PVPWIFI without a password*
 
@@ -144,8 +155,8 @@ Compare AI responses to correct answers to assess accuracy.
 ---
 
 # 2. Tasks and Exercises
-- Logging into the app
-- Trying to solve 3 tasks through our educational application
+- Signup into the app: `https://edu.aidental.ai/`
+- Try to solve 3 tasks through our educational application
 
 ![bg right 90%](img/edu_app.png)
 
@@ -158,7 +169,7 @@ Compare AI responses to correct answers to assess accuracy.
 ## Exercise
 - Quiz in the educational app
 
-## Evaluating Success
+## Success Evaluation
 - Score achieved in the educational app
 
 Q&A
@@ -175,7 +186,7 @@ Q&A
 - Tagging entire X-ray images
 - Working with Case Catalog
 
-## Evaluating Success
+## Success Evaluation
 - Score achieved in the applications 
 
 Q&A
@@ -193,7 +204,7 @@ Q&A
 - Recommend treatment
 - Discuss controversial cases (use Feedback)
 
-## Evaluating Success
+## Success Evaluation
 - Score achieved in the applications
 
 Q&A
@@ -202,7 +213,8 @@ Q&A
 
 ---
 
-# 3. How Do We Create Artificial Intelligence Capable of Identifying a Retained Tooth?
+# 3. Create Artificial Intelligence
+## Capable of Identifying a Retained Tooth
 
 ---
 
@@ -217,7 +229,7 @@ Q&A
     ```
 * Training script
 
-## Evaluating Success
+## Success Evaluation
 - Score achieved in evaluations
 
 ![bg right:33% 90%](img/mascot/AID_15.svg)
