@@ -18,8 +18,6 @@ footer: 'AI: Dental'
 ![bg right:33%](img/mascot/AID_2.svg)
 
 ---
-
-
 <!-- ![bg 74%](img/image-9.png) -->
 ![bg 50%](img/image-1.png)
 ![bg 50%](img/image-6.png)
@@ -47,8 +45,8 @@ footer: 'AI: Dental'
 # Simulation of Human Intelligence?
 ## **Artificial Intelligence** capable of interpreting an X-ray image
 
-![bg vertical right:50% 50%](img/mascot/AID_5.svg)
-![bg 50%](img/mascot/AID_6.svg)
+![bg vertical right:20% 100%](img/mascot/AID_5.svg)
+![bg 100%](img/mascot/AID_6.svg)
 
 ---
 
