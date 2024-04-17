@@ -184,7 +184,7 @@ Q&A
 
 ## Exercise
 - Tagging entire X-ray images
-- Working with Case Catalog
+- Working with Catalog of Cases
 
 ## Success Evaluation
 - Score achieved in the applications 
