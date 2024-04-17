@@ -34,23 +34,24 @@ footer: 'AI: Dental'
 
 ---
 
-# Human Intelligence?
-## **Dentist** who can interpret an X-ray image
+## Human Intelligence?
+### A **Dentist** who can interpret an X-ray image
 
 <!-- ![bg vertical right:50% 50%](img/mascot/AID_5.svg)
 ![bg 50%](img/mascot/AID_6.svg) -->
 
 ---
 
-# Simulation of Human Intelligence?
-## **Artificial Intelligence** capable of interpreting an X-ray image
+## Simulation of Human Intelligence?
+### **Artificial Intelligence** capable of interpreting an X-ray image
 
 ![bg vertical right:20% 100%](img/mascot/AID_5.svg)
 ![bg 100%](img/mascot/AID_6.svg)
 
 ---
 
-# How Do We Create Artificial Intelligence?
+## How Can Humans Create Artificial Intelligence?
+### Through **Data Science**
 
 ---
 
