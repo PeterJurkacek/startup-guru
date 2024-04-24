@@ -82,7 +82,7 @@ ALTAI seven principles
 <!-- A crucial component of achieving Trustworthy AI is transparency which encompasses three elements: 1) traceability, 2) explainability and 3) open communication about the limitations of the AI system. Technical robustness requires that AI systems be developed with a preventative approach to risks and in a manner such that they reliably behave as intended while minimising unintentional and unexpected harm, and preventing unacceptable harm. This should also apply to potential changes in their operating environment or the presence of other agents (human and artificial) that may interact with the system in an adversarial manner. In addition, the physical and mental integrity of humans should be ensured. -->
 
 - Each model training is versionized in experiment logging to monitor the training and evaluation of a model (Traceability)
-- Reasoning behind the decisions with visual explanations (Explainability)
+- Reasoning behind the decisions with text and visual explanations (Explainability)
 - Materials about how data are used (Communication)
 
 <!-- * **Example:** 
