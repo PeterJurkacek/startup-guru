@@ -8,6 +8,7 @@ footer: 'AI: Dental'
 
 <!-- https://altai.insight-centre.org/AL/1804/ -->
 <!-- _footer: ""-->
+<!-- _paginate: skip -->
 <!-- speaker_notes: In this presentation, we'll explore how our AI system for dental care adheres to the ALTAI principles for trustworthy AI. By following these principles, we ensure the development and deployment of reliable and responsible AI that benefits the dental field. -->
 
 # Trustworthy AI
@@ -29,6 +30,8 @@ footer: 'AI: Dental'
 <!-- # AI:Dental Examples of Trustworthiness -->
 
 ![bg](https://kroki.io/vega/svg/eNrlWVtP4zgUfudXWJmVgJ1e0kARizS7QuJhkVZapBlpHkY8OImbekntynZKA-p_X9u5OTe3pQzaBR5Gk2Ofq7_vHBuejwBwfuHBHC2gcwWcuRBLfjUer1AERxEW88QfYTrONmjpeDUd_cMpcQZK9RGHYi4Vp66rv-cIR3NhCJYwDDGJpOQiE8BEUI6fkPJGKEGZHYFFrETP8kN9orUy4lzfXt0gImAMrv_6dn0LGOJJLLjWUbZIMKdMbVzgMIxRIZ9RIr5mPiZeLgtT-TW8LL7WpTP5xXFEYKzsDHVC4zNHL23kvxsdX7aDyy0_9EqpSuBCp8JgiJMiMClPliEUeuU3tzJ2r43JFdhvSUC_zESKVzBOUOXYVNHrDyjVlQoCmshK-TjGIi3VKxNy09loWpMHMsKIMqXvlvLNwOrnz2QBCYARIkEKIAkBXSHG9aH3-PQOd_oNBXOCAwkDRv2EC4I41845nKG-bL3RWf3n8DjuGF7BPO8beYggUtkTCUPUHcP54akzSPgSMlXvn-XjBuszFOkASEYOQ8wDhheYQIEp0cnOIMOq6G9W6a80wEjxXnlHZIUZJYusEzyiOB76SDWVF9cj_9_9kRFKi4gyFIPQnCYs6CKoUCc0o2zRz1GRLrUmjCImW6hooCViNFn6aU2_LIYhue9LoOwsXHIEWboUJFESQ2YEn0e2pJhUDJbdjETI6JC1HvljeHc7AHe390Vs5Vka3d6teo0T0gXEpG4u74GNYqrejVEc5uUvHVjPSbVeGVkrp1hC1szVnpQ7AFkP70jrCTEqNwmWoFIm-5EyNpNTAbUzrQ7SrXKb9pya5DYNjekncY6YOZ_WfVFn08prR5z2aWQDeuyBz8BzG_Utp90CsocOFBWF1Xit6lqcQ041jAzWPGESIhX-pBTNGF3Uo5vBAImayAIQw2GmtxuVyj5g5VNVwHoJehmtMNYdXOFw2N7SqkAt4SwrY21TU26AxZDXQVMuYLWwpHF2HWkuG40zJ8wwiClHodPYWIuiA5UdWNPd6OQ44-fxAMgMk8VIuzsFv4KA8pN8S96Xyj2S-6en2yNID4yAY3JgBFww-rC9rpJyXCAU-0qyo9Hv-dXaYnkymm41NsNx_MrxKZN_L2GgLppWy-5o0jR21Pe12Xo1KDinHwednNN-h-11O-HqTH094m3lR4a0tWzFk3M7H16XFZm1tPBrYcFefvNHm9W1uidBcWJa14c2OB6dHe_gg9pg18zQsA9-l2B0J-APMAESl9sdQUkKsoU3QXb0W235kCONLbu5_A27nX7ydfu9eGfbDPo0Dp3XaBCfXP3jvITM1qt2QWmWmDfq-sVuGDEcOpbrQ8FjfV9v392KG0h5EeticieLOxhctbbePpG-RGnttbUqOGcX0z1HZiOq3RzsMxHrDnomYWPKRAym22x0D75q6FlxtrHirDYazIfeMIY-itsoq4NrY7vXHoKq6iRO8qP4DKanhx34Hl5efupFz68_2-p7ilZav5E_t8cH17_zg749ZdnK727BGHhOq5WVWGO6Ox5ZGt9zr26MZk1V881QS83o7DtmZ8lMzShLToIu98toF5dfvlh9do2knQvpUyEki3YsZTGGDP0YBg_OvhSvPbeqX6o-Sio23mJ7j5KdGW57cu3w3GqMBhuR3ZEn-fsa82EPL-98SHQjaEYT9j4RdP4mCDr_8AjieP0-AXTxJgC6-PAA0m--d4mgyzdB0OWHRxBN5JnuDCDz_f3fxVH58lh7eyGj1Eu9_8tZq78YHW3-Be8znU4=)
+
+<!-- _footer: https://altai.insight-centre.org/-->
 
 <!-- 
 ALTAI seven principles
