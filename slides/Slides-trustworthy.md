@@ -46,7 +46,7 @@ ALTAI seven principles
 
 ---
 
-## Human Agency and Oversight
+## Human Agency and Oversight (3.25)
 
 <!-- AI systems should support human autonomy and decision-making, as prescribed by the principle of respect for human autonomy. This requires that AI systems should both act as enablers to a democratic, flourishing and equitable society by supporting the user’s agency and upholding fundamental rights, which should be underpinned by human oversight. In this section, we are asking you to assess the AI system in terms of the respect for human agency, as well as human oversight. -->
 
@@ -56,7 +56,7 @@ ALTAI seven principles
 <!-- Image: (Left side) Consider adding an image of dentists working ogether or a student learning dentistry.-->
 
 ---
-## Technical Robustness and Safety
+## Technical Robustness and Safety (2.33)
 <!-- A crucial requirement for achieving Trustworthy AI systems is their dependability (the ability to deliver services that can justifiably be trusted) and resilience (robustness when facing changes). Technical robustness requires that AI systems are developed with a preventative approach to risks and that they behave reliably and as intended while minimising unintentional and unexpected harm as well as preventing it where possible. This should also apply in the event of potential changes in their operating environment or the presence of other agents (human or artificial) that may interact with the AI system in an adversarial manner. The questions in this section address four main issues: 1) security; 2) safety; 3) accuracy; and 4) reliability, fall-back plans and reproducibility. -->
 - Cooperation with Third-party cyber security (Security)
 <!-- - TODO: Certified for cybersecurity (e.g., the certification scheme created by the Cybersecurity Act in Europe) -->
@@ -69,7 +69,7 @@ ALTAI seven principles
 
 ---
 
-## Privacy and Data Governance 
+## Privacy and Data Governance (4)
 
 <!-- Closely linked to the principle of prevention of harm is privacy, a fundamental right particularly affected by AI systems. Prevention of harm to privacy also necessitates adequate data governance that covers the quality and integrity of the data used, its relevance in light of the domain in which the AI systems will be deployed, its access protocols and the capability to process data in a manner that protects privacy. -->
 
@@ -78,7 +78,7 @@ ALTAI seven principles
 
 ---
 
-## Transparency
+## Transparency (4)
 <!-- A crucial component of achieving Trustworthy AI is transparency which encompasses three elements: 1) traceability, 2) explainability and 3) open communication about the limitations of the AI system. Technical robustness requires that AI systems be developed with a preventative approach to risks and in a manner such that they reliably behave as intended while minimising unintentional and unexpected harm, and preventing unacceptable harm. This should also apply to potential changes in their operating environment or the presence of other agents (human and artificial) that may interact with the system in an adversarial manner. In addition, the physical and mental integrity of humans should be ensured. -->
 
 - Each model training is versionized in experiment logging to monitor the training and evaluation of a model (Traceability)
@@ -92,7 +92,7 @@ ALTAI seven principles
 
 ---
 
-## Diversity, Non-discrimination & Fairness
+## Diversity, Non-discrimination & Fairness (2.33)
 <!-- In order to achieve Trustworthy AI, we must enable inclusion and diversity throughout the entire AI system’s life cycle. AI systems (both for training and operation) may suffer from the inclusion of inadvertent historic bias, incompleteness, and bad governance models. The continuation of such biases could lead to unintended (in)direct prejudice and discrimination against certain groups or people, potentially exacerbating prejudice and marginalisation. Harm can also result from the intentional exploitation of (consumer) biases or by engaging in unfair competition, such as the homogenisation of prices by means of collusion or a non- transparent market. Identifiable and discriminatory bias should be removed in the collection phase where possible. AI systems should be user-centric and designed in a way that allows all people to use AI products or services, regardless of their age, gender, abilities or characteristics. Accessibility to this technology for persons with disabilities, which are present in all societal groups, is of particular importance. -->
 
 - International cooperation to ensure diverse and representative datasets (Avoidance of unfair bias)
@@ -103,14 +103,14 @@ ALTAI seven principles
 <!-- Image: (Left side) Consider adding an image of a globe or people from diverse backgrounds to represent data diversity. -->
 
 ---
-# Societal and Environmental Well-being
+# Societal and Environmental Well-being (4)
 <!-- In line with the principles of fairness and prevention of harm, the broader society, other sentient beings and the environment should be considered as stakeholders throughout the AI system's life cycle. Ubiquitous exposure to social AI systems in all areas of our lives (be it in education, work, care or entertainment) may alter our conception of social agency, or negatively impact our social relationships and attachment. While AI systems can be used to enhance social skills, they can equally contribute to their deterioration. This could equally affect peoples' physical and mental well-being. The effects of AI systems must therefore be carefully monitored and considered. Sustainability and ecological responsibility of AI systems should be encouraged, and research should be fostered into AI solutions addressing areas of global concern, for instance the Sustainable Development Goals. Overall, AI should be used to benefit all human beings, including future generations. AI systems should serve to maintain and foster democratic processes and respect the plurality of values and life choices of individuals. AI systems must not undermine democratic processes, human deliberation or democratic voting systems or pose a systemic threat to society at large. -->
 - Do not require real-time inference to bring AI value to users(Environmental Wellbeing)
 - Dental education improvements (Impact on work and skills)
 
 ---
 
-## Accountability
+## Accountability (3.5)
 <!-- The principle of accountability necessitates that mechanisms be put in place to ensure responsibility for the development, deployment and/or use of AI systems. This topic is closely related to risk management, identifying and mitigating risks in a transparent way that can be explained to and audited by third parties. When unjust or adverse impacts occur, accessible mechanisms for accountability should be in place that ensure an adequate possibility of redress.  -->
 - Data management and auditing system for the training data used in the AI model inplace (Auditability) [[DVC](https://dvc.org/), [MLOps](https://mlflow.org/)]
 - Developing Software as a Medical Device which has to be Regulatory Compliant (Risk Management)[[Open regulatory](https://app.openregulatory.com/)]
