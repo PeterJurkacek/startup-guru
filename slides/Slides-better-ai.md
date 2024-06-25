@@ -2,6 +2,7 @@
 marp: true
 theme: custom-default
 paginate: true
+footer: AI:Dental
 ---
 
 <!-- _paginate: skip -->
@@ -13,19 +14,14 @@ Speaker: Peter Jurkáček, CTO
 ![bg right:40%](img/mascot/AID_5.svg)
 
 ---
+<!-- _footer: "[University of Michigan School of Dentistry](https://www.dent.umich.edu/patient-care/dental-x-rays)" -->
 
 <!-- Introduction to Dental Imaging -->
-# The Role of Dental Imaging in Modern Dentistry
-- Invisible to naked eye during visual examination
-- Early cavities are hard to spot
-- Importance of bitewing radiography for detecting proximal caries
+## Dental X-rays in Modern Dentistry?
+*"Dental x-rays are used to diagnose diseases affecting the teeth and the bones since the inside of these structures **is not seen when dentists look in your mouth**"*
 
-![bg right](img/edu/1.png)
-
-<!-- /Users/pj/aid/prezis/startup-guru/slides/img/edu/2.png
-/Users/pj/aid/prezis/startup-guru/slides/img/edu/3.png
-/Users/pj/aid/prezis/startup-guru/slides/img/edu/4.png
-/Users/pj/aid/prezis/startup-guru/slides/img/edu/5.png -->
+![bg right ](img/edu/7.png)
+![bg](img/edu/6.png)
 
 <!-- 
 In dentistry, several pathologies and conditions cannot be detected by a visual examination alone and require the use of x-rays for proper diagnosis. Here are some of the key pathologies and conditions that can be identified through dental x-rays:
@@ -53,13 +49,15 @@ Dental imaging is a crucial tool in modern dentistry, primarily because it allow
 
 ---
 
+<!-- _footer: "[(1978) Detection accuracy in chest radiography](https://pubmed.ncbi.nlm.nih.gov/98003/)" -->
 <!-- Analysis of X-ray Images by Dentists -->
-# How Dentists Analyze X-ray Images?
-1. Identifying suspicious regions
-2. Classifying pathologies
-3. Explaining findings to patients
-4. Performing procedures based on X-ray analysis
-5. Updating the Electronic Health Record (EHR)
+# How your dentist interprets X-ray Image?
+1. Detects - something is present
+2. Identifies - it is pathologic
+3. Discriminates - it is a lesion of a specific type
+4. Diagnoses - it is tooth decay infecting pulp and root canal is neccesary
+
+![bg left:45%](img/edu/9.png)
 
 <!-- ## Analysis of X-ray Images by a Dentist
 1. **Identify Suspicious Regions**:
@@ -76,54 +74,45 @@ Dental imaging is a crucial tool in modern dentistry, primarily because it allow
 - Influence of Various Factors
 The accuracy of interpreting X-ray images can be influenced by several factors, including the dentist's fatigue, emotional state, and the complexity of the clinical environment. These factors can affect the precision of diagnosis, highlighting the need for careful analysis and sometimes a second opinion to ensure accurate treatment planning. -->
 
---- 
+---
 
-<!-- Slide 4: Challenges in X-ray Interpretation -->
-# Challenges in Accurate X-ray Interpretation
+<!-- Slide 5: Accuracy of X-ray Interpretation -->
+# Challanges in X-ray interpretation
+- **Complexity**
+  - The Complexity of dental radiographs
+  - Clinical knowledge (scientific knowledge about diseases)
 
-- Influence of fatigue and emotions
-- Complexity of clinical environments
-- Subjectivity in interpretation
-- Variability in diagnostic agreement among dentists
+- **Subjectivity**
+  - Dental training and education programs (location and duration)
+  - Clinical experience varies
 
-<!-- ## What is the accuracy of interpreting X-ray?
-- The accuracy of interpreting X-ray images can be influenced by several factors: dentist's fatigue, emotional state, and the complexity of the clinical environment
-    - Errors due to exhaustion (fatigue, emotional state)
-    - Missed findings out of specialization (complexity of the clinical environment)
-    - Subjectivness during interpretation (Radiological view)
-    - A bunch of different pathologies (complexity of the clinical environment)
-    - "If first dentist annotate that there is not a Decay there is 87% chance that second one independently will agree and 13% that second will disagree"
-        - Result ((79.7 / (79.7 + 13.1))+(89.5 / (89.5 + 6.2))+(79.5 / (79.5 + 15.3)))/3 = 87%
-    - "If first dentist annotate that there is Decay, there is a 34% chance that second one independedly will spot the decay, and a 66% chance that second one will not spot the decay"
-        ((7.2 / (7.2 + 13.1))+(4.3 / (4.3 + 6.2))+(5.2 / (5.2 + 15.3)))/3 = 33%
-        [Can a Computer Identify Carious Lesions in Dental X-Rays As Accurately As Humans?](https://www.hellopearl.com/products/second-opinion)
-    - Nepripravenosť na klinickú prax (nedostatočný počet prípadov, Datasety RTG snimok zubov na internete sotva najdete)
-    - Uspesnost studentov TODO%
-        - Zistili sme, nie je vysoka ani medzi studentami zubariny, pricom po odpromovani nastupuju s uspesnostou okolo TODO% a nasledne zbieraju skusenosti na klinike. Toto zistenie vyplyva z existujucich studiji (Odkaz) a pri pilotnom testovani edukacnej aplikacie priemerne skore studentov bolo opdobne (Obrazok z pilotneho testovania) okolo TODO%
-    - Students miss over 43% of actual caries and are only right 57% of the time they identify one, while our AI consistently outperforms them in both accuracy and reliability. [Evaluation of radiographic interpretation skills of undergraduate dental students studying in a dental college of Punjab, India – A comparative study](https://www.researchgate.net/publication/367683626_Evaluation_of_radiographic_interpretation_skills_of_undergraduate_dental_students_studying_in_a_dental_college_of_Punjab_India_-_A_comparative_study) 
-    
-    *The F1-score of the students was 0.57, while the F1-score of the network was 0.74 despite the accuracy of 0.82. A significant difference in the sensitivity was found between the model and the postgraduate students when detecting different stages of lesions (p < 0.05). For early lesions which limited in enamel and the outer third of dentin, the neural network had sensitivities all above or at 0.65, while students showed sensitivities below 0.40. From our results, we conclude that the CNN may be an assistant in detecting proximal caries on bitewings.*
-    -->
+- **Errors**
+  - Time pressure
+  - Cognitive load
+
+<!-- _footer: "[Influence of examiner’s clinical experience
+on the reproducibility and accuracy of radiographic
+examination in detecting occlusal caries](https://pubmed.ncbi.nlm.nih.gov/19669175/)" -->
+
+<!-- _footer: "[(2022) Factors affecting interpretation of dental radiographs](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9974235/)" -->
+
+
+![bg](img/mascot/)
 
 ---
 
+<!-- _footer: "[(2020) Can a Computer Identify Carious Lesions in Dental X-Rays As Accurately As Humans?](https://www.hellopearl.com/products/second-opinion)" -->
 
-<!-- Slide 5: Accuracy of X-ray Interpretation -->
-# Accuracy in X-ray Interpretation
-- Factors affecting accuracy: fatigue, emotional state, environment complexity
-- Statistics on diagnostic agreement between dentists
-- Comparison of dentist accuracy vs. AI performance
+# Subjectivity
 
-<!-- _footer: "1. 2022 Evaluation of radiographic interpretation skills of undergraduate dental students studying in a dental college of Punjab, India – A comparative study"
+In terms of caries is present there is ~35% agreement and ~65% disagreement (discrepancy)
 
-## Success rate of interpreting X-ray images by dental students ranges from **48% - 65%**<sup>[1]</sup>
-
-![bg right:37%](img/321b949b-b01d-49b0-97a8-75af270f5e98.jpg) -->
+![bg right:50% 90%](img/agreement/2.png)
 
 ---
 
 <!-- Slide 6: Enhancing Diagnosis with AI -->
-# How AI Enhances Dental Diagnosis
+# Can we use AI?
 - AI for detecting suspicious regions and semantic segmentation
 - Classification of pathologies using AI
 - AI-assisted visual explanations and voice recognition
@@ -372,6 +361,40 @@ These measures ensure our AI is reliable, transparent, and continuously improvin
 
 ![bg right:35% 80% invert](img/qr_aid.png)
 
+---
+
+<!-- _footer: "[(2020) Can a Computer Identify Carious Lesions in Dental X-Rays As Accurately As Humans?](https://www.hellopearl.com/products/second-opinion)" -->
+
+![bg left 55%](img/agreement/1.png)
+
+- Factors affecting accuracy: fatigue, emotional state, environment complexity
+- Statistics on diagnostic agreement between dentists
+- Comparison of dentist accuracy vs. AI performance
+
+<!-- _footer: "1. 2022 Evaluation of radiographic interpretation skills of undergraduate dental students studying in a dental college of Punjab, India – A comparative study"
+
+## Success rate of interpreting X-ray images by dental students ranges from **48% - 65%**<sup>[1]</sup>
+
+![bg right:37%](img/321b949b-b01d-49b0-97a8-75af270f5e98.jpg) -->
+
+<!-- ## What is the accuracy of interpreting X-ray?
+- The accuracy of interpreting X-ray images can be influenced by several factors: dentist's fatigue, emotional state, and the complexity of the clinical environment
+    - Errors due to exhaustion (fatigue, emotional state)
+    - Missed findings out of specialization (complexity of the clinical environment)
+    - Subjectivness during interpretation (Radiological view)
+    - A bunch of different pathologies (complexity of the clinical environment)
+    - "If first dentist annotate that there is not a Decay there is 87% chance that second one independently will agree and 13% that second will disagree"
+        - Result ((79.7 / (79.7 + 13.1))+(89.5 / (89.5 + 6.2))+(79.5 / (79.5 + 15.3)))/3 = 87%
+    - "If first dentist annotate that there is Decay, there is a 34% chance that second one independedly will spot the decay, and a 66% chance that second one will not spot the decay"
+        ((7.2 / (7.2 + 13.1))+(4.3 / (4.3 + 6.2))+(5.2 / (5.2 + 15.3)))/3 = 33%
+        [Can a Computer Identify Carious Lesions in Dental X-Rays As Accurately As Humans?](https://www.hellopearl.com/products/second-opinion)
+    - Nepripravenosť na klinickú prax (nedostatočný počet prípadov, Datasety RTG snimok zubov na internete sotva najdete)
+    - Uspesnost studentov TODO%
+        - Zistili sme, nie je vysoka ani medzi studentami zubariny, pricom po odpromovani nastupuju s uspesnostou okolo TODO% a nasledne zbieraju skusenosti na klinike. Toto zistenie vyplyva z existujucich studiji (Odkaz) a pri pilotnom testovani edukacnej aplikacie priemerne skore studentov bolo opdobne (Obrazok z pilotneho testovania) okolo TODO%
+    - Students miss over 43% of actual caries and are only right 57% of the time they identify one, while our AI consistently outperforms them in both accuracy and reliability. [Evaluation of radiographic interpretation skills of undergraduate dental students studying in a dental college of Punjab, India – A comparative study](https://www.researchgate.net/publication/367683626_Evaluation_of_radiographic_interpretation_skills_of_undergraduate_dental_students_studying_in_a_dental_college_of_Punjab_India_-_A_comparative_study) 
+    
+    *The F1-score of the students was 0.57, while the F1-score of the network was 0.74 despite the accuracy of 0.82. A significant difference in the sensitivity was found between the model and the postgraduate students when detecting different stages of lesions (p < 0.05). For early lesions which limited in enamel and the outer third of dentin, the neural network had sensitivities all above or at 0.65, while students showed sensitivities below 0.40. From our results, we conclude that the CNN may be an assistant in detecting proximal caries on bitewings.*
+    -->
 ---
 
 <!-- RTG snimok, je dolezity lebo niektore patologie 
