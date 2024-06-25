@@ -59,6 +59,23 @@ Dental imaging is a crucial tool in modern dentistry, primarily because it allow
 
 ![bg left:45%](img/edu/9.png)
 
+---
+
+# Performance of two dentist differ
+
+---
+
+<!-- _footer: "[(2020) Can a Computer Identify Carious Lesions in Dental X-Rays As Accurately As Humans?](https://www.hellopearl.com/products/second-opinion)" -->
+
+# Tooth decay detection
+
+In terms of caries is present there is 
+~35% agreement (Caries Exist) and 
+**~65% disagreement** (Discrepancy)
+
+![bg right:48% 90%](img/agreement/2.png)
+
+
 <!-- ## Analysis of X-ray Images by a Dentist
 1. **Identify Suspicious Regions**:
     - Dentists examine X-rays to spot abnormal areas that may indicate cavities, infections, or other issues not visible in a regular check-up.
@@ -74,78 +91,98 @@ Dental imaging is a crucial tool in modern dentistry, primarily because it allow
 - Influence of Various Factors
 The accuracy of interpreting X-ray images can be influenced by several factors, including the dentist's fatigue, emotional state, and the complexity of the clinical environment. These factors can affect the precision of diagnosis, highlighting the need for careful analysis and sometimes a second opinion to ensure accurate treatment planning. -->
 
----
-
-<!-- Slide 5: Accuracy of X-ray Interpretation -->
-# Challanges in X-ray interpretation
-- **Complexity**
-  - The Complexity of dental radiographs
-  - Clinical knowledge (scientific knowledge about diseases)
-
-- **Subjectivity**
-  - Dental training and education programs (location and duration)
-  - Clinical experience varies
-
-- **Errors**
-  - Time pressure
-  - Cognitive load
-
 <!-- _footer: "[Influence of examiner’s clinical experience
 on the reproducibility and accuracy of radiographic
 examination in detecting occlusal caries](https://pubmed.ncbi.nlm.nih.gov/19669175/)" -->
 
 <!-- _footer: "[(2022) Factors affecting interpretation of dental radiographs](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9974235/)" -->
 
+---
 
-![bg](img/mascot/)
+# Tooth Decay classification
+
+We've replicated study on our dataset and we got
+~50% agreement (Caries Exist) and 
+**~50% disagreement** (Discrepancy)
+
+![bg right:48% 90%](img/agreement/3.png)
 
 ---
 
-<!-- _footer: "[(2020) Can a Computer Identify Carious Lesions in Dental X-Rays As Accurately As Humans?](https://www.hellopearl.com/products/second-opinion)" -->
+# Tooth Decay is not enought
+Dentist have to identifies more than 
+- > 30 pathologies 
+- > 15 treatment reccomendation
+- > 60 attributes
 
-# Subjectivity
-
-In terms of caries is present there is ~35% agreement and ~65% disagreement (discrepancy)
-
-![bg right:50% 90%](img/agreement/2.png)
-
----
-
-<!-- Slide 6: Enhancing Diagnosis with AI -->
-# Can we use AI?
-- AI for detecting suspicious regions and semantic segmentation
-- Classification of pathologies using AI
-- AI-assisted visual explanations and voice recognition
-- Automated documentation and EHR updates
-
-<!-- ## Enhanced process of dentist with AI assisted
-1. **Identify Suspicious Regions:**
-Computer Vision (Object Detection): AI can be trained to automatically detect and highlight suspicious regions on X-ray images that may indicate cavities, infections, or abnormalities. This aids dentists in focusing on critical areas more efficiently.
-Semantic Segmentation: AI algorithms can segment X-ray images to precisely outline areas of interest, making it easier for dentists to identify subtle pathologies that may be missed by the human eye alone.
-
-2. **Classify Pathologies:**
-Image Classification: AI can classify identified pathologies into specific categories such as cavities, gum disease, or abscesses based on patterns and characteristics extracted from X-ray images. This classification helps in determining the severity and type of treatment required.
-Explain Findings to the Patient:
-
-3. **Visual Explanations:** AI-generated visual aids, such as annotated images or diagrams overlaid on X-rays, can help dentists explain complex findings more clearly to patients.
-Voice Recognition: Integrated voice recognition systems can assist dentists in dictating notes directly into the patient’s EHR, ensuring accurate and detailed documentation without the need for manual entry.
-Perform the Procedure:
-
-4. **Robotics and AI-Assisted Surgery:** While not specifically mentioned in the original context, AI can support robotic systems in performing precise dental procedures such as drilling or placing implants based on pre-determined treatment plans derived from AI analysis.
-
-5. **Make an Electronic Health Record of the Visit:**
-Automated Documentation: AI can automate the creation and updating of Electronic Health Records (EHRs) by extracting relevant data from the analysis process. This includes integrating the digital dental chart with detailed annotations and treatment plans. -->
+<!-- ![bg 70%](img/expert_mind_2.png) -->
+![bg right](img/agreement/4.png)
 
 ---
 
-<!-- Slide 7: Challenges in Training AI for Dental Imaging -->
-# Challenges in AI Training for Dental Imaging
+<!-- Slide 5: Accuracy of X-ray Interpretation -->
+# Challanges in X-ray interpretation
+**Subjectivity**: Different dental training and education programs and clinical experience
+
+**Complexity**: The Complexity of dental radiographs, amount of different pathologies, scientific knowledge about diseases
+
+**Errors**: Time pressure, Cognitive load
+
+---
+
+### Human Inteligence and Artificial Inteligence can and fight those challanges together
+
+![bg right](img/mascot/AID_7.svg)
+
+---
+
+# Tackle the Challanges
+**Subjectivity**: 
+  - AI second opinion
+  - Education platform
+  - Datasets from multiple opinions
+
+**Complexity**: 
+  - ~100 tags in education application
+  - Multiple modalities
+  - Modular architecture for specific tag
+  - Configurable inference pipeline
+
+**Errors**: 
+  - Detect all suspicious regions regardless and findings below 6s
+
+<!-- Slide 8: AI -->
+<!-- # Our Approach
+- Data collection and quality
+- Comprehensive EHR creation
+- Pathology complexity and explainability
+- Integration into dental education
+- Ethical and regulatory considerations -->
+
+<!-- ## AI:Dental AI What we are doing?
+
+- Data Collection and Quality:
+Annotation Collection: Collaborating globally to collect annotated datasets that represent real-world dental conditions, ensuring AI models are trained on diverse and accurate data.
+- Comprehensive EHR Creation: Complex Dental Charting: Developing robust systems for comprehensive dental charting that extend beyond decay detection to include periapical lesions, fillings, restorations, and oral structures. Feedback from clinics indicates a need for broader coverage in dental AI capabilities.
+- Pathology Complexity: Diverse Pathologies: Identifying and classifying over 20 different dental pathologies with more than 60 attributes requires sophisticated AI models trained on diverse datasets.
+- Explainability: Enhancing AI Explainability: Ensuring transparency in AI-driven diagnostics to foster trust among clinicians and patients.
+- Education and Training: AI in Dental Education: Introducing AI concepts in dental education to prepare future practitioners for integrating AI technologies effectively into clinical practice.
+- Ethical and Regulatory Considerations: Data Privacy and Governance: Adhering to strict data privacy regulations (e.g., GDPR) and implementing governance frameworks to ensure ethical use of AI in dentistry. -->
+
+---
+
+# Proposed solution
+
+![bg right:70% 95%](img/pipeline_fig/pipeline.png)
+
+<!-- Slide 7: Challenges in Training AI for Dental Imaging
+# Challenges in AI Training
 
 - Low availability of datasets
 - Difficulty in obtaining ground truth
-- Low inter-observer agreement
+- Disagreements
 - Multiple imaging modalities and complex pathologies
-- Data accessibility and GDPR compliance
+- Data accessibility and GDPR compliance -->
 
 <!-- # Challenges to Train AI in Dental Imaging
 
@@ -171,25 +208,24 @@ Training AI for dental imaging presents several challenges that need to be addre
 
 Addressing these challenges involves developing robust AI algorithms capable of integrating multi-modal data, enhancing inter-observer agreement through standardized protocols, and ensuring the reliability and safety of AI-driven diagnoses in dental practice. -->
 
----
+<!-- ## Enhanced process of dentist with AI assisted
+1. **Identify Suspicious Regions:**
+Computer Vision (Object Detection): AI can be trained to automatically detect and highlight suspicious regions on X-ray images that may indicate cavities, infections, or abnormalities. This aids dentists in focusing on critical areas more efficiently.
+Semantic Segmentation: AI algorithms can segment X-ray images to precisely outline areas of interest, making it easier for dentists to identify subtle pathologies that may be missed by the human eye alone.
 
-<!-- Slide 8: AI -->
-# Our Approach
-- Data collection and quality
-- Comprehensive EHR creation
-- Pathology complexity and explainability
-- Integration into dental education
-- Ethical and regulatory considerations
+2. **Classify Pathologies:**
+Image Classification: AI can classify identified pathologies into specific categories such as cavities, gum disease, or abscesses based on patterns and characteristics extracted from X-ray images. This classification helps in determining the severity and type of treatment required.
+Explain Findings to the Patient:
 
-<!-- ## AI:Dental AI What we are doing?
+3. **Visual Explanations:** AI-generated visual aids, such as annotated images or diagrams overlaid on X-rays, can help dentists explain complex findings more clearly to patients.
+Voice Recognition: Integrated voice recognition systems can assist dentists in dictating notes directly into the patient’s EHR, ensuring accurate and detailed documentation without the need for manual entry.
+Perform the Procedure:
 
-- Data Collection and Quality:
-Annotation Collection: Collaborating globally to collect annotated datasets that represent real-world dental conditions, ensuring AI models are trained on diverse and accurate data.
-- Comprehensive EHR Creation: Complex Dental Charting: Developing robust systems for comprehensive dental charting that extend beyond decay detection to include periapical lesions, fillings, restorations, and oral structures. Feedback from clinics indicates a need for broader coverage in dental AI capabilities.
-- Pathology Complexity: Diverse Pathologies: Identifying and classifying over 20 different dental pathologies with more than 60 attributes requires sophisticated AI models trained on diverse datasets.
-- Explainability: Enhancing AI Explainability: Ensuring transparency in AI-driven diagnostics to foster trust among clinicians and patients.
-- Education and Training: AI in Dental Education: Introducing AI concepts in dental education to prepare future practitioners for integrating AI technologies effectively into clinical practice.
-- Ethical and Regulatory Considerations: Data Privacy and Governance: Adhering to strict data privacy regulations (e.g., GDPR) and implementing governance frameworks to ensure ethical use of AI in dentistry. -->
+4. **Robotics and AI-Assisted Surgery:** While not specifically mentioned in the original context, AI can support robotic systems in performing precise dental procedures such as drilling or placing implants based on pre-determined treatment plans derived from AI analysis.
+
+5. **Make an Electronic Health Record of the Visit:**
+Automated Documentation: AI can automate the creation and updating of Electronic Health Records (EHRs) by extracting relevant data from the analysis process. This includes integrating the digital dental chart with detailed annotations and treatment plans. -->
+
 
 ---
 
@@ -255,6 +291,10 @@ By combining expert knowledge with advanced AI tools, our crowdsourced data coll
 
 <!-- Slide 11: Pathology Classification Approach -->
 # Our Approach to Pathology Classification
+- Detection features (one-hot FDI)
+- BCCNet for noisy crowdsourced labels
+- Soft labels
+- At least 4 opinions
 - Modular approach and handling inter-observer agreement
 - Weighted ground truth and consensus requirements
 - Bias correction methods and performance metrics
@@ -284,12 +324,12 @@ By employing this structured approach, we aim to enhance the accuracy and reliab
 --- 
 
 <!-- Slide 12: Visual Explanations for Clinical Thinking -->
-# AI-Driven Visual Explanations
+# Visual Explanations
+Histogram of experts opinions
+GRAD-CAM to explain location
 
-- Challenges in boundary identification
-- AI-assisted visualization techniques
-- Heatmap generation using GRAD-CAM and GLORE
-- Enhancing clinical decision-making
+![bg right:60% 100%](img/edu/4.png)
+
 
 <!-- # AI:Dental
 ### Visual Explanations to Foster Clinical Thinking
@@ -363,20 +403,6 @@ These measures ensure our AI is reliable, transparent, and continuously improvin
 
 ---
 
-<!-- _footer: "[(2020) Can a Computer Identify Carious Lesions in Dental X-Rays As Accurately As Humans?](https://www.hellopearl.com/products/second-opinion)" -->
-
-![bg left 55%](img/agreement/1.png)
-
-- Factors affecting accuracy: fatigue, emotional state, environment complexity
-- Statistics on diagnostic agreement between dentists
-- Comparison of dentist accuracy vs. AI performance
-
-<!-- _footer: "1. 2022 Evaluation of radiographic interpretation skills of undergraduate dental students studying in a dental college of Punjab, India – A comparative study"
-
-## Success rate of interpreting X-ray images by dental students ranges from **48% - 65%**<sup>[1]</sup>
-
-![bg right:37%](img/321b949b-b01d-49b0-97a8-75af270f5e98.jpg) -->
-
 <!-- ## What is the accuracy of interpreting X-ray?
 - The accuracy of interpreting X-ray images can be influenced by several factors: dentist's fatigue, emotional state, and the complexity of the clinical environment
     - Errors due to exhaustion (fatigue, emotional state)
@@ -395,7 +421,6 @@ These measures ensure our AI is reliable, transparent, and continuously improvin
     
     *The F1-score of the students was 0.57, while the F1-score of the network was 0.74 despite the accuracy of 0.82. A significant difference in the sensitivity was found between the model and the postgraduate students when detecting different stages of lesions (p < 0.05). For early lesions which limited in enamel and the outer third of dentin, the neural network had sensitivities all above or at 0.65, while students showed sensitivities below 0.40. From our results, we conclude that the CNN may be an assistant in detecting proximal caries on bitewings.*
     -->
----
 
 <!-- RTG snimok, je dolezity lebo niektore patologie 
 
@@ -416,9 +441,6 @@ Kedze sme si uvedomovolali potencial dat, ktore mame chceli sme vytvorit nastroj
 Vyvinutie crowdsourcovej platformy nie je trivialne 
 
 Preto sme sa rozhodli, ze budeme zbierat aj klinicky aj radiologicky. Navyse interpretacia RTG snimok nie je trivialna ani pre expertov. Ked sme zacali venovat tejto problematike a snazili sme sa odhalit podstatu nizkej uspesnosti interpretacie zistili sme, nie je vysoka ani medzi studentami zubariny, pricom po odpromovani nastupuju s uspesnostou okolo 50% a nasledne zbieraju skusenosti na klinike. Toto zistenie vyplyva z existujucich studiji (Odkaz) a pri pilotnom testovani edukacnej aplikacie priemerne skore studentov bolo opdobne (Obrazok z pilotneho testovania) okolo 50%
-
-
-
 
 Expected documentation in wps
 
@@ -502,7 +524,6 @@ Data Breaches: Organizations must report certain types of data breaches to the r
 
 Penalties: Non-compliance can result in significant fines, up to €20 million or 4% of the annual global turnover of the preceding financial year, whichever is higher. -->
 
----
 <!-- Ahoj potrebujem pripravit prezentaciu obecenstvo, ktore su to AI researchers, AI students a tiez ludia z firiem pouzivajucich AI, ktori su vcelku technologicky zdatni. Vzdy ich zaujima, ako sa riesia rozne specificke vyzvy (vo nasom pripade napriklad image recognition, false positives/negatives, ako sa trenovala AI, ako ste spracuvali datasety atd. - skratka technicke zaujimavosti). 
 
 v prezentacii sa da aj nieco povedat k tomu ake AI pristupy pouzivame
@@ -512,30 +533,3 @@ treba mat na pameti, ze su tam AI ludia, ktori sa chcu nieco nove dozvediet ohla
 
 samozrejme to co mozete zdielat, ale dolezite, aby tam bol potencial na pridanu hodnotu
 ludi napr. nebudu zaujimat medicinske certifikacie, ale to ako sa snazite zabezpecovat transparentnost moze byt zaujimave -->
-
----
-
-<div class='columns3'><div>
-
-# AI
-
-![](img/tasks/T01.png)
-
-</div><div>
-
-![](img/tasks/T02_2.png)
-![](img/tasks/T02_1.png)
-
-</div><div>
-
-![](img/tasks/T03.png)
-
-</div></div>
-
----
-
-Education platform 
-Crowdsourcing platform
-
-![bg right 100%](img/mascot/AID_12.svg)
-![bg 100%](img/mascot/AID_11.svg)

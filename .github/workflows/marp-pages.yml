@@ -70,6 +70,12 @@ jobs:
           args: --theme-set slides/themes -o build/slides/trustworthy-ai.html --html -- slides/Slides-trustworthy.md
         env:
           MARP_USER: root:root
+      - name: Marp Build Slides-better-ai.md
+        uses: docker://marpteam/marp-cli:latest
+        with:
+          args: --theme-set slides/themes -o build/slides/better-ai.html --html -- slides/Slides-better-ai.md
+        env:
+          MARP_USER: root:root
       - name: Copy guides
         run: cp -R guides build/
       - name: Install markdown
