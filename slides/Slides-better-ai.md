@@ -6,23 +6,29 @@ paginate: true
 
 ## Predstavenie RTG snímok a ich dôležitosti v zubarine
 - Kazy nie sú viditeľné volným okom
-    - [(2023) Detection of Proximal Caries Lesions on Bitewing Radiographs Using Deep Learning Method](https://karger.com/cre/article/56/5-6/455/841972/Detection-of-Proximal-Caries-Lesions-on-Bitewing) *Bitewing radiography is commonly used to detect proximal caries, which require accurate diagnoses and early management and cannot be detected clinically due to tight contact surfaces [Gimenez et al., 2015]. Many factors, such as fatigue, emotions [Stec et al., 2018], and complex clinical environments [Hellén-Halme et al., 2008], could affect the accuracy of image interpretation.*
-- CBCT vysoká dávka žiarenia
-- Process zubara:
-    1. Identify suspicious regions
-    2. Classify pathologies
-    3. Explain findings to patient
-    4. Perform procedure
-    5. Make a Electronic Health reccord of visit
+    - *Bitewing radiography is commonly used to detect proximal caries, which require accurate diagnoses and early management and cannot be detected clinically due to tight contact surfaces [Gimenez et al., 2015]. Many factors, such as fatigue, emotions [Stec et al., 2018], and complex clinical environments [Hellén-Halme et al., 2008], could affect the accuracy of image interpretation.*
+- 3D ako napr. CBCT má vysokú dávku žiarenia a preto stale najviac používané sú 2D RTG snímky
 
-## Problem pri diagnostike RTG snímok
+## Analýza RTG snímku zubárom
+1. Identify suspicious regions
+2. Classify pathologies
+3. Explain findings to patient
+4. Perform procedure
+5. Make a Electronic Health reccord of visit
+    - Pri návšteve zubára vám vytvorí digitálny otlačok, ktorý sa volá zubný kríž
+
+## Identifikované problemy pri diagnostike RTG snímok
 - Ground true is hard to get (kaz je viditeľný až po rozvŕtaní zubu)
     - X-ray image is just a pomocna metoda 
     - Potrebujeme aj radiologicky pohlad ale aj klinicky pohlad
     - Pathologies are hidden until hole is drilled (Clinical view)
-    - Je to nieco ine ako ked sa snazite segmentovat macky a psov 
-- Inter-observer / Inter-rater variability (subjektivita pri hodnotení)
-    - Napr. 50% odpad ked 2 anotuju dataset pre periapikalnu leziu
+- Inter-observer agreement (subjektivita pri hodnotení)
+    - Like medical doctors, different dentists may draw different conclusions from radiographs, and these may affect the way a patient is treated
+    - "If first dentist annotate that there is not a Decay there is 87% chance that second one independently will agree and 13% that second will disagree"
+        ((79.7 / (79.7 + 13.1))+(89.5 / (89.5 + 6.2))+(79.5 / (79.5 + 15.3)))/3 = 87%
+    - "If first dentist annotate that there is Decay, there is a 34% chance that second one independedly will spot the decay, and a 66% chance that second one will not spot the decay"
+        ((7.2 / (7.2 + 13.1))+(4.3 / (4.3 + 6.2))+(5.2 / (5.2 + 15.3)))/3 = 33%
+        [Can a Computer Identify Carious Lesions in Dental X-Rays As Accurately As Humans?](https://www.hellopearl.com/products/second-opinion)
     - Uspesnost zubarov TODO%
     - Errors due to exhaustion
     - Missed findings out of specialization
@@ -35,28 +41,34 @@ paginate: true
 
 # Analýza RTG pomocou AI (Overview)?
 ## Viaceré modality
-- OPG, BW, Periapical, Other, Splitted OPG
+- OPG images
+- BW
+- Periapical
+- Cefalor
+- CBCT
+- Other
 
-## AI v zubarine pri analýze RTG
-- Klasifikácia
-    - Ľahké anotovanie / Softlabels, Nízka vysvetliteľnost (Chýbajúca lokalizácia)
-- Detekcia kazov
-    - Pracné anotovanie, Náročné určiť hranice pri kazoch, Nedostaočné
-- Sémantická segmentácia (dostupne architektury na trhu Unet, Unet++, NNUnet)
-    - Pracné anotovanie, Náročné určiť hranice pri kazoch
-- Inštančná segmentácia
-    - Pracné anotovanie, Náročné určiť hranice pri kazoch
-- Measurements bone loss (landmarks?)
-    - Pracné anotovanie, Náročné určiť hranice pri kazoch
-- Diagnosing X-rays enhanced with AI: 
-    1. Identify suspicious regions (Object detection, Instance segmentation)
-    2. Classify pathologies (Image classification)
-    3. Explain findings to patient (Visual explanation, Test explanation)
-    4. Perform procedure (~~Robotics~~)
-    4. Make a Electronic Health reccord of patients visit (1, 2, 3)
+## Enhanced process of dentist with AI assisted
+1. Identify suspicious regions (Object detection, Instance segmentation)
+    - Detekcia kazov
+        - Pracné anotovanie, Náročné určiť hranice pri kazoch, Nedostaočné
+    - Sémantická segmentácia (dostupne architektury na trhu Unet, Unet++, NNUnet)
+        - Pracné anotovanie, Náročné určiť hranice pri kazoch
+    - Inštančná segmentácia
+        - Pracné anotovanie, Náročné určiť hranice pri kazoch
+2. Classify pathologies (Image classification)
+    - Klasifikácia
+        - Ľahké anotovanie / Softlabels, Nízka vysvetliteľnost (Chýbajúca lokalizácia)
+3. Explain findings to patient (Visual explanation, Test explanation)
+4. Perform procedure (~~Robotics~~)
+5. Make a Electronic Health reccord of patients visit (Chart filling)
+    - From Voice 
+    - From Image
 
-## AI, ktorú používame my
-- Komplexné vyplňanie zubného kríža (Chart)
+
+## AI:Dental AI
+- Make a Electronic Health reccord of patients visit
+    - Komplexné vyplňanie zubného kríža (Chart)
     - Detecting decays is not enought
         - Ked sme prezentovali AI klinikam zistili sme, ze klinike nestacia kazy ale chceli by aj periapikalne lezie, plomby, restoracie, struktury v ustach. Preto pokial chceme pomoct zubarovi komplexne skontrolovat usta pacienta a identifikovat vsetky nalezy, ktore sa tam mozu vyskytovat zistili sme ze s datasetom, ktory obsahuje iba kazy si nevystacime. Mnozstvo patologii, ktore musi doktor urcite je XY. Ale ako vieme vytvarat datasety pre ktore neviem ani ground true.
     - Pracný zber anotácií
@@ -65,27 +77,27 @@ paginate: true
 - Vysvetliťeľnosť
 - Komplexné vypĺňanie zubného kríža
 
-## Zbieranie anotácií (Noisy labels)
-### Zbierame zubné kríže z kliník, ktoré vieme namapovať na obraz pomocou detekcie zubov
-- Medzinárocné spolupráce (Vieden, India, Egypt)
-- Pri návšteve zubára vám vytvorí digitálny otlačok, ktorý sa volá zubný kríž
-- Zubný kríž 
-    - JSON štuktúra číslo zubu+patológia
+## Zbieranie anotácií
+- Medzinárodné spolupráce (Vieden, India, Egypt, Slovakia)
+
+### Zbierame zubné kríže z kliník (Clinical view)
+    - AI pre detekovanie a číslovanie zubov
+    - Zubný kríž je JSON štuktúra číslo zubu+patológia
     - RTG snímka (OPG, BW, Periapical)
-- Vďaka AI detekcií zubov a detekcií zubov sme schopní mapovať patológie na obrázky
-    - Tvoríme kontent do edu aplikácie
-    - Vytvárame dataset pre klasifikáciu patológií
-    - Na detekciu používame TODO architekturu (DINO swin)
-- Úspešnosť > TODO%, TODO number of classes
-- Continual data acquisition
-- GDPR complaint
+    - Vďaka AI detekcií zubov a detekcií zubov sme schopní mapovať patológie na obrázky
+        - Tvoríme kontent do edu aplikácie
+        - Vytvárame dataset pre klasifikáciu patológií
+        - Na detekciu používame TODO architekturu (DINO swin)
+    - Úspešnosť > TODO%, TODO number of classes
+    - Continual data acquisition
+    - GDPR complaint
     - GUID: Right to Access, Rectification, Erasure, Restrict Processing, Data Portability (Data Governance)
 
 ## Prehľad počtu patológií z jednej kliniky
 - Matica distribúcie patológií
 - Množstvo patológií
 
-### Crowdsourcové zbieranie názorov
+### Crowdsourcové zbieranie názorov (Readiological view)
 - On premise CVAT opensource
 - Edu aplikacia
     - Kedze sme si uvedomovolali potencial dat, ktore mame chceli sme vytvorit nastroj cez ktory dokazeme zbierat posudky a zaroven pomocou zvysit uroven vzdelanosti pri interpretacii RTG snimok. Preto sme implementovali Edukacnu platformu v ktorej poukazujeme na nejednoznacnost interpretacie aj medzi expertami aj pri diagnostikou AI a snazime sa studentom ukazat tieto nazory aby k nim pristupovali kriticky a uvedomovali si, ze pri interpretaci nie je binarna odpoved ano nie ale miera istoty. 
@@ -97,8 +109,10 @@ paginate: true
 
 ### Klasifikácií patológií
 - Modulárny prístup
-- Klasifikátor pre každú patológiu pomocou Noisy labels
-    - Na riesenie Inter-observer variability sme zacali zberat viacere nazory. Podarilo sa nam stabilizovat trening vdaka aplikovaniu vahovanej cross entropie, ktora sa estimatuje pre kazdeho anotatora bias v jeho odpovediach. Pre nas sa ako najlepsie ukazalo vahovanie ground true podla priemerneho poctu votov, ktore dostalo. 
+- Klasifikátor pre každú patológiu pomocou
+    - Na riesenie Inter-observer agreement sme zacali zberat viacere nazory. Pre nas sa ako najlepsie ukazalo vahovanie ground true podla priemerneho poctu votov, ktore dostalo. 
+    - Pri klasifikácia každej patológie musíme mať aspoň 4 názory. Názory priemerujeme a používame ako váhu pri počítaní chyby pri crossEntropii. Podarilo sa nam týmto stabilizovat trening
+    - Experimentovali sme s metódou z MIT kde sa počíta bias anotátorov (TODO) ale neukázala sa nám ako úsepšná
 - Úspešnosť > TODO%, TODO number of patológií
 - Nemá zatiaľ zmysel pre šudentov ale snažíme sa ju certifikovať aby slúžila na klinike na zefektívnenie administrácie
 
@@ -107,15 +121,16 @@ paginate: true
 - Pomocou AI dotvárame obraz kde sa asi patológia nachádza
 - Generovanie heatmap pomaha pouzivatelom lokalizovať podozrivé miesta na snímku bez potreby kreslenia experta
 - Heatmapy sa generujú raz a pre všetkých, takže šetríme životné prostredie
+- Používame GRAD-CAM. Problém pre negatívne triedy -> GLORE
 
 ### Ako je nasa AI doveryhodna
-- ALTAI skore
+- ALTAI skore radial chart but we are aware of were we can improve and what we can improve.
+- It's a long run
 - Highlights
     - Integrating AI into education
     - Showing AI and experts results to support critical thinking
     - Tracebility thank to Data version control
     - Pomocu Edu app získavame feedback na AI pred tym ako priamo ovplyvní pacienta
-
 
 
 RTG snimok, je dolezity lebo niektore patologie 
