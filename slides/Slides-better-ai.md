@@ -1,137 +1,223 @@
 ---
-marp: false
+marp: true
 theme: custom-default
 paginate: true
 ---
 
-## Predstavenie RTG snímok a ich dôležitosti v zubarine
-- Kazy nie sú viditeľné volným okom
-    - *Bitewing radiography is commonly used to detect proximal caries, which require accurate diagnoses and early management and cannot be detected clinically due to tight contact surfaces [Gimenez et al., 2015]. Many factors, such as fatigue, emotions [Stec et al., 2018], and complex clinical environments [Hellén-Halme et al., 2008], could affect the accuracy of image interpretation.*
-- 3D ako napr. CBCT má vysokú dávku žiarenia a preto stale najviac používané sú 2D RTG snímky
+## Introduction of Dental Imaging and Its Importance in Dentistry
 
-## Analýza RTG snímku zubárom
-1. Identify suspicious regions
-2. Classify pathologies
-3. Explain findings to patient
-4. Perform procedure
-5. Make a Electronic Health reccord of visit
-    - Pri návšteve zubára vám vytvorí digitálny otlačok, ktorý sa volá zubný kríž
+- Introduction of Dental Imaging and Its Importance in Dentistry
+Dental imaging is a crucial tool in modern dentistry, primarily because it allows for the detection of issues that are not visible to the naked eye. One of the most significant advantages of dental X-rays is their ability to identify cavities (caries) early on, especially those that form in places difficult to examine visually, such as between teeth.
+- *Bitewing radiography is commonly used to detect proximal caries, which require accurate diagnoses and early management and cannot be detected clinically due to tight contact surfaces [Gimenez et al., 2015]. Many factors, such as fatigue, emotions [Stec et al., 2018], and complex clinical environments [Hellén-Halme et al., 2008], could affect the accuracy of image interpretation.* 
 
-## Identifikované problemy pri diagnostike RTG snímok
-- Ground true is hard to get (kaz je viditeľný až po rozvŕtaní zubu)
-    - X-ray image is just a pomocna metoda 
-    - Potrebujeme aj radiologicky pohlad ale aj klinicky pohlad
-    - Pathologies are hidden until hole is drilled (Clinical view)
-- Inter-observer agreement (subjektivita pri hodnotení)
-    - Like medical doctors, different dentists may draw different conclusions from radiographs, and these may affect the way a patient is treated
+- Detecting Hidden Cavities: Cavities can often go unnoticed during a routine visual examination
+- Early Detection
+- Comprehensive Diagnosis
+- Guidance for Treatment
+
+---
+
+## Analysis of X-ray Images by a Dentist
+1. **Identify Suspicious Regions**:
+    - Dentists examine X-rays to spot abnormal areas that may indicate cavities, infections, or other issues not visible in a regular check-up.
+2. **Classify Pathologies**:
+    - They determine the exact nature of the identified issues, such as cavities, gum disease, or abscesses, to decide the appropriate treatment.
+3. **Explain Findings to the Patient**:
+    - Dentists discuss the X-ray results with the patient, explaining the findings and the necessary treatments in an understandable way.
+4. **Perform the Procedure**:
+    - Based on the diagnosis, dentists perform the required treatments, such as fillings, root canals, or extractions.
+5. **Make an Electronic Health Record of the Visit**:
+    - After the visit, dentists update the patient's Electronic Health Record (EHR), which includes a digital dental chart documenting the findings, treatments, and future care plans.
+
+- Influence of Various Factors
+The accuracy of interpreting X-ray images can be influenced by several factors, including the dentist's fatigue, emotional state, and the complexity of the clinical environment. These factors can affect the precision of diagnosis, highlighting the need for careful analysis and sometimes a second opinion to ensure accurate treatment planning.
+
+--- 
+
+## What is the accuracy of interpreting X-ray?
+- The accuracy of interpreting X-ray images can be influenced by several factors: dentist's fatigue, emotional state, and the complexity of the clinical environment
+    - Errors due to exhaustion (fatigue, emotional state)
+    - Missed findings out of specialization (complexity of the clinical environment)
+    - Subjectivness during interpretation (Radiological view)
+    - A bunch of different pathologies (complexity of the clinical environment)
     - "If first dentist annotate that there is not a Decay there is 87% chance that second one independently will agree and 13% that second will disagree"
-        ((79.7 / (79.7 + 13.1))+(89.5 / (89.5 + 6.2))+(79.5 / (79.5 + 15.3)))/3 = 87%
+        - Result ((79.7 / (79.7 + 13.1))+(89.5 / (89.5 + 6.2))+(79.5 / (79.5 + 15.3)))/3 = 87%
     - "If first dentist annotate that there is Decay, there is a 34% chance that second one independedly will spot the decay, and a 66% chance that second one will not spot the decay"
         ((7.2 / (7.2 + 13.1))+(4.3 / (4.3 + 6.2))+(5.2 / (5.2 + 15.3)))/3 = 33%
         [Can a Computer Identify Carious Lesions in Dental X-Rays As Accurately As Humans?](https://www.hellopearl.com/products/second-opinion)
-    - Uspesnost zubarov TODO%
-    - Errors due to exhaustion
-    - Missed findings out of specialization
-    - A bunch of different pathologies
-    - Subjectivness during interpretation (Radiological view)
-- Nepripravenosť na klinickú prax (nedostatočný počet prípadov, Datasety RTG snimok zubov na internete sotva najdete)
+    - Nepripravenosť na klinickú prax (nedostatočný počet prípadov, Datasety RTG snimok zubov na internete sotva najdete)
     - Uspesnost studentov TODO%
         - Zistili sme, nie je vysoka ani medzi studentami zubariny, pricom po odpromovani nastupuju s uspesnostou okolo TODO% a nasledne zbieraju skusenosti na klinike. Toto zistenie vyplyva z existujucich studiji (Odkaz) a pri pilotnom testovani edukacnej aplikacie priemerne skore studentov bolo opdobne (Obrazok z pilotneho testovania) okolo TODO%
     - Students miss over 43% of actual caries and are only right 57% of the time they identify one, while our AI consistently outperforms them in both accuracy and reliability. [Evaluation of radiographic interpretation skills of undergraduate dental students studying in a dental college of Punjab, India – A comparative study](https://www.researchgate.net/publication/367683626_Evaluation_of_radiographic_interpretation_skills_of_undergraduate_dental_students_studying_in_a_dental_college_of_Punjab_India_-_A_comparative_study)
 
-# Analýza RTG pomocou AI (Overview)?
-## Viaceré modality
-- OPG images
-- BW
-- Periapical
-- Cefalor
-- CBCT
-- Other
+---
 
 ## Enhanced process of dentist with AI assisted
-1. Identify suspicious regions (Object detection, Instance segmentation)
-    - Detekcia kazov
-        - Pracné anotovanie, Náročné určiť hranice pri kazoch, Nedostaočné
-    - Sémantická segmentácia (dostupne architektury na trhu Unet, Unet++, NNUnet)
-        - Pracné anotovanie, Náročné určiť hranice pri kazoch
-    - Inštančná segmentácia
-        - Pracné anotovanie, Náročné určiť hranice pri kazoch
-2. Classify pathologies (Image classification)
-    - Klasifikácia
-        - Ľahké anotovanie / Softlabels, Nízka vysvetliteľnost (Chýbajúca lokalizácia)
-3. Explain findings to patient (Visual explanation, Test explanation)
-4. Perform procedure (~~Robotics~~)
-5. Make a Electronic Health reccord of patients visit (Chart filling)
-    - From Voice 
-    - From Image
+1. **Identify Suspicious Regions:**
+Computer Vision (Object Detection): AI can be trained to automatically detect and highlight suspicious regions on X-ray images that may indicate cavities, infections, or abnormalities. This aids dentists in focusing on critical areas more efficiently.
+Semantic Segmentation: AI algorithms can segment X-ray images to precisely outline areas of interest, making it easier for dentists to identify subtle pathologies that may be missed by the human eye alone.
 
+2. **Classify Pathologies:**
+Image Classification: AI can classify identified pathologies into specific categories such as cavities, gum disease, or abscesses based on patterns and characteristics extracted from X-ray images. This classification helps in determining the severity and type of treatment required.
+Explain Findings to the Patient:
 
-## AI:Dental AI
-- Make a Electronic Health reccord of patients visit
-    - Komplexné vyplňanie zubného kríža (Chart)
-    - Detecting decays is not enought
-        - Ked sme prezentovali AI klinikam zistili sme, ze klinike nestacia kazy ale chceli by aj periapikalne lezie, plomby, restoracie, struktury v ustach. Preto pokial chceme pomoct zubarovi komplexne skontrolovat usta pacienta a identifikovat vsetky nalezy, ktore sa tam mozu vyskytovat zistili sme ze s datasetom, ktory obsahuje iba kazy si nevystacime. Mnozstvo patologii, ktore musi doktor urcite je XY. Ale ako vieme vytvarat datasety pre ktore neviem ani ground true.
-    - Pracný zber anotácií
-- Komplexnost patologií
-- Zbieranie anotácií (Noisy labels)
-- Vysvetliťeľnosť
-- Komplexné vypĺňanie zubného kríža
+3. **Visual Explanations:** AI-generated visual aids, such as annotated images or diagrams overlaid on X-rays, can help dentists explain complex findings more clearly to patients.
+Voice Recognition: Integrated voice recognition systems can assist dentists in dictating notes directly into the patient’s EHR, ensuring accurate and detailed documentation without the need for manual entry.
+Perform the Procedure:
 
-## Zbieranie anotácií
-- Medzinárodné spolupráce (Vieden, India, Egypt, Slovakia)
+4. **Robotics and AI-Assisted Surgery:** While not specifically mentioned in the original context, AI can support robotic systems in performing precise dental procedures such as drilling or placing implants based on pre-determined treatment plans derived from AI analysis.
 
-### Zbierame zubné kríže z kliník (Clinical view)
-    - AI pre detekovanie a číslovanie zubov
-    - Zubný kríž je JSON štuktúra číslo zubu+patológia
-    - RTG snímka (OPG, BW, Periapical)
-    - Vďaka AI detekcií zubov a detekcií zubov sme schopní mapovať patológie na obrázky
-        - Tvoríme kontent do edu aplikácie
-        - Vytvárame dataset pre klasifikáciu patológií
-        - Na detekciu používame TODO architekturu (DINO swin)
-    - Úspešnosť > TODO%, TODO number of classes
-    - Continual data acquisition
-    - GDPR complaint
-    - GUID: Right to Access, Rectification, Erasure, Restrict Processing, Data Portability (Data Governance)
+5. **Make an Electronic Health Record of the Visit:**
+Automated Documentation: AI can automate the creation and updating of Electronic Health Records (EHRs) by extracting relevant data from the analysis process. This includes integrating the digital dental chart with detailed annotations and treatment plans.
 
-## Prehľad počtu patológií z jednej kliniky
-- Matica distribúcie patológií
-- Množstvo patológií
+---
 
-### Crowdsourcové zbieranie názorov (Readiological view)
-- On premise CVAT opensource
-- Edu aplikacia
-    - Kedze sme si uvedomovolali potencial dat, ktore mame chceli sme vytvorit nastroj cez ktory dokazeme zbierat posudky a zaroven pomocou zvysit uroven vzdelanosti pri interpretacii RTG snimok. Preto sme implementovali Edukacnu platformu v ktorej poukazujeme na nejednoznacnost interpretacie aj medzi expertami aj pri diagnostikou AI a snazime sa studentom ukazat tieto nazory aby k nim pristupovali kriticky a uvedomovali si, ze pri interpretaci nie je binarna odpoved ano nie ale miera istoty. 
-- Disagreement nasich zubárov pri určovaní kazov je TODO%
-- Evaluaované na TODO casesoch
-- Počet získaných názorov TODO
-- Human in the loop
-- Continual data acquisition
+# Challenges to Train AI in Dental Imaging
 
-### Klasifikácií patológií
-- Modulárny prístup
-- Klasifikátor pre každú patológiu pomocou
-    - Na riesenie Inter-observer agreement sme zacali zberat viacere nazory. Pre nas sa ako najlepsie ukazalo vahovanie ground true podla priemerneho poctu votov, ktore dostalo. 
-    - Pri klasifikácia každej patológie musíme mať aspoň 4 názory. Názory priemerujeme a používame ako váhu pri počítaní chyby pri crossEntropii. Podarilo sa nam týmto stabilizovat trening
-    - Experimentovali sme s metódou z MIT kde sa počíta bias anotátorov (TODO) ale neukázala sa nám ako úsepšná
-- Úspešnosť > TODO%, TODO number of patológií
-- Nemá zatiaľ zmysel pre šudentov ale snažíme sa ju certifikovať aby slúžila na klinike na zefektívnenie administrácie
+Training AI for dental imaging presents several challenges that need to be addressed to ensure accurate and effective deployment:
+0. **Low amount of datasets**
+- Not enough publicly available data
 
-### Vizuálizácia
-- Hranice patológií sú pracné a náchylné na chybu 
-- Pomocou AI dotvárame obraz kde sa asi patológia nachádza
-- Generovanie heatmap pomaha pouzivatelom lokalizovať podozrivé miesta na snímku bez potreby kreslenia experta
-- Heatmapy sa generujú raz a pre všetkých, takže šetríme životné prostredie
-- Používame GRAD-CAM. Problém pre negatívne triedy -> GLORE
+1. **Difficulty in Obtaining Ground Truth**
+- X-ray Limitations: X-ray images serve as a supportive tool, but definitive pathology confirmation often requires clinical examination or invasive procedures like drilling.
+- Need for Multi-perspective Evaluation: Accurate diagnosis demands both a radiological perspective from imaging and a clinical perspective from physical examination.
 
-### Ako je nasa AI doveryhodna
-- ALTAI skore radial chart but we are aware of were we can improve and what we can improve.
-- It's a long run
-- Highlights
-    - Integrating AI into education
-    - Showing AI and experts results to support critical thinking
-    - Tracebility thank to Data version control
-    - Pomocu Edu app získavame feedback na AI pred tym ako priamo ovplyvní pacienta
+2. **Low Inter-observer Agreement**
+- Subjectivity in Evaluation: Different dentists may interpret X-ray images differently, leading to varying diagnoses and treatment plans.
+- Current Agreement Level: The level of inter-observer agreement is currently unknown (TODO%), highlighting variability in assessments.
 
+3. **Multiple Imaging Modalities**
+- Variety of Modalities: Dental imaging encompasses various modalities such as OPG, BW, Periapical, Cephalography, and CBCT.
+- Prevalence of 2D X-rays: Despite the benefits of 3D CBCT imaging, its high radiation dose means 2D X-rays remain more commonly used.
+
+4. **Other Challenges**
+- Complex Pathologies: Dental conditions vary widely in complexity, requiring AI systems to accurately identify and classify diverse pathologies.
+- Data Accessibility: Access to diverse and annotated datasets is crucial for training AI models effectively across different imaging modalities and pathologies.
+
+Addressing these challenges involves developing robust AI algorithms capable of integrating multi-modal data, enhancing inter-observer agreement through standardized protocols, and ensuring the reliability and safety of AI-driven diagnoses in dental practice.
+
+---
+
+## AI:Dental AI What we are doing?
+
+- Data Collection and Quality:
+Annotation Collection: Collaborating globally to collect annotated datasets that represent real-world dental conditions, ensuring AI models are trained on diverse and accurate data.
+- Comprehensive EHR Creation: Complex Dental Charting: Developing robust systems for comprehensive dental charting that extend beyond decay detection to include periapical lesions, fillings, restorations, and oral structures. Feedback from clinics indicates a need for broader coverage in dental AI capabilities.
+- Pathology Complexity: Diverse Pathologies: Identifying and classifying over 20 different dental pathologies with more than 60 attributes requires sophisticated AI models trained on diverse datasets.
+- Explainability: Enhancing AI Explainability: Ensuring transparency in AI-driven diagnostics to foster trust among clinicians and patients.
+- Education and Training: AI in Dental Education: Introducing AI concepts in dental education to prepare future practitioners for integrating AI technologies effectively into clinical practice.
+- Ethical and Regulatory Considerations: Data Privacy and Governance: Adhering to strict data privacy regulations (e.g., GDPR) and implementing governance frameworks to ensure ethical use of AI in dentistry.
+
+---
+
+## Data Collection for AI in Dental Imaging
+Our approach to data collection integrates both clinical and radiological views, leveraging AI for tooth detection and numbering:
+
+- Mapping Pathologies Using AI: AI for Tooth Detection and Numbering
+    - AI-driven tooth detection facilitates accurate pathology mapping onto images, enhancing diagnostic precision.
+    - Utilizing AI algorithms to automatically detect and label teeth within dental images.
+    - Dental Chart as JSON Structure: Structuring dental records in JSON format, linking tooth numbers with identified pathologies for detailed patient history.
+
+- Creating educational materials using AI-detected images to aid in dental training and patient education.
+    - Dataset Creation for Pathology Classification
+    - Building datasets for training AI models to classify various dental pathologies accurately.
+
+- AI Architecture Utilization
+    - Employing advanced architectures such as DINO (TODO architecture) for robust tooth detection and pathology classification.
+
+- Performance Metrics: 
+    - Targeting high accuracy (TODO%) across a comprehensive range of pathology classes.
+
+- Continual Data Acquisition:
+    - Ensuring ongoing collection of diverse and annotated datasets to improve AI model performance over time.
+    - Number of collected pathologies with clinical view (TODO Prehľad počtu patológií z jednej kliniky)
+
+- GDPR Compliance:
+    - Adhering strictly to GDPR regulations to safeguard patient data and privacy throughout the data lifecycle.
+    - Thanks to GUID: Ensuring compliance with GDPR guidelines, providing patients with rights including access, rectification, erasure, restrict processing, and data portability.
+
+---
+
+# Crowdsourced Collection of Opinions (Radiological View)
+
+## Educational Application:
+- **Purpose:** Recognizing the potential of our collected data, we developed an educational platform. This tool not only collects expert assessments but also enhances the educational experience by highlighting the variability in X-ray interpretations among experts and AI diagnostics.
+- **Critical Thinking:** The platform teaches students to critically evaluate different interpretations, understanding that diagnostic certainty is not binary but involves varying degrees of confidence.
+Agreement and Disagreement Metrics:
+- **Expert Agreement**: The level of agreement among our dentists is currently being measured (TODO%). Understanding this variability is crucial for refining AI algorithms and educational content.
+- **Evaluation Cases**: The system has been evaluated on a number of cases (TODO), providing a solid foundation for assessing diagnostic consistency.
+- **Number of Opinions Collected:**
+    - **Data Volume:** We have collected a substantial number of expert opinions (TODO), contributing to a rich dataset for training and validating our AI models.
+- **Expert Involvement:** Continual expert involvement ensures that AI models are regularly updated with high-quality annotations and diverse perspectives.
+
+By combining expert knowledge with advanced AI tools, our crowdsourced data collection approach aims to refine dental diagnostics, foster critical thinking in educational settings, and ensure the highest standards of accuracy and reliability in dental care.
+
+--- 
+
+### Pathology Classification in Our Company
+
+Our approach to classifying dental pathologies employs a modular framework and incorporates multiple expert opinions to ensure accuracy and reliability. Here are the key elements of our methodology:
+
+- **Modular Approach**:
+  - We utilize a separate classifier for each specific pathology, enabling specialized and precise identification.
+
+- **Handling Inter-observer Agreement**:
+  - **Multiple Opinions**: To address variability in expert diagnoses, we collect multiple opinions for each pathology.
+  - **Weighted Ground Truth**: The ground truth for training is weighted based on the average number of votes each diagnosis receives, ensuring a balanced and representative dataset.
+  - **Minimum Consensus**: For each pathology classification, we require at least four expert opinions. These opinions are averaged and used as weighted inputs in the cross-entropy loss function, which has proven effective in stabilizing training.
+
+- **Bias Correction**:
+  - **MIT Methodology**: We experimented with a method from MIT to calculate annotator bias, but it did not yield satisfactory results for our needs.
+
+- **Performance Metrics**:
+  - **Success Rate**: Our classifiers aim for an accuracy rate of over TODO%, covering TODO number of pathologies.
+  - **Clinical Utility**: While this system is not yet applicable for student use, we are working towards certifying it for clinical deployment to streamline administrative processes.
+
+By employing this structured approach, we aim to enhance the accuracy and reliability of pathology classification in dental imaging, ultimately improving patient care and diagnostic efficiency.
+
+--- 
+
+### Visual Explanations Foster Clinical Thinking
+
+To enhance clinical decision-making and improve the interpretability of dental X-rays, we employ AI-driven visual explanations:
+
+- **Boundary Identification Challenges**:
+  - Drawing accurate boundaries for pathologies is labor-intensive and prone to errors.
+
+- **AI-Assisted Visualization**:
+  - Our AI models create visual representations indicating potential pathology locations, reducing the need for manual annotation.
+
+- **Heatmap Generation**:
+  - Heatmaps highlight suspicious areas on X-rays, aiding users in identifying potential issues without requiring expert-drawn boundaries.
+  - These heatmaps are generated once and used universally, promoting environmental sustainability by minimizing redundant computational efforts.
+
+- **Techniques Used**:
+  - **GRAD-CAM**: We utilize Gradient-weighted Class Activation Mapping (GRAD-CAM) to produce visual explanations for the AI's predictions.
+  - **Addressing Negative Classes**: For negative classes, we employ GLORE (Global Relevance Explanation) to enhance interpretability and ensure comprehensive visualization.
+
+By integrating these visual explanation techniques, we aim to support clinical thinking, enabling dentists to make more informed and accurate diagnoses based on AI-assisted imagery.
+
+---
+
+### Is Our AI Trustworthy?
+
+Our commitment to trustworthiness in AI is reflected in several key areas:
+
+- **ALTAI Score and Improvement Awareness**:
+  - We utilize the ALTAI (Assessment List for Trustworthy Artificial Intelligence) score presented in a radial chart format to evaluate our AI system. While we acknowledge our strengths, we also identify areas needing improvement and actively work on them.
+
+- **Long-term Commitment**:
+  - Building a trustworthy AI is an ongoing effort, and we are dedicated to continuously enhancing our systems.
+
+- **Key Highlights**:
+  - **Integration into Education**: By incorporating AI into educational platforms, we promote better understanding and use of AI among future dental professionals.
+  - **Supporting Critical Thinking**: Showing both AI and expert results helps foster critical thinking by highlighting differences and encouraging thorough analysis.
+  - **Traceability Through Data Version Control**: We maintain detailed records of data versions and changes, ensuring transparency and traceability throughout the AI development process.
+  - **Feedback Loop via Educational App**: Our educational app collects feedback on AI performance before it directly impacts patient care, allowing us to refine and improve our systems based on real-world use.
+
+These measures ensure our AI is reliable, transparent, and continuously improving, thereby fostering trust among users and stakeholders.
+
+---
 
 RTG snimok, je dolezity lebo niektore patologie 
 
