@@ -7,8 +7,8 @@ footer: AI:Dental
 
 <!-- _paginate: skip -->
 
-# AI:Dental
-## Shaping the future of **Artificial** and **Human** **Intelligence** hand in hand in dentistry
+# Shaping the future of<br>artificial and human intelligence hand in hand in dentistry
+### AI:Dental
 Speaker: Peter Jurkáček, CTO
 
 ![bg right:40%](img/mascot/AID_5.svg)
@@ -17,10 +17,10 @@ Speaker: Peter Jurkáček, CTO
 <!-- _footer: "[University of Michigan School of Dentistry](https://www.dent.umich.edu/patient-care/dental-x-rays)" -->
 
 <!-- Introduction to Dental Imaging -->
-## Dental X-rays in Modern Dentistry?
-*"Dental x-rays are used to diagnose diseases affecting the teeth and the bones since the inside of these structures **is not seen when dentists look in your mouth**"*
+## Dental X-rays<br>in Modern Dentistry?
+*Dental x-rays are used to diagnose diseases affecting the teeth and bones because the inside of these structures cannot be seen when dentists look in your mouth*
 
-![bg right ](img/edu/7.png)
+![bg right:40% ](img/edu/7.png)
 ![bg](img/edu/6.png)
 
 <!-- 
@@ -51,31 +51,29 @@ Dental imaging is a crucial tool in modern dentistry, primarily because it allow
 
 <!-- _footer: "[(1978) Detection accuracy in chest radiography](https://pubmed.ncbi.nlm.nih.gov/98003/)" -->
 <!-- Analysis of X-ray Images by Dentists -->
-# How your dentist interprets X-ray Image?
+## How your dentist<br>interprets X-ray Image?
 1. Detects - something is present
 2. Identifies - it is pathologic
 3. Discriminates - it is a lesion of a specific type
-4. Diagnoses - it is tooth decay infecting pulp and root canal is neccesary
+4. Diagnoses - it is tooth decay infecting pulp and root canal is necessary
 
 ![bg left:45%](img/edu/9.png)
 
 ---
 
-# The performance <br> of two dentists in interpreting X-rays varies
+## The performance <br> of two dentists in interpreting X-rays varies
 
 ![](img/mascot/) 
 
 ---
 
-# Tooth decay detection
+## Tooth decay detection
 
 <!-- 
 _footer: "[(2020) Can a Computer Identify Carious Lesions in Dental X-Rays As Accurately As Humans?](https://www.hellopearl.com/products/second-opinion)" 
 -->
 
-In terms of caries is present there is 
-~35% agreement (Caries Exist) and 
-**~65% disagreement** (Discrepancy)
+Dentists' agreed that tooth decay is present in approximately 35% of cases, while they **disagreed** in about **65% of cases**.
 
 ![bg right 100%](https://kroki.io/vegalite/svg/eNqlVMFu2zAMvecrBHbDLm7iLEjb5Va02HkYdgtyYBTG1iJLniSnDQL_-yjZcQJ0wTb0Ikgy-fj4-OTjSAj44GVJFcJCQBlC7ReTyZ4KHBcqlM16rOykC0i3t1oFmuzn45_eGshi_oa8dKoOii8Y45siIUt0QditCC9WbMgE5YP_JGpyW-sqNJKEMuL11uGBN4Fc7ShgQkiQa5S7wtnGbBjRNFp3hTBElkfe82mPuiHP52U6C3EEiYEK6w6Rxg9rQ8m1ZSzhBa4904BMAJOQvMWCOCwfP8za7F8AmOEVhPzuCsKzYmGo5nYPf0ibTtuUteI1AQAZaTfKFOceQ0ldy7BVpKMYlyiMGQ51RINfDbLIUcI9QU8HpNXWDWB8MYAMLDNx-nZCMrZSBjWcWgIvUdMFShyErVDFYS-vy3xdvktZVtkZ1aFJ0izhZjabP83nkMFasxNi0s3T_ePd1xms-vhBctBUUPLJEViBRBU-i-fBdI9F4YiqWLwTvB0E13ggNzhokKlCt-vwek3QycjBNuzU77hRTbTdQ97DZX_JDvSa-nanzC95nJy1Oqg6RUrLb4D5LXqPt-fu3niiG1aE_F9b8H16fanOOP8I7YX4g1e6dxVDOu0vg95lx37GvQbnOtO8F7KbTLcmX8Be0UuK9cHZHfX_gnbUjn4Doj5ccg==)
 
@@ -110,11 +108,9 @@ The accuracy of interpreting X-ray images can be influenced by several factors, 
 
 ---
 
-# Tooth Decay classification
+## Tooth Decay classification
 
-We've replicated study on our dataset and we got
-~47% agreement (Caries Exist) and 
-**~53% disagreement** (Discrepancy)
+Dentists' agreed that tooth decay is present in approximately 47% of cases, while they **disagreed** in about **53% of cases**.
 
 <!-- (12.98 +11.46 +18.63 +9.67 +17.63 +17.01)/6 = 15%
 (69.75 + 68.53 + 62.51 + 74.02 + 67.61 + 65.94)/6 = 68%
@@ -138,11 +134,12 @@ Dentist have to identifies more than
 <!-- Slide 5: Accuracy of X-ray Interpretation -->
 # Challanges in X-ray interpretation
 ### **Subjectivity**
-- Variations in dental training and education programs
+<!-- Variability in Expertise -->
 - Differences in clinical experience among practitioners
+- Variations in dental training and education programs (48% - 65%)
 
 ### **Radiograph Complexity**
-- Not standardized
+- Lack of standardization
 - Wide range of potential pathologies
 
 ### **Operational Challenges**
@@ -153,9 +150,9 @@ Dentist have to identifies more than
 
 ---
 
-### Human Inteligence and Artificial Inteligence can and fight those challanges together
+## Let's fight those challenges with artificial and human intelligence hand in hand
 
-![bg right](img/mascot/AID_7.svg)
+![bg right:40%](img/mascot/AID_7.svg)
 
 ---
 
@@ -171,11 +168,10 @@ Dentist have to identifies more than
 
 # Subjectivity 
 
-- Embracing unsureness with **Certainity**
-- Compare multiple opinions from experts
-- **Soft labels** instead of Hard labels for AI training
+- Embracing uncertainty<br>with a **Certainty slider**<br>(soft labels)
+- Collecting multiple opinions from experts<br>to **reach a consensus**
 
-![bg left 94%](img/edu/11.png)
+![bg left:50% 94%](img/edu/11.png)
 
 ---
 
@@ -183,22 +179,22 @@ Dentist have to identifies more than
 
 ![bg right:62% 95%](img/edu/14.png)
 
-- Clinics <br> ~ **200 K opinions**
-- Edu app <br> ~ **700 K opinions**
+- Collecting clinical view from clinic<br>~ **200K opinions**
+- Collecting radiological view from Edu app <br> ~ **700K opinions**
 
 ---
 
 # Radiograph Complexity
-- Generated more than 8000 cases in catalog our catalog from real clinics 
-**with explicit consents**
+- Generated more than 8000 cases in our catalog<br>**with explicit consents**
 
 ![bg right 94%](img/edu/12.png)
 
 ---
 
 # Radiograph Complexity
-- Comparing AI predictions (EfficientNet) and Histogram of experts opinions (Human Inteligence) 
-- Automatically generated visual explanations for experts opinions (GRAD-CAM)
+
+- Transparently communicating differences in **AI predictions** (EfficientNet) and the histogram of expert opinions (human intelligence)
+- Automatically generating **visual explanations** (GRAD-CAM)
 
 ![bg left 97%](img/edu/4.png)
 
@@ -401,24 +397,17 @@ By integrating these visual explanation techniques, we aim to support clinical t
 ---
 
 # Operational<br>Challenges
-- Automatic filling of the dental chart
-- Saves up to 10 minutes
+- Better communication
+- Automatic filling of the dental chart (**Saves up to 10 minutes per visit**)
 
-![bg right:66% 93%](img/edu/15.png)
+![bg right:55% 95%](img/edu/15.png)
 
 ---
 
+<!-- _footer: "[The Assessment List for Trustworthy Artificial Intelligence](https://altai.insight-centre.org/AL/1804/)"
 <!-- Slide 13: Trustworthiness of Our AI -->
-# Is Our AI Trustworthy?
-#
-#
-#
-#
-#
-#
-#
-#
-#
+# Is Our AI Trustworthy? <br><br><br><br><br><br><br><br><br>
+
 ![bg](https://kroki.io/vega/svg/eNrlWctu4zYU3fsrCE2BJDN-yE4cTAeYFgVm0awaoAVmMciCkmiZjUQaJOVYCfzvJakX9aLlOA3aJAsjvuR98px7yeRpBIDzE_fXKIbOF-CshdjwL7PZFoVwGmKxTrwpprNsg5bOtsvp35wSZ6xUH3Ag1lJx6br6-xrhcC0MwQYGASahlFxnApgIyvEjUt4IJSizw3FIYMSl8If8CsCT_pQLBMZ6K4MBTrjerOXJJoBCr_zsOlq4l5932phcgf2WBPQiVBnawihBlWNTRa_fo1Rp_eb7NCFSF0dYpKV6ZUJuupwua3JfRhhSpvTdUr4fW_38nsSQABgi4qcAkgDQLWJcF7XH5-J0p38hf02wDyPAqJdwQRDn2jmHK9SX7WJ6Wf85PY5bhrcwz_ubPEQQquwJJD7qjuHq9NQZJHwDmar3v-XjG9ZnKNIxkIifBJj7DMeYQIEp0cmuIMOq6K9W6T-pj5GQB668I7LFjJIYESV5QFE08ZAi7bPrkf92NzJCaRFRhmIQmtOE-V0EFeqEVpTF_RwV6UZrwjBkskWJBlpCRpONl9b0y2IYkru-BMrOwiVHkKVLQRImEWRG8HlkG4pJxWDZzUio5FUWeQdUe39Mbm_G4PbmroitPEujm7pVr3ECGkNM6ubyHtgoplxYYRQFeflLB9ZzUq1XRtbKKZKQNXO1J-WOQdbDO9J6RIzKTYIlqJTJfqSMreRUQO1Mq4N0q9yWPacmuU2DKjL5XSBmBOrs-qLW4222aEec9mlkA3C2AJ_Awm3Ud5RbcGLI7jtQVBRW47Wqa3EOOdUwMljziEmAVPjzUrRiNK5Ht4I-EjWRBSCGw0xvGJXKPmDlU1XAegl6Ga0w1h1c4XDS3tKqQC3hLCtjbV9TboDFkNdBUy5gtbChUXYdaS4bjTMnzMSPKEeB09hYi6IDlR1Y093o_Czj59kYyAyTeKrdXYCPwKf8PN-S96Vyj-T-xcXhCNITI-CYnBgBF4zeH66rpBwXCEWekgw0-j2_ulosz6fLg8ZWOIpeOD5l8o8N9NVF02rZnc6bxkZ93_YHrwYF5wTaiW7Oab-T9rqdcHWmvhzxDvIjQ9pOtuL5lZ0PL8uKzFpa-LWw4Ci_uu4HXKt7EhTnpnV9aOOz6eXZAB_UBrtmhoZ98IsEozsHv4I5kLg87AhKUpADvPGzoz9oy4McaWzZzcU4CKIh9KNEfC_esTaDHo0C5yUaxAdX_zjPIbP1ql1QmiXmjbp-sZuEDAeO5fpQ8Fjf19t3t-IGUl7EupjcyeIOBletrbdPpM9R2i3aWhWcs4vpkSOzEdUwB8dMxLqDnknYmDIhg-khG92Drxp6VpztrTirjQbzoTeJoIeiNsrq4Nrb7rWnoKo6ifP8KD6B5cVpB36El-efetHz68-2-p6ildZv5E_t8cGFfqN69pRlK7-9ATOwcFqtrMQa091xZGl8T726EVo1Vc03Qy01o7MPzM6SmZpRlpwE3RyX0RCXX79afXaNpMGF9KgQkkUDS1mMIUM_gv69cyzFa8-t6o-qD5KKjbfY0aNkMMNtT64Bz63GaLAR2Z0uJH9fYj4c4eWND4luBK1owt4mgq5eBUFX7x5BHO_eJoCuXwVA1-8eQPrN9yYR9PlVEPT53SOIJvJMBwPIfH__d3FUvjx2i6OQUeqli__LWav_GI32o38Ah-l1Kg==)
 
 <!-- - ALTAI score and improvement areas
