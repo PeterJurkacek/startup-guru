@@ -95,8 +95,6 @@ The accuracy of interpreting X-ray images can be influenced by several factors, 
 on the reproducibility and accuracy of radiographic
 examination in detecting occlusal caries](https://pubmed.ncbi.nlm.nih.gov/19669175/)" -->
 
-<!-- _footer: "[(2022) Factors affecting interpretation of dental radiographs](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9974235/)" -->
-
 ---
 
 # Tooth Decay classification
@@ -122,11 +120,19 @@ Dentist have to identifies more than
 
 <!-- Slide 5: Accuracy of X-ray Interpretation -->
 # Challanges in X-ray interpretation
-**Subjectivity**: Different dental training and education programs and clinical experience
+### **Subjectivity**
+- Variations in dental training and education programs
+- Differences in clinical experience among practitioners
 
-**Complexity**: The Complexity of dental radiographs, amount of different pathologies, scientific knowledge about diseases
+### **Radiograph Complexity**
+- Not standardized
+- Wide range of potential pathologies
 
-**Errors**: Time pressure, Cognitive load
+### **Operational Challenges**
+- Time pressure in clinical settings
+- High cognitive load on practitioners
+
+<!-- _footer: "[(2022) Factors affecting interpretation of dental radiographs](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9974235/)" -->
 
 ---
 
@@ -136,20 +142,50 @@ Dentist have to identifies more than
 
 ---
 
-# Tackle the Challanges
-**Subjectivity**: 
-  - AI second opinion
-  - Education platform
-  - Datasets from multiple opinions
+# Subjectivity 
+### AI:Dental Edu platform
 
-**Complexity**: 
-  - ~100 tags in education application
-  - Multiple modalities
-  - Modular architecture for specific tag
-  - Configurable inference pipeline
+- **Public access** to dental training and education with our
+- Crowdsourced Collection of Expert Opinions
 
-**Errors**: 
-  - Detect all suspicious regions regardless and findings below 6s
+![bg right vertical 94%](img/edu_app.png)
+
+---
+
+# Subjectivity 
+
+- Embracing unsureness with **Certainity**
+- Compare multiple opinions from experts
+- **Soft labels** instead of Hard labels for AI training
+
+![bg left 94%](img/edu/11.png)
+
+---
+
+# Radiograph Complexity
+
+![bg right:65% 95%](img/edu/14.png)
+
+Clinics - more than 200 K opinions and
+
+Edu app - more than 700 K opinions
+
+---
+
+# Radiograph Complexity
+- Generated more than 8000 cases in catalog our catalog from real clinics 
+**with explicit consents**
+
+![bg right 94%](img/edu/12.png)
+
+---
+
+# Radiograph Complexity
+- Comparing AI predictions (EfficientNet) and Histogram of experts opinions (Human Inteligence) 
+- Automatically generated visual explanations for experts opinions (GRAD-CAM)
+
+![bg left 97%](img/edu/4.png)
+
 
 <!-- Slide 8: AI -->
 <!-- # Our Approach
@@ -171,9 +207,10 @@ Annotation Collection: Collaborating globally to collect annotated datasets that
 
 ---
 
-# Proposed solution
+# Radiograph Complexity
+- Modular architecture easy to extend based on requirements
 
-![bg right:70% 95%](img/pipeline_fig/pipeline.png)
+![bg right:60% 95%](img/pipeline_fig/pipeline.png)
 
 <!-- Slide 7: Challenges in Training AI for Dental Imaging
 # Challenges in AI Training
@@ -227,15 +264,13 @@ Perform the Procedure:
 Automated Documentation: AI can automate the creation and updating of Electronic Health Records (EHRs) by extracting relevant data from the analysis process. This includes integrating the digital dental chart with detailed annotations and treatment plans. -->
 
 
----
-
-<!-- Slide 9: Data Collection for AI -->
+<!-- Slide 9: Data Collection for AI
 # Data Collection Strategies for AI
 - AI for tooth detection and numbering
 - Creating educational materials with AI-detected images
 - Building datasets for pathology classification
 - Advanced AI architectures and performance metrics
-- Continual data acquisition and GDPR compliance
+- Continual data acquisition and GDPR compliance -->
 
 <!-- ## Data Collection for AI in Dental Imaging
 Our approach to data collection integrates both clinical and radiological views, leveraging AI for tooth detection and numbering:
@@ -263,14 +298,12 @@ Our approach to data collection integrates both clinical and radiological views,
     - Adhering strictly to GDPR regulations to safeguard patient data and privacy throughout the data lifecycle.
     - Thanks to GUID: Ensuring compliance with GDPR guidelines, providing patients with rights including access, rectification, erasure, restrict processing, and data portability. -->
 
----
-
 <!-- Slide 10: Crowdsourced Data Collection -->
-# Crowdsourced Collection of Expert Opinions
+<!-- # Crowdsourced Collection of Expert Opinions
 - Purpose and benefits of the educational platform
 - Metrics on expert agreement and disagreement
 - Volume of collected expert opinions
-- Continual expert involvement for AI model updates
+- Continual expert involvement for AI model updates -->
 
 <!-- # AIDental
 ## Crowdsourced Collection of Opinions (Radiological View)
@@ -287,17 +320,15 @@ Agreement and Disagreement Metrics:
 
 By combining expert knowledge with advanced AI tools, our crowdsourced data collection approach aims to refine dental diagnostics, foster critical thinking in educational settings, and ensure the highest standards of accuracy and reliability in dental care. -->
 
---- 
-
 <!-- Slide 11: Pathology Classification Approach -->
-# Our Approach to Pathology Classification
+<!-- # Our Approach to Pathology Classification
 - Detection features (one-hot FDI)
 - BCCNet for noisy crowdsourced labels
 - Soft labels
 - At least 4 opinions
 - Modular approach and handling inter-observer agreement
 - Weighted ground truth and consensus requirements
-- Bias correction methods and performance metrics
+- Bias correction methods and performance metrics -->
 
 <!-- # AIDental
 ### Pathology Classification in Our Company
@@ -321,14 +352,13 @@ Our approach to classifying dental pathologies employs a modular framework and i
 
 By employing this structured approach, we aim to enhance the accuracy and reliability of pathology classification in dental imaging, ultimately improving patient care and diagnostic efficiency. -->
 
---- 
 
 <!-- Slide 12: Visual Explanations for Clinical Thinking -->
-# Visual Explanations
+<!-- # Visual Explanations
 Histogram of experts opinions
 GRAD-CAM to explain location
 
-![bg right:60% 100%](img/edu/4.png)
+![bg right:60% 100%](img/edu/4.png) -->
 
 
 <!-- # AI:Dental
@@ -392,7 +422,7 @@ Our commitment to trustworthiness in AI is reflected in several key areas:
 
 These measures ensure our AI is reliable, transparent, and continuously improving, thereby fostering trust among users and stakeholders. -->
 
----
+<!-- ---
 
 # Conclusion
 - Summary of AI's impact on dental imaging
@@ -401,7 +431,7 @@ These measures ensure our AI is reliable, transparent, and continuously improvin
 
 ![bg right:35% 80% invert](img/qr_aid.png)
 
----
+--- -->
 
 <!-- ## What is the accuracy of interpreting X-ray?
 - The accuracy of interpreting X-ray images can be influenced by several factors: dentist's fatigue, emotional state, and the complexity of the clinical environment
