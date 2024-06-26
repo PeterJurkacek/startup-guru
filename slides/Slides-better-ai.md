@@ -61,19 +61,36 @@ Dental imaging is a crucial tool in modern dentistry, primarily because it allow
 
 ---
 
-# Performance of two dentist differ
+# The performance <br> of two dentists in interpreting X-rays varies
+
+![](img/mascot/) 
 
 ---
 
-<!-- _footer: "[(2020) Can a Computer Identify Carious Lesions in Dental X-Rays As Accurately As Humans?](https://www.hellopearl.com/products/second-opinion)" -->
-
 # Tooth decay detection
+
+<!-- 
+_footer: "[(2020) Can a Computer Identify Carious Lesions in Dental X-Rays As Accurately As Humans?](https://www.hellopearl.com/products/second-opinion)" 
+-->
 
 In terms of caries is present there is 
 ~35% agreement (Caries Exist) and 
 **~65% disagreement** (Discrepancy)
 
-![bg right:48% 90%](img/agreement/2.png)
+![bg right 100%](https://kroki.io/vegalite/svg/eNqlVMFu2zAMvecrBHbDLm7iLEjb5Va02HkYdgtyYBTG1iJLniSnDQL_-yjZcQJ0wTb0Ikgy-fj4-OTjSAj44GVJFcJCQBlC7ReTyZ4KHBcqlM16rOykC0i3t1oFmuzn45_eGshi_oa8dKoOii8Y45siIUt0QditCC9WbMgE5YP_JGpyW-sqNJKEMuL11uGBN4Fc7ShgQkiQa5S7wtnGbBjRNFp3hTBElkfe82mPuiHP52U6C3EEiYEK6w6Rxg9rQ8m1ZSzhBa4904BMAJOQvMWCOCwfP8za7F8AmOEVhPzuCsKzYmGo5nYPf0ibTtuUteI1AQAZaTfKFOceQ0ldy7BVpKMYlyiMGQ51RINfDbLIUcI9QU8HpNXWDWB8MYAMLDNx-nZCMrZSBjWcWgIvUdMFShyErVDFYS-vy3xdvktZVtkZ1aFJ0izhZjabP83nkMFasxNi0s3T_ePd1xms-vhBctBUUPLJEViBRBU-i-fBdI9F4YiqWLwTvB0E13ggNzhokKlCt-vwek3QycjBNuzU77hRTbTdQ97DZX_JDvSa-nanzC95nJy1Oqg6RUrLb4D5LXqPt-fu3niiG1aE_F9b8H16fanOOP8I7YX4g1e6dxVDOu0vg95lx37GvQbnOtO8F7KbTLcmX8Be0UuK9cHZHfX_gnbUjn4Doj5ccg==)
+
+<!-- 
+(7.2 + 4.3 + 5.2) = 16,7
+(15.3 + 6.2 + 13.1) = 34,6
+(79.7 + 89.5 + 79.5) = 248,7
+
+16,7 / 300 = 6%
+34,6 / 300 = 11%
+248,7 / 300 = 83%
+
+-->
+
+<!-- ![bg right:48% 90%](img/agreement/2.png) -->
 
 
 <!-- ## Analysis of X-ray Images by a Dentist
@@ -91,19 +108,19 @@ In terms of caries is present there is
 - Influence of Various Factors
 The accuracy of interpreting X-ray images can be influenced by several factors, including the dentist's fatigue, emotional state, and the complexity of the clinical environment. These factors can affect the precision of diagnosis, highlighting the need for careful analysis and sometimes a second opinion to ensure accurate treatment planning. -->
 
-<!-- _footer: "[Influence of examiner’s clinical experience
-on the reproducibility and accuracy of radiographic
-examination in detecting occlusal caries](https://pubmed.ncbi.nlm.nih.gov/19669175/)" -->
-
 ---
 
 # Tooth Decay classification
 
 We've replicated study on our dataset and we got
-~50% agreement (Caries Exist) and 
-**~50% disagreement** (Discrepancy)
+~47% agreement (Caries Exist) and 
+**~53% disagreement** (Discrepancy)
 
-![bg right:48% 90%](img/agreement/3.png)
+<!-- (12.98 +11.46 +18.63 +9.67 +17.63 +17.01)/6 = 15%
+(69.75 + 68.53 + 62.51 + 74.02 + 67.61 + 65.94)/6 = 68%
+17% -->
+
+![bg right 100%](https://kroki.io/vegalite/svg/eNqllE1vGjEQhu_8CmvSqpcNkEYkKbcoUc9V1VvEYTDDrovX3tpeEoT2v3dsLwtRSj_Uy8oexo_feWfMfiQEvPOyohphLqAKofHzyWRLJY5LFap2OVZ2khNS9FKrQJPtbPzdWwNFPL8iL51qguIAM74oErJCF4Rdi_BsxYpMUD74D6Iht7auRiNJKCNeLh3ueBHINY4CJkJCLlFuSmdbs2KiabXOF2GIKve85t0WdUue909pL8QeJAYqrdtFGd-sDRXfLeMVXuDSswwoBLAIyUssidOm45u7rvgbACs8Q7i6PUN4VGwMNVzu7lfHZl06teBvAgAZaVfKlMcaQ0W5ZFgr0tGMUwozw66JNPjRIpscLdwS9HJAWm3dAOPAABlUFuLw24FkbK0MajiUBF6iphNKbIStUZkT61P0nOO_yTmaepp06tsQXxTH-x2aZOITXFxfzx5mMyhgqXlmoiUXD7f3N5-vYdHnD80BTSWlidoDe5WKgo_iMY-nuC9LR1RHObkx3dAYjTtyQ7mDnTW6Tab13qGTUYFteaK_4kq1cTzvpj2u-MPpQC9pvNzh5Kdp7LC1OqgmZUrLb4X1zfu30B1rezM7_z8_mRBF_SuA4-mdJ6Xj6ftXxGEq8wuOKbl33asO9x4cs66mvZG5M_mbpgK2ip5Trg_Obqj_z-hG3egnp9JgyQ==)
 
 ---
 
@@ -164,11 +181,10 @@ Dentist have to identifies more than
 
 # Radiograph Complexity
 
-![bg right:65% 95%](img/edu/14.png)
+![bg right:62% 95%](img/edu/14.png)
 
-Clinics - more than 200 K opinions and
-
-Edu app - more than 700 K opinions
+- Clinics <br> ~ **200 K opinions**
+- Edu app <br> ~ **700 K opinions**
 
 ---
 
@@ -381,6 +397,14 @@ To enhance clinical decision-making and improve the interpretability of dental X
   - **Addressing Negative Classes**: For negative classes, we employ GLORE (Global Relevance Explanation) to enhance interpretability and ensure comprehensive visualization.
 
 By integrating these visual explanation techniques, we aim to support clinical thinking, enabling dentists to make more informed and accurate diagnoses based on AI-assisted imagery. -->
+
+---
+
+# Operational<br>Challenges
+- Automatic filling of the dental chart
+- Saves up to 10 minutes
+
+![bg right:66% 93%](img/edu/15.png)
 
 ---
 
