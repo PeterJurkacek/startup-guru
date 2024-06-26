@@ -67,7 +67,7 @@ Dental imaging is a crucial tool in modern dentistry, primarily because it allow
 
 ---
 
-## Tooth decay detection
+## Tooth Decay Detection
 
 <!-- 
 _footer: "[(2020) Can a Computer Identify Carious Lesions in Dental X-Rays As Accurately As Humans?](https://www.hellopearl.com/products/second-opinion)" 
@@ -108,7 +108,7 @@ The accuracy of interpreting X-ray images can be influenced by several factors, 
 
 ---
 
-## Tooth Decay classification
+## Tooth Decay Classification
 
 Dentists' agreed that tooth decay is present in approximately 47% of cases, while they **disagreed** in about **53% of cases**.
 
@@ -120,7 +120,7 @@ Dentists' agreed that tooth decay is present in approximately 47% of cases, whil
 
 ---
 
-# Tooth Decay is not enought
+# Tooth Decay is Not Enought
 Dentist have to identifies more than 
 - > 30 pathologies 
 - > 15 treatment reccomendation
@@ -132,7 +132,7 @@ Dentist have to identifies more than
 ---
 
 <!-- Slide 5: Accuracy of X-ray Interpretation -->
-# Challanges in X-ray interpretation
+## Challanges in X-ray interpretation
 ### **Subjectivity**
 <!-- Variability in Expertise -->
 - Differences in clinical experience among practitioners
