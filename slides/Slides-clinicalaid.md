@@ -21,72 +21,49 @@ footer: AI:Dental
 
 # Výzvy pri interpretácii röntgenových snímok
 
-TODO: sandey diagram
+![bg right:55% 90%](img/sankey.svg)
 
-- Zložitosť diagnostikovania zubných problémov: Röntgenové snímky vyžadujú mimoriadnu pozornosť, a aj skúsení z vás môžu prehliadnuť príznaky kazu, prípadne iných patológií.
-  
-- Časové obmedzenia: Vaše pracovné dni sú často plné, čo môže ovplyvniť hĺbkovú analýzu snímok.
-  
-- Nekonzistentnosť v diagnózach: Ľudská chyba alebo subjektívna interpretácia môže viesť k rozdielom v diagnózach medzi jednotlivými odborníkmi.
+- Zložitosť diagnostikovania zubných problémov
+- Časové obmedzenia
+- Nekonzistentnosť v diagnózach
 
 ---
 
 # Prečo AI pre zubnú diagnostiku?
 
-- Diagnostika podporovaná AI: AI vám môže pomôcť s identifikáciou vzorcov, detekciou abnormalít a automatizáciou opakujúcich sa úloh.
+- AI ako Nástroj (Google, ChatGPT)
+- Pomáha pri rozhodovacom procese
+- **Nenahrádza zubára**
 
-- Dopĺňanie, nie nahrádzanie: AI vás nenahrádza, ale podporuje a zlepšuje váš rozhodovací proces, čím zabezpečuje lepšiu starostlivosť o pacienta.
+![bg right:40%](img/mascot/AID_16.svg)
 
 ---
 
 # Naše AI-riešenie pre diagnostiku röntgenových snímok
-
-- Vstup: Röntgenové snímky môžete vložiť do systému priamo alebo prostredníctvom integrácie s existujúcim softvérom na snímkovanie.
-
+- Vstup: Röntgenové snímka
 - Analýza: Systém AI využíva neurónové siete na analýzu snímky. Dokáže spoľahlivo detegovať a zvýrazniť bežné zubné problémy, ako sú kazy, zlomeniny, infekcie koreňov či ochorenia ďasien.
-
-- Výstup: Poskytne vám podrobnú správu, ktorá zvýrazní problematické oblasti a poskytne úroveň dôvery pri každom náleze. AI tiež označí abnormality na ďalšie vyšetrenie, čím vám pomôže, aby sa nič neprehliadlo.
-AI navyše umožňuje porovnať aktuálne snímky s historickými, čím pomáha identifikovať progresie alebo trendy zubných ochorení.
-
+- Výstup: Poskytne vám podrobnú správu, ktorá zvýrazní problematické zuby a zoznam problémov, čím vám pomôže, aby sa nič neprehliadlo.
 *Vizuály: Jednoduchý diagram pracovného postupu alebo snímku rozhrania softvéru AI so zvýraznenými anomáliami na ukážkovej röntgenovej snímke.*
 
 ---
 
 # Demo
 
----
-
-<style>
-table {
-  background-color: transparent; /* Transparent background */
-  border-collapse: collapse;
-  width: 100%;
-}
-td, th {
-  padding: 10px; /* Padding for cells */
-  border: 1px solid #ddd; /* Border for cells */
-}
-th {
-  background-color: transparent; /* Transparent background for header */
-}
-</style>
-
-
-| Výhoda               | Popis                                                                 | Empty  |
-|----------------------|----------------------------------------------------------------------|--------|
-| Zvýšená presnosť      | AI spoľahlivo zachytí jemné problémy, ktoré môžu byť prehliadnuté ľudským okom, čím sa znižujú chyby v diagnostike. |   ![left:40%](img/mascot/AID_0_smile.svg)|
-| Úspora času           | Automatizovaná analýza vám ušetrí cenný čas, ktorý môžete využiť na starostlivosť o pacientov a plánovanie liečby. |![left:40%](img/mascot/AID_0_smile.svg) |
-| Konzistentnosť        | AI poskytuje konzistentné diagnostické výsledky bez ohľadu na úroveň skúseností zubára, čím sa znižujú rozdiely v diagnózach. |![left:40%](img/mascot/AID_0_smile.svg)|
-| Dôvera pacientov      | Diagnózy podporované AI dodávajú pacientom ďalšiu vrstvu istoty a môžu zvýšiť dôveru v liečebný plán. | ![left:40%](img/mascot/AID_0_smile.svg)|
-| Skorá detekcia        | AI dokáže zachytiť problémy už v skorých štádiách, čo vám umožňuje zamerať sa na preventívnu starostlivosť namiesto reaktívnej liečby. |![left:40%](img/mascot/AID_0_smile.svg)|
-| Potreba rozumieť RTG| AI dokáže zachytiť problémy už v skorých štádiách, čo vám umožňuje zamerať sa na preventívnu starostlivosť namiesto reaktívnej liečby. |![left:40%](img/mascot/AID_0_sad.svg)|
-
+![bg left:60%](img/mascot/AID_0_smile.svg)
 
 ---
 
 ## Ako vám toto AI riešenie pomáha
 
-- Zvýšená presnosť: AI spoľahlivo zachytí jemné problémy, ktoré môžu byť prehliadnuté ľudským okom, čím sa znižujú chyby v diagnostike.
+- Zvýšená presnosť 
+- Úspora času
+- Konzistentnosť
+- Dôvera pacientov 
+- Skorá detekcia
+
+![bg right:40%](img/mascot/AID_10.svg)
+
+<!-- - Zvýšená presnosť: AI spoľahlivo zachytí jemné problémy, ktoré môžu byť prehliadnuté ľudským okom, čím sa znižujú chyby v diagnostike.
 
 - Úspora času: Automatizovaná analýza vám ušetrí cenný čas, ktorý môžete využiť na starostlivosť o pacientov a plánovanie liečby.
 
@@ -94,9 +71,10 @@ th {
 
 - Dôvera pacientov: Diagnózy podporované AI dodávajú pacientom ďalšiu vrstvu istoty a môžu zvýšiť dôveru v liečebný plán.
 
-- Skorá detekcia: AI dokáže zachytiť problémy už v skorých štádiách, čo vám umožňuje zamerať sa na preventívnu starostlivosť namiesto reaktívnej liečby.
+- Skorá detekcia: AI dokáže zachytiť problémy už v skorých štádiách, čo vám umožňuje zamerať sa na preventívnu starostlivosť namiesto reaktívnej liečby. -->
 
---- 
+---
+
 
 ## A čo ďalej?
 # Klinická Evaluácia AID v SK Dental
