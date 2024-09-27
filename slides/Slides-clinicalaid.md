@@ -13,6 +13,10 @@ footer: AI:Dental
 
 ![bg right:50%](img/mascot/AID_22.svg)
 
+<!-- --- -->
+
+<!-- ![](img/sankeydiagram.svg) -->
+
 ---
 
 # Výzvy pri interpretácii röntgenových snímok
@@ -106,7 +110,9 @@ th {
 - Klinická evaluácia umožňuje objektívne vyhodnotiť funkčnosť AID produktu priamo vo vašej praxi.
 - Spoločne zistíme, čo funguje a ktoré aspekty treba upraviť pre maximálny prínos pre vašich pacientov.
 
-![bg right:40%](img/mascot/AID_4.svg)
+![bg right:40%](img/mascot/AID_23.svg)
+<!-- ![bg vertical right 20%](img/clinicalaid/01.jpg) -->
+<!-- ![bg right 50%](img/mascot/AID_23.svg) -->
 
 ---
 
@@ -115,7 +121,7 @@ th {
 - Máte možnosť byť súčasťou technologického pokroku v stomatológii.
 - Pochopíte, ako AID zapadne do vašej praxe a prinesie hodnotu vám, vašej klinike a pacientom.
 
-![bg left:40%](img/mascot/AID_4.svg)
+![bg left:40%](img/mascot/AID_23.svg)
 
 ---
 
