@@ -34,6 +34,18 @@ jobs:
           args: --theme-set slides/themes -o build/index.html --html -- slides/index.md
         env:
           MARP_USER: root:root
+      - name: Marp Build Slides-clinicalaid.md
+        uses: docker://marpteam/marp-cli:latest
+        with:
+          args: --theme-set slides/themes -o build/slides/clinicalaid.html --html -- slides/Slides-clinicalaid.md
+        env:
+          MARP_USER: root:root
+      - name: Marp Build Slides-aidjourney.md
+        uses: docker://marpteam/marp-cli:latest
+        with:
+          args: --theme-set slides/themes -o build/slides/aidjourney.html --html -- slides/Slides-aidjourney.md
+        env:
+          MARP_USER: root:root
       - name: Marp Build AI in Edu (README)
         uses: docker://marpteam/marp-cli:latest
         with:
@@ -74,12 +86,6 @@ jobs:
         uses: docker://marpteam/marp-cli:latest
         with:
           args: --theme-set slides/themes -o build/slides/better-ai.html --html -- slides/Slides-better-ai.md
-        env:
-          MARP_USER: root:root
-      - name: Marp Build Slides-clinicalaid.md
-        uses: docker://marpteam/marp-cli:latest
-        with:
-          args: --theme-set slides/themes -o build/slides/clinicalaid.html --html -- slides/Slides-clinicalaid.md
         env:
           MARP_USER: root:root
       - name: Copy guides
