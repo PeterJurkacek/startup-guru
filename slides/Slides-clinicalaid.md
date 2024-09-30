@@ -23,17 +23,17 @@ footer: AI:Dental
 
 ![bg right:55% 90%](img/sankey.svg)
 
-- Zložitosť diagnostikovania zubných problémov
+- Komplexné rozhodovacie procesy
 - Časové obmedzenia
-- Nekonzistentnosť v diagnózach
+- Nekonzistentnosť
 
 ---
 
 # Prečo AI pre zubnú diagnostiku?
 
-- AI ako Nástroj (Google, ChatGPT)
 - Pomáha pri rozhodovacom procese
-- **Nenahrádza zubára**
+- Analýza snímky do pár sekúnd
+- Konzistnetnosť
 
 ![bg right:40%](img/mascot/AID_16.svg)
 
@@ -53,13 +53,12 @@ footer: AI:Dental
 
 ---
 
-## Ako vám toto AI riešenie pomáha
+## Naše ciele
 
-- Zvýšená presnosť 
-- Úspora času
-- Konzistentnosť
-- Dôvera pacientov 
-- Skorá detekcia
+- Šetriť vám čas
+- Zvýšiť presnosť
+- Zvýšiť dôveru pacientov 
+- Zabezpečiť skorú detekciu
 
 ![bg right:40%](img/mascot/AID_10.svg)
 
