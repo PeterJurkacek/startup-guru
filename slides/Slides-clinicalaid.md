@@ -17,7 +17,7 @@ footer: AI:Dental
 ### Kto sme?
 # Speakers
 - Peter Jurkáček, CTO (peter.jurkacek@aidental.ai)
-- Olga Shebanova, Co-Ceo (olga.shebanova@aidental.ai)
+- Olga Shebanova, Co-CEO (olga.shebanova@aidental.ai)
 
 ---
 
