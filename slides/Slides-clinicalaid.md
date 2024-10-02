@@ -21,7 +21,7 @@ footer: AI:Dental
 
 ---
 
-### Kto sme?
+### Čomu sa venujeme?
 # AI:Dental
 Zlepšiť interpretovanie RTG snímok študentom aj zubárom pomocou umelej inteligencie
 
