@@ -3,19 +3,21 @@ marp: true
 theme: custom-default
 paginate: true
 footer: AI:Dental
-
 ---
 
 <!--_footer: "" -->
 
-## AI:Dental
-# Clinical AI:D
+## Shaping the future of<br>artificial and human intelligence hand in hand in dentistry
+### AI:Dental
 
-![bg right:50%](img/mascot/AID_22.svg)
+![bg right:40%](img/mascot/AID_1.svg)
 
-<!-- --- -->
+---
 
-<!-- ![](img/sankeydiagram.svg) -->
+# Speakers
+
+- Peter Jurkáček, CTO (peter.jurkacek@aidental.ai)
+- Olga Shebanova, Co-Ceo (olga.shebanova@aidental.ai)
 
 ---
 
