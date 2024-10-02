@@ -15,7 +15,6 @@ footer: AI:Dental
 ---
 
 # Speakers
-
 - Peter Jurkáček, CTO (peter.jurkacek@aidental.ai)
 - Olga Shebanova, Co-Ceo (olga.shebanova@aidental.ai)
 
@@ -51,11 +50,6 @@ Zlepšiť interpretovanie RTG snímok študentom aj zubárom pomocou umelej inte
 
 ![bg right:40%](img/mascot/AID_16.svg)
 
----
-
-V spolupráci s Vami by sme chceli vytvoriť AI-riešenie, ktoré pomôže hľavne Vám a Vašim pacientom
-
-![bg left:40% 90%](img/mascot/AID_10.svg)
 
 ---
 
@@ -65,24 +59,9 @@ V spolupráci s Vami by sme chceli vytvoriť AI-riešenie, ktoré pomôže hľav
 
 ---
 
-## Naše ciele
+V spolupráci s Vami by sme chceli vytvoriť AI-riešenie, ktoré pomôže hľavne Vám a Vašim pacientom
 
-- Šetriť vám čas
-- Zvýšiť presnosť
-- Zvýšiť dôveru pacientov 
-- Zabezpečiť skorú detekciu
-
-![bg right:40%](img/mascot/AID_10.svg)
-
-<!-- - Zvýšená presnosť: AI spoľahlivo zachytí jemné problémy, ktoré môžu byť prehliadnuté ľudským okom, čím sa znižujú chyby v diagnostike.
-
-- Úspora času: Automatizovaná analýza vám ušetrí cenný čas, ktorý môžete využiť na starostlivosť o pacientov a plánovanie liečby.
-
-- Konzistentnosť: AI poskytuje konzistentné diagnostické výsledky bez ohľadu na úroveň skúseností zubára, čím sa znižujú rozdiely v diagnózach.
-
-- Dôvera pacientov: Diagnózy podporované AI dodávajú pacientom ďalšiu vrstvu istoty a môžu zvýšiť dôveru v liečebný plán.
-
-- Skorá detekcia: AI dokáže zachytiť problémy už v skorých štádiách, čo vám umožňuje zamerať sa na preventívnu starostlivosť namiesto reaktívnej liečby. -->
+![bg left:40% 90%](img/mascot/AID_10.svg)
 
 ---
 
@@ -156,3 +135,24 @@ V spolupráci s Vami by sme chceli vytvoriť AI-riešenie, ktoré pomôže hľav
 - Prístup k inovatívnym funkciám a aktualizáciám počas celého partnerstva.
 
 ![bg left:40%](img/mascot/AID_5.svg)
+
+---
+
+## Naše ciele
+
+- Šetriť vám čas
+- Zvýšiť presnosť
+- Zvýšiť dôveru pacientov 
+- Zabezpečiť skorú detekciu
+
+![bg right:40%](img/mascot/AID_10.svg)
+
+<!-- - Zvýšená presnosť: AI spoľahlivo zachytí jemné problémy, ktoré môžu byť prehliadnuté ľudským okom, čím sa znižujú chyby v diagnostike.
+
+- Úspora času: Automatizovaná analýza vám ušetrí cenný čas, ktorý môžete využiť na starostlivosť o pacientov a plánovanie liečby.
+
+- Konzistentnosť: AI poskytuje konzistentné diagnostické výsledky bez ohľadu na úroveň skúseností zubára, čím sa znižujú rozdiely v diagnózach.
+
+- Dôvera pacientov: Diagnózy podporované AI dodávajú pacientom ďalšiu vrstvu istoty a môžu zvýšiť dôveru v liečebný plán.
+
+- Skorá detekcia: AI dokáže zachytiť problémy už v skorých štádiách, čo vám umožňuje zamerať sa na preventívnu starostlivosť namiesto reaktívnej liečby. -->
