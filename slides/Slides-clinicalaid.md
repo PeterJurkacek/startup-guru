@@ -7,19 +7,21 @@ footer: AI:Dental
 
 <!--_footer: "" -->
 
-## Shaping the future of<br>artificial and human intelligence hand in hand in dentistry
+# Shaping the future of<br>artificial and human intelligence hand in hand in dentistry
 ### AI:Dental
 
 ![bg right:40%](img/mascot/AID_1.svg)
 
 ---
 
+### Kto sme?
 # Speakers
 - Peter Jurkáček, CTO (peter.jurkacek@aidental.ai)
 - Olga Shebanova, Co-Ceo (olga.shebanova@aidental.ai)
 
 ---
 
+### Kto sme?
 # AI:Dental
 Zlepšiť interpretovanie RTG snímok študentom aj zubárom pomocou umelej inteligencie
 
@@ -28,25 +30,18 @@ Zlepšiť interpretovanie RTG snímok študentom aj zubárom pomocou umelej inte
 
 ---
 
+### Čomu sa venujeme?
 # Clinical AI:D
-### Simulácia rozhodovacieho stromu zubára pri interpretácií RTG snímok
+## Simulácia rozhodovacích procesov zubára pri interpretácií RTG snímok
 
 ![bg left:55% w:650](img/sankey.svg)
 
 ---
 
-# Otestujte sa
-
-![bg right w:500 h:500](img/adee/2.png)
-- https://adee.aidental.ai
-
-![](img/adee/1.png)
-
----
-
-## AI bez vás existovať nebude
-- Datasety pre AI vytvárajú ľudia
-- Viaceré expertné názory nám pomáhajú vytvárať objektívnu AI
+### Prečo vás potrebujeme?
+# AI bez vášich názorov nevytvoríme
+- Datasety pre AI vytvárajú ľudia/experti
+- Viaceré expertné názory nám pomáhajú vytvárať **objektívnu AI**
 
 ![bg right:40%](img/mascot/AID_16.svg)
 
@@ -59,22 +54,24 @@ Zlepšiť interpretovanie RTG snímok študentom aj zubárom pomocou umelej inte
 
 ---
 
-# Spolupráca
-Chceli by sme vytvoriť AI-riešenie, ktoré pomôže hľavne Vám a Vašim pacientom
+### Prečo tu dnes sme?
+# Začiatok spolupráce
+Chceli by sme s Vašou pomocou vytvoriť AI-riešenie, ktoré pomôže Vám a Vašim pacientom
 
-![bg left:40% 90%](img/mascot/AID_10.svg)
+![bg left:40%](img/mascot/AID_10.svg)
 
 ---
 
 
-## Next step
+### Ako začneme?
 # Klinická Evaluácia AID v SK Dental
 
 ![bg left:40%](img/mascot/AID_5.svg)
 
 ---
 
-## Čo je to klinická evaluácia?
+### Klinická Evaluácia AID v SK Dental
+# Čo je to klinická evaluácia?
 
 - Klinická evaluácia umožňuje objektívne vyhodnotiť funkčnosť AID produktu priamo vo vašej praxi.
 - Spoločne zistíme, čo funguje a ktoré aspekty treba upraviť pre maximálny prínos pre vašich pacientov.
@@ -85,7 +82,8 @@ Chceli by sme vytvoriť AI-riešenie, ktoré pomôže hľavne Vám a Vašim paci
 
 ---
 
-## Prečo je pre vás dôležitá?
+### Klinická Evaluácia AID v SK Dental
+# Prečo je pre vás dôležitá?
 
 - Máte možnosť byť súčasťou technologického pokroku v stomatológii.
 - Pochopíte, ako AID zapadne do vašej praxe a prinesie hodnotu vám, vašej klinike a pacientom.
@@ -94,11 +92,8 @@ Chceli by sme vytvoriť AI-riešenie, ktoré pomôže hľavne Vám a Vašim paci
 
 ---
 
-# Ako Bude Prebiehať Klinická Evaluácia
-
----
-
-## Spolupráca počas evaluácie:
+### Ako Bude Prebiehať Klinická Evaluácia?
+# Spolupráca počas evaluácie
 
 - Prvé stretnutie na nastavenie a integráciu AID do vašej praxe.
 - Zaznamenávanie skúseností a spätných väzieb pre optimalizáciu AID na vaše potreby.
@@ -108,7 +103,8 @@ Chceli by sme vytvoriť AI-riešenie, ktoré pomôže hľavne Vám a Vašim paci
 
 ---
 
-## Čo očakávať po evaluácii:
+### Ako Bude Prebiehať Klinická Evaluácia?
+# Čo očakávať po evaluácii
 
 - Detailná správa s výsledkami a odporúčaniami pre optimálne využitie AID vo vašej klinike.
 
@@ -116,11 +112,8 @@ Chceli by sme vytvoriť AI-riešenie, ktoré pomôže hľavne Vám a Vašim paci
 
 ---
 
-# Ďalšie Kroky Po Úspešnej Evaluácii
-
----
-
-## Integrácia AID do vašej praxe:
+### Ďalšie Kroky Po Úspešnej Evaluácii
+# Integrácia AID do vašej praxe
 
 - Na základe evaluácie AID prispôsobíme vášmu pracovnému procesu pre hladkú integráciu.
 - Pomoc s oficiálnou integráciou, vrátane tréningu a technickej podpory.
@@ -129,7 +122,8 @@ Chceli by sme vytvoriť AI-riešenie, ktoré pomôže hľavne Vám a Vašim paci
 
 --- 
 
-## Dlhodobé výhody spolupráce:
+### Ďalšie Kroky Po Úspešnej Evaluácii
+# Dlhodobé výhody spolupráce
 
 - Zlepšenie kvality diagnostiky a liečby.
 - Neustále aktualizácie AID podľa najnovších technológií v stomatológii.
@@ -139,7 +133,7 @@ Chceli by sme vytvoriť AI-riešenie, ktoré pomôže hľavne Vám a Vašim paci
 
 ---
 
-## Naše ciele
+# Naše ciele
 
 - Šetriť vám čas
 - Zvýšiť presnosť
@@ -157,3 +151,12 @@ Chceli by sme vytvoriť AI-riešenie, ktoré pomôže hľavne Vám a Vašim paci
 - Dôvera pacientov: Diagnózy podporované AI dodávajú pacientom ďalšiu vrstvu istoty a môžu zvýšiť dôveru v liečebný plán.
 
 - Skorá detekcia: AI dokáže zachytiť problémy už v skorých štádiách, čo vám umožňuje zamerať sa na preventívnu starostlivosť namiesto reaktívnej liečby. -->
+
+---
+
+# AI s nami môžete vytvárať aj teraz
+
+![bg right w:500 h:500](img/adee/2.png)
+- https://adee.aidental.ai
+
+![](img/adee/1.png)
