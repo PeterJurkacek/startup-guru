@@ -19,31 +19,41 @@ footer: AI:Dental
 
 ---
 
-# Výzvy pri interpretácii röntgenových snímok
+# AI:Dental
+Zlepšiť interpretovanie RTG snímok študentom aj zubárom pomocou umelej inteligencie
 
-![bg right:55% 90%](img/sankey.svg)
-
-- Komplexné rozhodovacie procesy
-- Časové obmedzenia
-- Nekonzistentnosť
+![bg h:300](img/edu/3.png)
+![bg right vertical h:350](img/edu/4.png)
 
 ---
 
-# Prečo AI pre zubnú diagnostiku?
+# Clinical AI:D
+### Simulácia rozhodovacieho stromu zubára pri interpretácií RTG snímok
 
-- Pomáha pri rozhodovacom procese
-- Analýza snímky do pár sekúnd
-- Konzistnetnosť
+![bg left:55% w:650](img/sankey.svg)
+
+---
+
+# Otestujte sa
+
+![bg right w:500 h:500](img/adee/2.png)
+- https://adee.aidental.ai
+
+![](img/adee/1.png)
+
+---
+
+## AI bez vás existovať nebude
+- Datasety pre AI vytvárajú ľudia
+- Viaceré expertné názory nám pomáhajú vytvárať objektívnu AI
 
 ![bg right:40%](img/mascot/AID_16.svg)
 
 ---
 
-# Naše AI-riešenie pre diagnostiku röntgenových snímok
-- Vstup: Röntgenové snímka
-- Analýza: Systém AI využíva neurónové siete na analýzu snímky. Dokáže spoľahlivo detegovať a zvýrazniť bežné zubné problémy, ako sú kazy, zlomeniny, infekcie koreňov či ochorenia ďasien.
-- Výstup: Poskytne vám podrobnú správu, ktorá zvýrazní problematické zuby a zoznam problémov, čím vám pomôže, aby sa nič neprehliadlo.
-*Vizuály: Jednoduchý diagram pracovného postupu alebo snímku rozhrania softvéru AI so zvýraznenými anomáliami na ukážkovej röntgenovej snímke.*
+V spolupráci s Vami by sme chceli vytvoriť AI-riešenie, ktoré pomôže hľavne Vám a Vašim pacientom
+
+![bg left:40% 90%](img/mascot/AID_10.svg)
 
 ---
 
@@ -75,7 +85,7 @@ footer: AI:Dental
 ---
 
 
-## A čo ďalej?
+## Spolupráca
 # Klinická Evaluácia AID v SK Dental
 
 ![bg left:40%](img/mascot/AID_5.svg)
