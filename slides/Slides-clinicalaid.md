@@ -59,14 +59,15 @@ Zlepšiť interpretovanie RTG snímok študentom aj zubárom pomocou umelej inte
 
 ---
 
-V spolupráci s Vami by sme chceli vytvoriť AI-riešenie, ktoré pomôže hľavne Vám a Vašim pacientom
+# Spolupráca
+Chceli by sme vytvoriť AI-riešenie, ktoré pomôže hľavne Vám a Vašim pacientom
 
 ![bg left:40% 90%](img/mascot/AID_10.svg)
 
 ---
 
 
-## Spolupráca
+## Next step
 # Klinická Evaluácia AID v SK Dental
 
 ![bg left:40%](img/mascot/AID_5.svg)

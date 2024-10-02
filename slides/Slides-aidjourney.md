@@ -16,6 +16,8 @@ footer: AI:Dental
 - Nekonzistentnosť zubárov
 - Subjektivita zubárov
 
+![bg right:60% w:700](img/tf/12.png)
+
 ---
 
 ## Návrh riešenia
@@ -23,7 +25,7 @@ footer: AI:Dental
 > UC01 Nájdenie kazu
 <!-- ![bg vertical right w:300](img/tf_ucs/uc01.jpg)
 ![bg w:300](img/tf_ucs/uc02.jpg) -->
-![bg right 90%](img/tf_ucs/uc03.jpg)
+![bg right 90%](img/tf/03.jpg)
 
 ---
 # Dostupné datasety v zubarine?
@@ -66,7 +68,11 @@ footer: AI:Dental
 
 ---
 
-TODO: Fotka tásku v ktorom clasifikovali
+> UC01 Posudzovanie zubov na prítomnosť kazu
+- Konkrétny zub, Klasifikácia
+- Detekcia, Klasifikácia zubov
+
+![bg right:60% 95%](img/edu/16.png)
 
 ---
 
