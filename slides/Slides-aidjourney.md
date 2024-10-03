@@ -60,10 +60,11 @@ width:412px;
 --- 
 
 ### RTG snímka
-# Pohľad 6 zubárov
+# Pohľad zubára
 - Kazy niesú viditeľné volným okom  
 - Pomocná metóda
-![bg right:60% w:750](img/tf/13.png)
+
+![bg right:60% w:750](img/tf/16.png)
 
 ---
 
