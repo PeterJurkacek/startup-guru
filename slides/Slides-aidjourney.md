@@ -93,11 +93,11 @@ width:412px;
 ---
 
 ### Máme identifikovaný problém, čo potom?
-# Identifikácia relevatných prípadov použitia
+# Identifikácia relevantných prípadov použitia
 
 ---
 
-### Identifikácia relevatných prípadov použitia
+### Identifikácia relevantných prípadov použitia
 - > UC01 Identifikácia kazu
 - > UC02 Ident. chýbajúcej koreňovej výplne
 - UC03 Posúdene kvality promby
