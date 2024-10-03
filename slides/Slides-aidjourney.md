@@ -12,47 +12,149 @@ footer: AI:Dental
 
 --- 
 
-# Problem
-- Nekonzistentnosť zubárov
-- Subjektivita zubárov
+<!-- _color: '#000' -->
+<!-- _footer: "" -->
+# Brief Intro
+<!-- "Hi everyone, I'm [Your Name], the CTO of [Your AI Company]. Beyond the world of technology, I'm passionate about sports, enjoy a good cup of coffee, and appreciate the art of craft beer. Today, I'm not just here to talk tech; I'm open to connecting on shared interests. Scan the QR code on my Linked for a virtual meetup. Let's dig in"
+-->
+![bg opacity right](img/57e2696d-f37a-4111-8f3d-72bada4c77c5.JPG)
+
+Peter Jurkáček
+CTO at AI:Dental
+
+
+<div class="aid" style="
+text-align:center;
+vertical-align:middle;
+padding-top:30px;
+width:412px;
+">
+
+<img class=aid-img src='img/qr_1.png'>
+
+`peter.jurkacek@aidental.ai`
+</div>
+
+--- 
+
+# Ako začať, pokračovať a neprestávať
+
+--- 
+
+### Ako začať?
+# Znalosť domény
+- Zubár, Pacient
+- RTG snímka
+- Anotácie / Posudok / Patológia / Kaz / Plomba
+- Programátor
+- ...
+
+--- 
+
+### RTG snímka
+# Pohľad pacienta
+- Vidí zuby, plomby
+
+![bg right:60% w:750](img/tf/15.png)
+
+--- 
+
+### RTG snímka
+# Pohľad 6 zubárov
+- Kazy niesú viditeľné volným okom  
+- Pomocná metóda
+![bg right:60% w:750](img/tf/13.png)
+
+---
+
+### Čo potom?
+# Pochopenie problému
+
+---
+
+### Pohľad 6 zubárov
+# Subjektivita
+- 3 našli, 3 nenašli
+- Únava
+- Rôzne skúsenosti
+![bg right:60% w:750](img/tf/14.png)
+
+---
+
+### Pohľad 1 zubára
+# Konzistetnosť
+- Niektoré patológie nemajú presne definované hranice
 
 ![bg right:60% w:700](img/tf/12.png)
 
 ---
 
-## Návrh riešenia
-### Poskytnúť systém, ktorý objektívne posúdi RTG snímku
-> UC01 Nájdenie kazu
-<!-- ![bg vertical right w:300](img/tf_ucs/uc01.jpg)
-![bg w:300](img/tf_ucs/uc02.jpg) -->
-![bg right 90%](img/tf/03.jpg)
+### Čo potom?
+# Identifikácia relevatných prípadov použitia
 
 ---
-# Dostupné datasety v zubarine?
-- Osobné údaje
-- Chýbajúce súhlasy pacientov
-- Chýbajúce metadáta o pacientoch
+
+### Identifikácia relevatných prípadov použitia
+- > UC01 Identifikácia kazu
+- > UC02 Ident. chýbajúcej koreňovej výplne
+- UC03 Posúdene kvality promby
+- UC04 ...
+![bg left w:500](img/mascot/AID_0_smile.svg)
+
+
+<!-- ![bg vertical left](img/tf/06.png)
+![bg](img/tf/07.png) -->
+
+---
+
+### Je to možné spraviť?
+# Analýza existujúcich prístupov
+
+---
+
+### Analýza existujúcich prístupov
+# Existujúce prístupy
+- Komerčné vs Výskum
+- Metódy: Segmentácia, Detekcia, Klasifikácia
+- Datasety
+    - Osobné údaje
+    - Chýbajúce súhlasy pacientov
+    - Chýbajúce metadáta o pacientoch
 
 ![bg vertical left](img/tf/04.png)
 ![bg](img/tf/05.png)
 
 ---
-# Vytvorenie vlastného datasetu
+
+### Podme na to
+# Návrh riešenia
+
+---
+
+# Návrh riešenia
 
 ![bg vertical right](img/tf/06.png)
 ![bg](img/tf/07.png)
 
-140 snímok, 2 zubári, **5 mesiacov**
-> - 716 Kazov
-- 928 Sklovina
-- 842 Dentín
-- 430 Plomba
-- 155 Koreňová výplň
-- 88 Chýbajúca výplň
+- Semantická segmentácia
+- Vlastný dataset
 
 ---
 
-> UC01 Nájdenie kazu 
+### Realizácia
+# Vytvorenie vlastného datasetu
+140 snímok, 1 zubár, 2 mesiace
+- > 716 Kazov
+- > 88 Chýbajúca výplň
+
+![bg vertical left](img/tf/06.png)
+![bg](img/tf/07.png)
+
+---
+
+### Realizácia
+# Natreńovanie vlastného modelu
+> UC01 Identifikácia kazu 
 - modrá (zubár)
 - červená (ai)
 - zelená (zhoda)
@@ -62,80 +164,111 @@ footer: AI:Dental
 
 ---
 
-## Čo vieme spraviť aby sme mali konzistentnejšie anotácie?
-- Zlepšíme fokus zubára: ~~celá snímka~~ -> konkrétny zub
-- Zjednodušíme anotovanie ~~kreslenie~~ -> klasifikácia
+### Najdlhšia fáza
+# Ladenie / Redizajn
+- Zlepšiť dataset
+- Zlepšiť model
+- Redefinovať problém & riešenie
+
+![bg left](img/mascot/AID_15.svg)
 
 ---
 
-> UC01 Posudzovanie zubov na prítomnosť kazu
-- Konkrétny zub, Klasifikácia
-- Detekcia, Klasifikácia zubov
+### Najdlhšia fáza
+# Ladenie / Redizajn
+- ~~Zlepšíme dataset~~
+- ~~Zlepšíme model~~
+- Redefinovať prípady použitia
 
-![bg right:60% 95%](img/edu/16.png)
-
----
-
-> UC02 Segmentácia chýbajúcej koreňovej výplne
-![bg right:50%](img/tf/07.png)
-- 88 polygónov chýbajúcej výplňe
+![bg left](img/mascot/AID_15.svg)
 
 ---
 
-> UC02 Klasifikácia koreňov s chýbajúcou koreňovou výplňou
-- Namiesto polygónov budeme zberať detekované korene a klasifikovať
-![bg left:50%](img/tf/10.png)
+# Redefinovať prípady použitia
+- Naozaj potrebujeme segmentovať kaz? -> Nie
+    * Stačí keď budeme vedieť identifikovať choré zuby
+    * > UC01: Posúdenie prítomnosti kazu na zube
+- Naozaj potrebujeme segmentovať chýbajúcu koreňovú výplň? -> Nie
+    * Mali by sme vedieť posúdiť kvalitu koreňovej výplne
+    * Mali by sme vedieť posúdiť prítomnosť lézie
+    * > UC02: Posúdenie kvality koreňovej výplne zuba
+    * > UC03: Posúdenie prítomnosti lézie pri zube
+
+![bg right:20% 100%](img/mascot/AID_15.svg)
 
 ---
 
-## Vytvorenie nového datasetu
-~~140 snímok, 2 zubári, 5 mesiacov~~
-1000 snímok, 2 skupiny po 6 zubárov, **2 mesiace**
+### Redefinovať prípady použitia
+# Rozhodovací strom zubára
 
-1515 koreňových výplní, **600 chýbajucich koreňových** výplní a navyše aj **periapikálnych lézií**
-
-![bg left:50%](img/tf/11.png)
+![bg right:60% 90%](img/sankey.svg)
 
 ---
 
-Zatiaľ sme pokryli len 2-3 problémy a stálo nás to approx. 1 rok práce
-- Vačšina bola práca s dátami
+### Redefinovať prípady použitia
+> UC01 Posudzovanie zuba na prítomnosť problémov
+    - kaz
+    - nekvalitnej výplne
+    - periapikálnej lézie
+    - ...
+![bg right:60% 90%](img/sankey.svg)
+
+---
+
+# Znova treba spraviť
+- Analýza existujúcich prístupov
+- Návrh riešenia
+- Realizácia
+- Ladenie / Redizajn
 
 ![bg right 90%](img/mascot/AID_0_sad.svg)
 
 ---
 
-## Rozhodovací strom zubára
+### Realizácia
+# Vytvorenie nového datasetu
+- ~~140 snímok, 1 zubár,~~ 2 mesiace
+1000 snímok, 1 zubár
 
-![bg right:60% w:700](img/sankey.svg)
+- ~~88~~ -> 600 chýbajucich koreňových výplní
+- **600 periapikálnych lézií**
+
+![bg left:50%](img/tf/11.png)
+ 
+---
+
+# Aktuálny stav?
 
 ---
 
-# Ako na to ideme teraz?
+### Aktuálny stav
+# Napojenie sa na klinické dáta
+- Anotovanie dát pri každej návšteve pacienta 
+- Zubný kríž (Čísla zubov so zoznamom patológií)
+![bg right:60% 90%](img/semafor.png)
 
 ---
-# Anotované dáta priamo z kliniky 
-- Zubný kríž -> Zub + patológie + liečby
-![](img/semafor.png)
 
----
-
+### Aktuálny stav
 # Kontrola kvality dát
-## Edukačná platforma a crowdsourcing
+- Edukačná platforma a crowdsourcing
 
 ![bg right:50% 90%](img/edu/4.png)
 
 ---
 
-## Podarilo sa nám oanotovať approx. 
-    - 120K zubov
-    - 1M posudkov
-
-![bg right:60% w:900](img/edu/14.png)
+### Aktuálny stav?
+- Dataset obsahuje viac ako 120 rôznych nálezov
+- AI zatiaľ klasifikujeme okolo 10 nálezov pre každý zub
+- Pripravujeme sa na klinickú evaluáciu
 
 ---
 
-## Lessons learnt
-- Vážte si ľudí čo challanguju vaše riešenia
-- Pokiaľ chcete trénovať vlastnú AI bez dát to nepôjde
-- (Update 2024) AI si viete integrovať aj bez toho aby ste ju trénovali
+# Ak sa do toho chcete pustiť potrebujete
+1. Znalosť domény
+2. Pochopiť problém
+3. Identifikovať prípady použitia
+4. Analýzovať existujúce prístupy
+5. Návrhnúť riešenie
+6. Realizovať
+7. Ladiť / Redizajnovať
