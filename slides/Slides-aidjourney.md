@@ -71,6 +71,8 @@ width:412px;
 ### Máme znalosť, čo potom?
 # Identifikácia problému
 
+![bg right:60% w:750](img/tf/13.png)
+
 ---
 
 ### Pohľad 6 zubárov
