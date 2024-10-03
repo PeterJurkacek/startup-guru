@@ -37,17 +37,18 @@ width:412px;
 
 --- 
 
-# Ako začať, pokračovať a neprestávať
+# Ako začať, pokračovať a neprestávať s AI
 
 --- 
 
-### Ako začať?
+### Ako sme začali?
 # Znalosť domény
+- Interpretácia RTG snímok
 - Zubár, Pacient
-- RTG snímka
 - Anotácie / Posudok / Patológia / Kaz / Plomba
-- Programátor
-- ...
+
+
+![bg right:40%](img/321b949b-b01d-49b0-97a8-75af270f5e98.jpg)
 
 --- 
 
@@ -55,7 +56,7 @@ width:412px;
 # Pohľad pacienta
 - Vidí zuby, plomby
 
-![bg right:60% w:750](img/tf/15.png)
+![bg right:60%](img/tf/15.png)
 
 --- 
 
@@ -64,7 +65,7 @@ width:412px;
 - Kazy niesú viditeľné volným okom  
 - Pomocná metóda
 
-![bg right:60% w:750](img/tf/16.png)
+![bg right:60%](img/tf/16.png)
 
 ---
 
@@ -92,16 +93,17 @@ width:412px;
 
 ---
 
-### Máme identifikovaný problém, čo potom?
-# Identifikácia relevantných prípadov použitia
+### Identifikovali sme problém, čo potom?
+# Zadefinovali sme si prípady použitia
 
 ---
 
-### Identifikácia relevantných prípadov použitia
-- > UC01 Identifikácia kazu
-- > UC02 Ident. chýbajúcej koreňovej výplne
-- UC03 Posúdene kvality promby
-- UC04 ...
+### Zadefinovali sme si prípady použitia
+# Prípady použitia
+- > UC01: Identifikácia kazu
+- > UC02: Ident. chýbajúcej koreňovej výplne
+- UC03: Posúdene kvality plomby
+- UC04: ...
 ![bg left w:500](img/mascot/AID_0_smile.svg)
 
 
@@ -110,7 +112,7 @@ width:412px;
 
 ---
 
-### Poznáme prípady použitia?
+### Ako sme využili prípady použitia?
 # Analýza existujúcich prístupov
 
 ---
@@ -118,18 +120,19 @@ width:412px;
 ### Analýza existujúcich prístupov
 # Existujúce prístupy
 - Komerčné vs Výskum
-- Metódy: Segmentácia, Detekcia, Klasifikácia
+- Prístupy: 
+    - Segmentácia, Detekcia, Klasifikácia
 - Datasety
-    - Osobné údaje
     - Chýbajúce súhlasy pacientov
     - Chýbajúce metadáta o pacientoch
+    - Snímka je osobný údaj
 
 ![bg vertical left](img/tf/04.png)
 ![bg](img/tf/05.png)
 
 ---
 
-### Poznáme existujúci prístupy?
+### Ako sme využili analýzu?
 # Návrh riešenia
 
 ---
@@ -141,6 +144,8 @@ width:412px;
 
 - Semantická segmentácia
 - Vlastný dataset
+- > UC01: Identifikácia kazu
+- > UC02: Ident. chýbajúcej koreňovej výplne
 
 ---
 
@@ -167,7 +172,7 @@ width:412px;
 
 ---
 
-### Najdlhšia fáza
+### Neboli sme spokojní s výsledkom
 # Ladenie / Redizajn
 - Zlepšiť dataset
 - Zlepšiť model
@@ -177,7 +182,7 @@ width:412px;
 
 ---
 
-### Najdlhšia fáza
+### Neboli sme spokojní s výsledkom
 # Ladenie / Redizajn
 - ~~Zlepšíme dataset~~
 - ~~Zlepšíme model~~
@@ -189,36 +194,31 @@ width:412px;
 
 # Redefinovať prípady použitia
 - Naozaj potrebujeme segmentovať kaz? -> Nie
-    * Stačí keď budeme vedieť identifikovať choré zuby
+    * Zubárovi stačí keď budeme vedieť identifikovať choré zuby
     * > UC01: Posúdenie prítomnosti kazu na zube
 - Naozaj potrebujeme segmentovať chýbajúcu koreňovú výplň? -> Nie
-    * Mali by sme vedieť posúdiť kvalitu koreňovej výplne
-    * Mali by sme vedieť posúdiť prítomnosť lézie
+    * Zubára zaujíma zlá kvalita koreňovej výplne, ktorá môže spôsobiť vznik lézie
     * > UC02: Posúdenie kvality koreňovej výplne zuba
     * > UC03: Posúdenie prítomnosti lézie pri zube
 
-![bg right:20% 100%](img/mascot/AID_15.svg)
+<!-- ![bg right:20% 100%](img/mascot/AID_15.svg) -->
 
 ---
 
-### Redefinovať prípady použitia
+### Checli sme aby to bolo škálovateľné
 # Rozhodovací strom zubára
 
 ![bg right:60% 90%](img/sankey.svg)
 
 ---
 
-### Redefinovať prípady použitia
-> UC01 Posudzovanie zuba na prítomnosť problémov
-    - kaz
-    - nekvalitnej výplne
-    - periapikálnej lézie
-    - ...
+### Checli sme aby to bolo škálovateľné
+> UC01: Posudzovanie problémov na zube
 ![bg right:60% 90%](img/sankey.svg)
 
 ---
 
-# Znova treba spraviť
+# Museli sme začať od znova
 - Analýza existujúcich prístupov
 - Návrh riešenia
 - Realizácia
@@ -231,24 +231,27 @@ width:412px;
 ### Realizácia
 # Vytvorenie nového datasetu
 - ~~140 snímok, 1 zubár,~~ 2 mesiace
-1000 snímok, 1 zubár
+    - 1000 snímok, 1 zubár
 
-- ~~88~~ -> 600 chýbajucich koreňových výplní
-- **600 periapikálnych lézií**
+- ~~88~~ chýbajucich koreňových výplní
+    - 600 chýbajucich koreňových výplní
+    - 600 periapikálnych lézií
 
 ![bg left:50%](img/tf/11.png)
  
 ---
 
 # Aktuálny stav?
+![bg right 90%](img/mascot/AID_0_smile.svg)
 
 ---
 
-### Aktuálny stav
-# Napojenie sa na klinické dáta
+### Napojili sme sa na dátový zdroj
+# Klinické dáta
 - Anotovanie dát pri každej návšteve pacienta 
 - Zubný kríž (Čísla zubov so zoznamom patológií)
-![bg right:60% 90%](img/semafor.png)
+![bg right:50% vertical 100%](img/tf/17.png)
+![bg right 100%](img/tf/18.png)
 
 ---
 
@@ -256,18 +259,23 @@ width:412px;
 # Kontrola kvality dát
 - Edukačná platforma a crowdsourcing
 
-![bg right:50% 90%](img/edu/4.png)
+![bg vertical right:50% 100%](img/edu/4.png)
+![bg right:50% 100%](img/edu/17.png)
 
 ---
 
 ### Aktuálny stav?
-- Dataset obsahuje viac ako 120 rôznych nálezov
-- AI zatiaľ klasifikujeme okolo 10 nálezov pre každý zub
+# AI:Dental
+- 4M posudkov
+- Dataset 58 nálezov
+- Aktuálne naša AI okolo 10 nálezov
 - Pripravujeme sa na klinickú evaluáciu
+
+![bg right 90%](img/mascot/AID_0_smile.svg)
 
 ---
 
-# Ak sa do toho chcete pustiť potrebujete
+# Final thoughts ako začať a neprestávať
 1. Znalosť domény
 2. Identifikácia problému
 3. Identifikovať prípady použitia
