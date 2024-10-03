@@ -108,7 +108,7 @@ width:412px;
 
 ---
 
-### Je to možné spraviť?
+### Poznáme prípady použitia?
 # Analýza existujúcich prístupov
 
 ---
@@ -127,7 +127,7 @@ width:412px;
 
 ---
 
-### Podme na to
+### Poznáme existujúci prístupy?
 # Návrh riešenia
 
 ---
