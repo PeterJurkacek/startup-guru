@@ -68,8 +68,8 @@ width:412px;
 
 ---
 
-### Čo potom?
-# Pochopenie problému
+### Máme znalosť, čo potom?
+# Identifikácia problému
 
 ---
 
@@ -90,7 +90,7 @@ width:412px;
 
 ---
 
-### Čo potom?
+### Máme identifikovaný problém, čo potom?
 # Identifikácia relevatných prípadov použitia
 
 ---
@@ -267,7 +267,7 @@ width:412px;
 
 # Ak sa do toho chcete pustiť potrebujete
 1. Znalosť domény
-2. Pochopiť problém
+2. Identifikácia problému
 3. Identifikovať prípady použitia
 4. Analýzovať existujúce prístupy
 5. Návrhnúť riešenie
