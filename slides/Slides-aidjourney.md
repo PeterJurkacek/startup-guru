@@ -37,7 +37,7 @@ width:412px;
 
 --- 
 
-# Ako začať, pokračovať a neprestávať s AI
+# Ako sme začali, pokračovali a neprestávali s AI
 
 --- 
 
