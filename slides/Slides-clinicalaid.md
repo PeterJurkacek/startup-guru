@@ -23,23 +23,23 @@ footer: AI:Dental
 
 ### Čomu sa venujeme?
 # AI:Dental
-Zlepšiť interpretovanie RTG snímok študentom aj zubárom pomocou umelej inteligencie
+Pamáhať študentom aj zubárom pri interpretácií RTG snímok pomocou umelej inteligencie
 
 ![bg h:300](img/edu/3.png)
 ![bg right vertical h:350](img/edu/4.png)
 
 ---
 
-### Čomu sa venujeme?
+### Čo robí naša AI?
 # Clinical AI:D
-## Simulácia rozhodovacích procesov zubára pri interpretácií RTG snímok
+Simuluje rozhodovacie procesy zubára pri interpretácií RTG snímok
 
 ![bg left:55% w:650](img/sankey.svg)
 
 ---
 
-### Prečo vás potrebujeme?
-# AI bez vášich názorov nevytvoríme
+### Nahradí vás AI?
+# AI je iba nástroj - má vám pomáhať
 - Datasety pre AI vytvárajú ľudia/experti
 - Viaceré expertné názory nám pomáhajú vytvárať **objektívnu AI**
 
@@ -56,7 +56,7 @@ Zlepšiť interpretovanie RTG snímok študentom aj zubárom pomocou umelej inte
 
 ### Prečo tu dnes sme?
 # Začiatok spolupráce
-Chceli by sme s Vašou pomocou vytvoriť AI-riešenie, ktoré pomôže Vám a Vašim pacientom
+Chceli by sme dostať AI do vašich procesov aby pomáhala Vám a Vašim pacientom
 
 ![bg left:40%](img/mascot/AID_10.svg)
 
