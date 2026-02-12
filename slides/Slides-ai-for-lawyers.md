@@ -1,6 +1,8 @@
 ---
 marp: true
-theme: custom-default
+theme: gaia
+size: 4:3
+class: invert
 paginate: true
 ---
 
